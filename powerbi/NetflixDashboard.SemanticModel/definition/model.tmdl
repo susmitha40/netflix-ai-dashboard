@@ -1,0 +1,28 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_ProTooling = ["DevMode","MCP-PBIModeling"]
+
+annotation PBIDesktopVersion = 2.146.1454.0 (25.08)+901d6c338d1dea81ac3e53073ffb10469f0f37b8
+
+annotation PBI_QueryOrder = ["netflix_customer_churn_synthetic","netflix_monthly_region_metrics_synthetic","netflix_titles_synthetic"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table FactCustomers
+ref table DateTableTemplate_6e561017-a5a3-4d9a-8755-054eea61365e
+ref table FactMonthlyMetrics
+ref table FactTitles
+ref table DimDate
+ref table DimCountry
+ref table DimRegion
+ref table DimGenre
+ref table DimPlan
+
+ref cultureInfo en-US
+

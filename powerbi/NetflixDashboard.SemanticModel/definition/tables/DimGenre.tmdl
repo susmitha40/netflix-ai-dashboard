@@ -1,0 +1,11 @@
+table DimGenre
+	lineageTag: 1a76db9d-c51d-403a-9bab-6dc8f51dc75b
+
+	column genre
+		isNameInferred
+		sourceColumn: [genre]
+
+	partition DimGenre = calculated
+		mode: import
+		source = DISTINCT(UNION(SELECTCOLUMNS(FactCustomers, "genre", FactCustomers[favorite_genre]), SELECTCOLUMNS(FactTitles, "genre", FactTitles[genre])))
+

@@ -1,0 +1,11 @@
+table DimPlan
+	lineageTag: 338905c4-e5fd-4dbf-8ee9-3c688c9b6e8d
+
+	column plan
+		isNameInferred
+		sourceColumn: [plan]
+
+	partition DimPlan = calculated
+		mode: import
+		source = DISTINCT(SELECTCOLUMNS(FactCustomers, "plan", FactCustomers[plan]))
+

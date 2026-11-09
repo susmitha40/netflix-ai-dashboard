@@ -1,0 +1,45 @@
+relationship FactCustomers_signup_date_DimDate_Date
+	fromColumn: FactCustomers.signup_date
+	toColumn: DimDate.Date
+
+relationship FactCustomers_churn_date_DimDate_Date
+	isActive: false
+	fromColumn: FactCustomers.churn_date
+	toColumn: DimDate.Date
+
+relationship FactMonthlyMetrics_month_DimDate_Date
+	fromColumn: FactMonthlyMetrics.month
+	toColumn: DimDate.Date
+
+relationship FactTitles_date_added_DimDate_Date
+	fromColumn: FactTitles.date_added
+	toColumn: DimDate.Date
+
+relationship FactCustomers_country_DimCountry_country
+	fromColumn: FactCustomers.country
+	toColumn: DimCountry.country
+
+relationship FactTitles_country_DimCountry_country
+	fromColumn: FactTitles.country
+	toColumn: DimCountry.country
+
+relationship FactCustomers_region_DimRegion_region
+	fromColumn: FactCustomers.region
+	toColumn: DimRegion.region
+
+relationship FactMonthlyMetrics_region_DimRegion_region
+	fromColumn: FactMonthlyMetrics.region
+	toColumn: DimRegion.region
+
+relationship FactCustomers_favorite_genre_DimGenre_genre
+	fromColumn: FactCustomers.favorite_genre
+	toColumn: DimGenre.genre
+
+relationship FactTitles_genre_DimGenre_genre
+	fromColumn: FactTitles.genre
+	toColumn: DimGenre.genre
+
+relationship FactCustomers_plan_DimPlan_plan
+	fromColumn: FactCustomers.plan
+	toColumn: DimPlan.plan
+

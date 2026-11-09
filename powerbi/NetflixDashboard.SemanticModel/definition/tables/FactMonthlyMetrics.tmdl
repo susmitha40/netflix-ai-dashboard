@@ -1,0 +1,135 @@
+table FactMonthlyMetrics
+	lineageTag: d5de5282-3a06-4f68-94b6-ad515ca3deb6
+
+	column month
+		dataType: dateTime
+		isHidden
+		formatString: MMM yyyy
+		lineageTag: f865fc01-59e8-4149-8ae1-60bb5be80042
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column region
+		dataType: string
+		isHidden
+		lineageTag: d78d1e1e-5033-4cb2-8384-c6be93a6f02c
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column opening_subscribers_m
+		dataType: double
+		lineageTag: afd441c2-53be-4d80-81a1-ab2955e20a8f
+		summarizeBy: sum
+		sourceColumn: opening_subscribers_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gross_adds_m
+		dataType: double
+		lineageTag: 31a5ca79-977d-453c-b745-7a57004632d4
+		summarizeBy: sum
+		sourceColumn: gross_adds_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column churned_subscribers_m
+		dataType: double
+		lineageTag: aa8a3867-95cb-4400-a23a-0fbb3b186c61
+		summarizeBy: sum
+		sourceColumn: churned_subscribers_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column closing_subscribers_m
+		dataType: double
+		lineageTag: b6d9890b-0161-4b25-b100-9af38330c20c
+		summarizeBy: sum
+		sourceColumn: closing_subscribers_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column monthly_churn_rate_pct
+		dataType: double
+		lineageTag: dd7172dc-d117-439d-b647-ed1d21d7c67c
+		summarizeBy: sum
+		sourceColumn: monthly_churn_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column arm_usd
+		dataType: double
+		lineageTag: 3c5a28cd-1fd2-4cab-8fff-a0bba020575c
+		summarizeBy: sum
+		sourceColumn: arm_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_usd_m
+		dataType: double
+		lineageTag: 4b1a8766-d359-4223-a4ec-ac69274ffc86
+		summarizeBy: sum
+		sourceColumn: revenue_usd_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column marketing_spend_usd_m
+		dataType: double
+		lineageTag: 88143dca-5da1-43e6-a050-c8fda4291516
+		summarizeBy: sum
+		sourceColumn: marketing_spend_usd_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column content_spend_usd_m
+		dataType: double
+		lineageTag: c6a5d8b0-19de-49b9-9eaf-871325e382e3
+		summarizeBy: sum
+		sourceColumn: content_spend_usd_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_originals_released
+		dataType: int64
+		formatString: 0
+		lineageTag: 3b9634c9-0f2c-484c-944a-a97495ae474c
+		summarizeBy: sum
+		sourceColumn: new_originals_released
+
+		annotation SummarizationSetBy = Automatic
+
+	partition netflix_monthly_region_metrics_synthetic = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\susmi\OneDrive\Susmitha\Power BI Dashboards\netflix-ai-dashboard\data\raw\netflix_monthly_region_metrics_synthetic.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"month", type date}, {"region", type text}, {"opening_subscribers_m", type number}, {"gross_adds_m", type number}, {"churned_subscribers_m", type number}, {"closing_subscribers_m", type number}, {"monthly_churn_rate_pct", type number}, {"arm_usd", type number}, {"revenue_usd_m", type number}, {"marketing_spend_usd_m", type number}, {"content_spend_usd_m", type number}, {"new_originals_released", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

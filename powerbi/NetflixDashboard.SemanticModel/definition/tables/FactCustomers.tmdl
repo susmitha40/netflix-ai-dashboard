@@ -1,0 +1,224 @@
+table FactCustomers
+	lineageTag: d1973297-10c5-4370-a687-13c730134d07
+
+	column customer_id
+		dataType: string
+		isHidden
+		lineageTag: 1626ae11-898a-49fb-a52a-a68d9b22bc4d
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column signup_date
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 84dda96e-e134-4d0d-82d1-88667b42644e
+		summarizeBy: none
+		sourceColumn: signup_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column country
+		dataType: string
+		isHidden
+		lineageTag: 819d731b-68a3-4031-8211-51f032037fa1
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column region
+		dataType: string
+		isHidden
+		lineageTag: d0d285bb-3612-421f-b884-aa7691cac2fd
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column age
+		dataType: int64
+		formatString: 0
+		lineageTag: a92547fe-b37e-43c5-bb77-69e54118f1b4
+		summarizeBy: sum
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+	column gender
+		dataType: string
+		lineageTag: 1d09e68c-70b0-4127-93e0-30ada2b9dc3b
+		summarizeBy: none
+		sourceColumn: gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column plan
+		dataType: string
+		isHidden
+		lineageTag: 965eacb6-50d4-45ae-998f-679f1b0038d6
+		summarizeBy: none
+		sourceColumn: plan
+
+		annotation SummarizationSetBy = Automatic
+
+	column monthly_price_usd
+		dataType: double
+		lineageTag: 61518a7b-598f-42c4-b458-16661fe8675d
+		summarizeBy: sum
+		sourceColumn: monthly_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column payment_method
+		dataType: string
+		lineageTag: 89f7492c-c090-40ff-af44-6315e1aed474
+		summarizeBy: none
+		sourceColumn: payment_method
+
+		annotation SummarizationSetBy = Automatic
+
+	column primary_device
+		dataType: string
+		lineageTag: d4d8d68c-4ba7-4f1a-a3bc-0632d1d3e17a
+		summarizeBy: none
+		sourceColumn: primary_device
+
+		annotation SummarizationSetBy = Automatic
+
+	column profiles_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 974fdefe-c7e4-4108-8b7c-0a47efb9ffcf
+		summarizeBy: sum
+		sourceColumn: profiles_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column joined_via_promo
+		dataType: string
+		lineageTag: c9e91ccc-06a3-4686-8eff-2534fd2e7950
+		summarizeBy: none
+		sourceColumn: joined_via_promo
+
+		annotation SummarizationSetBy = Automatic
+
+	column favorite_genre
+		dataType: string
+		isHidden
+		lineageTag: 6ed96701-6c02-4c14-8a63-396c2a20a9e0
+		summarizeBy: none
+		sourceColumn: favorite_genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_weekly_hours
+		dataType: double
+		lineageTag: 8c0ae56d-4407-4851-b0cd-a8dec685ea78
+		summarizeBy: sum
+		sourceColumn: avg_weekly_hours
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column titles_watched_30d
+		dataType: int64
+		formatString: 0
+		lineageTag: 41036030-9011-4f9c-b9aa-d2f0f56ae1f3
+		summarizeBy: sum
+		sourceColumn: titles_watched_30d
+
+		annotation SummarizationSetBy = Automatic
+
+	column days_since_last_login
+		dataType: int64
+		formatString: 0
+		lineageTag: 50de3018-6e8b-4f09-956d-912a8921622b
+		summarizeBy: sum
+		sourceColumn: days_since_last_login
+
+		annotation SummarizationSetBy = Automatic
+
+	column support_tickets_90d
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e7be884-c3ac-46ab-8b9d-8be2ba5a8536
+		summarizeBy: sum
+		sourceColumn: support_tickets_90d
+
+		annotation SummarizationSetBy = Automatic
+
+	column satisfaction_score
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f00b382-4caa-4278-943d-d61da6656421
+		summarizeBy: sum
+		sourceColumn: satisfaction_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column tenure_months
+		dataType: double
+		lineageTag: 5f39fa76-cab8-4d4e-9f3e-4cebfe856726
+		summarizeBy: sum
+		sourceColumn: tenure_months
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column is_churned
+		dataType: string
+		lineageTag: c3456422-2498-4c9b-97aa-d292ea775a48
+		summarizeBy: none
+		sourceColumn: is_churned
+
+		annotation SummarizationSetBy = Automatic
+
+	column churn_date
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 3ca1f569-9b09-4960-a650-c91bfb31686f
+		summarizeBy: none
+		sourceColumn: churn_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column churn_reason
+		dataType: string
+		lineageTag: 7ec97f8e-cb6b-4ce2-8d71-fbc745ec55a4
+		summarizeBy: none
+		sourceColumn: churn_reason
+
+		annotation SummarizationSetBy = Automatic
+
+	column feedback_text
+		dataType: string
+		lineageTag: cfda4d9b-38c6-48d8-bf84-da424bbf27d4
+		summarizeBy: none
+		sourceColumn: feedback_text
+
+		annotation SummarizationSetBy = Automatic
+
+	partition netflix_customer_churn_synthetic = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\susmi\OneDrive\Susmitha\Power BI Dashboards\netflix-ai-dashboard\data\raw\netflix_customer_churn_synthetic.csv"),[Delimiter=",", Columns=23, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"customer_id", type text}, {"signup_date", type date}, {"country", type text}, {"region", type text}, {"age", Int64.Type}, {"gender", type text}, {"plan", type text}, {"monthly_price_usd", type number}, {"payment_method", type text}, {"primary_device", type text}, {"profiles_count", Int64.Type}, {"joined_via_promo", type text}, {"favorite_genre", type text}, {"avg_weekly_hours", type number}, {"titles_watched_30d", Int64.Type}, {"days_since_last_login", Int64.Type}, {"support_tickets_90d", Int64.Type}, {"satisfaction_score", Int64.Type}, {"tenure_months", type number}, {"is_churned", type text}, {"churn_date", type date}, {"churn_reason", type text}, {"feedback_text", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

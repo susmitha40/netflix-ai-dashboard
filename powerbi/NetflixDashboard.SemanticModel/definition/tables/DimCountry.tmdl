@@ -1,0 +1,11 @@
+table DimCountry
+	lineageTag: 2ee7455a-4db8-4e91-aaad-096cf088cabc
+
+	column country
+		isNameInferred
+		sourceColumn: [country]
+
+	partition DimCountry = calculated
+		mode: import
+		source = DISTINCT(UNION(SELECTCOLUMNS(FactCustomers, "country", FactCustomers[country]), SELECTCOLUMNS(FactTitles, "country", FactTitles[country])))
+

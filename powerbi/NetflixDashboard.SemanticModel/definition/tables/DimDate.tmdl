@@ -1,0 +1,13 @@
+table DimDate
+	lineageTag: 9ffe1599-1c5d-4ff3-9b1e-eff22230462b
+	dataCategory: Time
+
+	column Date
+		isUnique
+		isNameInferred
+		sourceColumn: [Date]
+
+	partition DimDate = calculated
+		mode: import
+		source = VAR AllDates = UNION(SELECTCOLUMNS(FactCustomers, "Date", FactCustomers[signup_date]), SELECTCOLUMNS(FactCustomers, "Date", FactCustomers[churn_date]), SELECTCOLUMNS(FactMonthlyMetrics, "Date", FactMonthlyMetrics[month]), SELECTCOLUMNS(FactTitles, "Date", FactTitles[date_added])) VAR ValidDates = FILTER(AllDates, NOT ISBLANK([Date])) RETURN CALENDAR(MINX(ValidDates, [Date]), MAXX(ValidDates, [Date]))
+

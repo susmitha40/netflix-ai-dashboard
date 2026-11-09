@@ -1,0 +1,180 @@
+table FactTitles
+	lineageTag: 77972036-cb49-4e92-9c8e-be226381657d
+
+	column show_id
+		dataType: string
+		isHidden
+		lineageTag: abb49cfd-e1ca-44a7-a364-3e93add50cc3
+		summarizeBy: none
+		sourceColumn: show_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		lineageTag: 4b5c5a05-a3e2-47b4-9387-deb24aef95b7
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		lineageTag: 41818557-ac4d-409d-8b5d-1449d5f625b2
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column genre
+		dataType: string
+		isHidden
+		lineageTag: d8dd48c4-3268-48e4-9a0b-2050b34f65b7
+		summarizeBy: none
+		sourceColumn: genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		isHidden
+		lineageTag: 850a5565-dbf2-4617-817c-c61bdcd96cf4
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column language
+		dataType: string
+		lineageTag: 84c678ff-00cd-402d-b2fe-55f8c9967b00
+		summarizeBy: none
+		sourceColumn: language
+
+		annotation SummarizationSetBy = Automatic
+
+	column release_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 15aa992a-fde2-4639-9a05-434eccc2dca0
+		summarizeBy: sum
+		sourceColumn: release_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_added
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 1644896e-35d5-4b99-86b2-11d4b34cef31
+		summarizeBy: none
+		sourceColumn: date_added
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column maturity_rating
+		dataType: string
+		lineageTag: b48614ce-c9ca-45bb-af4c-9fa1495f6abf
+		summarizeBy: none
+		sourceColumn: maturity_rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column duration_min
+		dataType: int64
+		formatString: 0
+		lineageTag: cc9c779a-0c65-442c-ab53-a25e2bd65fae
+		summarizeBy: sum
+		sourceColumn: duration_min
+
+		annotation SummarizationSetBy = Automatic
+
+	column seasons
+		dataType: int64
+		formatString: 0
+		lineageTag: cabffd3d-36ab-48d3-b6ae-9889ef981112
+		summarizeBy: sum
+		sourceColumn: seasons
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_netflix_original
+		dataType: string
+		lineageTag: c4d9c469-6d88-4e45-823e-5224e0fddc19
+		summarizeBy: none
+		sourceColumn: is_netflix_original
+
+		annotation SummarizationSetBy = Automatic
+
+	column imdb_score
+		dataType: double
+		lineageTag: b68e2d5e-059f-498e-85af-ecf2d279d005
+		summarizeBy: sum
+		sourceColumn: imdb_score
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column budget_usd_m
+		dataType: double
+		lineageTag: 56190e0a-b6d3-44b4-a798-1b2d03bd8ca2
+		summarizeBy: sum
+		sourceColumn: budget_usd_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column views_28d_m
+		dataType: double
+		lineageTag: 775c222f-2123-4b0f-80fe-17918b271bed
+		summarizeBy: sum
+		sourceColumn: views_28d_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column hours_viewed_28d_m
+		dataType: double
+		lineageTag: fabc143a-7c39-4b93-964c-bebce7919ef2
+		summarizeBy: sum
+		sourceColumn: hours_viewed_28d_m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column completion_rate_pct
+		dataType: double
+		lineageTag: cc9e2a97-96a5-455a-9412-4606e9770fac
+		summarizeBy: sum
+		sourceColumn: completion_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weeks_in_top10
+		dataType: int64
+		formatString: 0
+		lineageTag: 077ab1e6-75e2-45f0-a10e-5788e39d3d4e
+		summarizeBy: sum
+		sourceColumn: weeks_in_top10
+
+		annotation SummarizationSetBy = Automatic
+
+	partition netflix_titles_synthetic = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\susmi\OneDrive\Susmitha\Power BI Dashboards\netflix-ai-dashboard\data\raw\netflix_titles_synthetic.csv"),[Delimiter=",", Columns=18, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"show_id", type text}, {"title", type text}, {"type", type text}, {"genre", type text}, {"country", type text}, {"language", type text}, {"release_year", Int64.Type}, {"date_added", type date}, {"maturity_rating", type text}, {"duration_min", Int64.Type}, {"seasons", Int64.Type}, {"is_netflix_original", type text}, {"imdb_score", type number}, {"budget_usd_m", type number}, {"views_28d_m", type number}, {"hours_viewed_28d_m", type number}, {"completion_rate_pct", type number}, {"weeks_in_top10", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
