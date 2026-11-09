@@ -1,0 +1,1201 @@
+show_id,title,type,genre,country,language,release_year,date_added,maturity_rating,duration_min,seasons,is_netflix_original,imdb_score,budget_usd_m,views_28d_m,hours_viewed_28d_m,completion_rate_pct,weeks_in_top10
+S0001,The Heist Files,TV Show,Documentary,South Korea,Korean,2019,2023-10-07,TV-MA,,2,Yes,6.2,17.0,5.32,49.8,91.6,0
+S0002,The Rising Empire,Movie,Documentary,France,French,2019,2021-07-03,PG,51,,Yes,8.6,3.1,20.44,13.9,69.2,4
+S0003,Beyond the Crimson Heist,TV Show,Crime,Spain,Spanish,2021,2022-05-02,TV-MA,,2,Yes,8.2,41.1,23.57,224.0,61.5,4
+S0004,The Hollow Frontier,TV Show,Romance,Mexico,Spanish,2018,2024-11-17,TV-MA,,1,Yes,6.4,37.7,9.95,52.3,73.2,5
+S0005,Beyond the Broken Harbor,Movie,Drama,France,French,2011,2021-12-01,PG-13,66,,No,7.0,33.1,16.43,13.2,77.9,4
+S0006,The Echo Files,TV Show,Drama,United States,English,2016,2025-03-07,TV-14,,5,Yes,7.8,60.1,46.67,846.9,78.9,5
+S0007,The Rising Frontier,TV Show,Documentary,United Kingdom,English,2018,2020-10-05,TV-MA,,2,Yes,6.9,28.3,5.29,43.4,53.6,1
+S0008,Beyond the Broken Orbit,TV Show,Thriller,United States,English,2015,2016-03-17,TV-PG,,2,Yes,6.5,70.0,28.31,343.2,69.0,3
+S0009,A Silent Garden,Movie,Comedy,United States,English,2015,2024-12-27,R,110,,Yes,6.0,36.1,5.14,6.5,44.5,0
+S0010,Archive of the Iron,Movie,Action & Adventure,Turkey,Turkish,2015,2018-05-24,R,94,,Yes,4.2,37.2,7.91,8.4,37.0,0
+S0011,The Last Tribe,Movie,Horror,Japan,Japanese,2022,2025-05-19,R,122,,No,6.6,22.5,9.61,11.9,61.3,2
+S0012,Summer of the Paper,TV Show,Crime,Indonesia,Indonesian,2015,2023-02-05,TV-14,,1,Yes,5.9,7.2,1.07,6.4,46.9,1
+S0013,Orbit of the Midnight,Movie,Documentary,India,Hindi,2015,2018-04-26,PG-13,113,,No,5.8,0.4,1.71,2.1,72.5,1
+S0014,The Tribe Files,TV Show,Action & Adventure,United Kingdom,English,2020,2024-07-16,TV-MA,,1,No,6.9,6.8,1.82,9.4,56.3,2
+S0015,The Burning Station,Movie,Comedy,United Kingdom,English,2015,2016-10-24,PG,172,,No,5.0,38.7,0.62,1.0,49.9,0
+S0016,Beyond the Electric Garden,Movie,Documentary,United States,English,2011,2019-12-04,PG-13,78,,No,7.7,5.8,14.21,10.6,56.9,2
+S0017,The Valley Files,Movie,Comedy,United States,English,2019,2021-06-30,R,85,,No,7.0,18.0,35.86,42.5,79.5,2
+S0018,Tribe of the Paper,Movie,Documentary,United Kingdom,English,2015,2022-07-26,PG,67,,Yes,6.6,14.6,6.04,5.4,53.3,0
+S0019,A Quiet Kingdom,TV Show,Sci-Fi & Fantasy,,,2016,2021-05-06,TV-MA,,3,Yes,6.5,204.9,16.03,252.9,78.0,1
+S0020,The Paper Shadow,Movie,Drama,Turkey,Turkish,2023,2024-11-01,PG-13,67,,No,5.3,7.0,13.19,9.5,69.8,3
+S0021,Beyond the Lost Letters,TV Show,Drama,United States,English,2017,2021-04-14,TV-Y,,1,No,7.3,11.3,7.17,43.3,60.6,0
+S0022,Island of the Velvet,Movie,Comedy,United States,English,2016,2023-05-25,G,63,,Yes,6.8,55.2,7.81,6.3,64.2,0
+S0023,Forgotten Horizon: Origins,TV Show,Animation,Spain,Spanish,2018,2019-04-13,TV-PG,,3,Yes,6.9,53.1,6.55,118.0,57.8,2
+S0024,The Shadow Files,TV Show,Sci-Fi & Fantasy,United States,English,2015,2023-03-09,TV-MA,,1,No,7.0,13.7,9.04,35.6,72.6,7
+S0025,Horizon of the Golden,TV Show,Drama,Canada,English,2018,2018-05-27,TV-14,,1,No,5.9,8.8,9.25,42.2,55.7,5
+S0026,The Season Files,Movie,Animation,Spain,Spanish,2001,2016-11-09,G,118,,No,5.0,21.2,4.69,6.3,47.2,0
+S0027,The Distant Signal,Movie,Thriller,United States,English,2019,2024-01-24,PG-13,156,,No,7.5,26.2,9.1,20.2,68.6,2
+S0028,Code of the Forgotten,Movie,Thriller,Japan,Japanese,2020,2020-12-12,R,81,,No,7.2,13.0,5.56,6.4,44.0,2
+S0029,Broken Archive,Movie,Reality TV,South Korea,Korean,2013,2023-09-13,PG,102,,No,5.5,26.1,1.15,1.5,54.9,0
+S0030,Heist of the Electric,TV Show,Drama,Spain,Spanish,2018,2019-01-23,TV-14,,3,Yes,7.0,24.2,18.75,200.3,74.1,1
+S0031,Beyond the Neon Echo,TV Show,Comedy,Germany,German,2017,2018-04-28,TV-MA,,1,Yes,7.9,26.7,3.16,12.5,72.3,1
+S0032,Beyond the Velvet Valley,TV Show,Documentary,Japan,Japanese,2018,2025-06-16,TV-MA,,1,No,8.0,5.1,11.89,43.4,84.3,3
+S0033,A Last Season,Movie,Comedy,South Korea,Korean,2013,2017-10-09,R,123,,No,5.9,27.3,10.8,19.7,53.1,3
+S0034,Beyond the Lost Verdict,Movie,Sci-Fi & Fantasy,United States,English,2021,2025-07-26,PG-13,94,,No,5.0,24.1,1.11,1.2,46.6,0
+S0035,Season of the Gentle,Movie,Comedy,Japan,Japanese,2012,2019-06-25,R,154,,No,5.2,8.1,1.93,3.0,38.6,0
+S0036,Beyond the Quiet Empire,Movie,Drama,Nigeria,English,2015,2023-12-22,R,114,,Yes,6.3,3.5,47.63,62.6,55.1,4
+S0037,Last Kingdom: Origins,Movie,Comedy,South Korea,Korean,2005,2025-05-23,R,83,,No,8.0,30.8,8.24,6.6,98.0,1
+S0038,Golden Detour,Movie,Action & Adventure,Japan,Japanese,2016,2017-03-02,PG-13,97,,Yes,5.9,16.0,2.11,3.2,62.3,1
+S0039,A Midnight Harbor,Movie,Drama,India,Hindi,2020,2021-12-25,R,87,,No,5.9,5.4,8.66,8.5,50.2,1
+S0040,Velvet Echo,Movie,Drama,Spain,Spanish,2016,2021-09-28,PG,123,,No,5.9,83.5,2.1,4.0,44.3,0
+S0041,Frontier of the Last,Movie,Crime,Australia,English,2016,2024-08-26,R,69,,Yes,6.1,55.2,1.19,1.1,37.2,1
+S0042,Last Echo: Origins,TV Show,Comedy,United States,English,2015,2017-11-14,TV-14,,2,Yes,6.6,155.7,12.16,120.8,51.0,5
+S0043,Crimson Island,TV Show,Action & Adventure,United States,English,2020,2021-02-13,TV-14,,1,No,5.2,28.5,1.47,6.9,64.8,2
+S0044,The Lost Signal,Movie,Drama,United Kingdom,English,2021,2022-11-04,R,120,,Yes,,68.5,12.9,21.3,63.2,6
+S0045,Paper Witness,TV Show,Action & Adventure,United Kingdom,English,2016,2018-01-17,TV-14,,1,Yes,6.5,8.2,3.58,18.9,48.6,0
+S0046,The Midnight Garden,TV Show,Comedy,United Kingdom,English,2005,2018-09-02,TV-14,,1,No,9.0,2.3,15.21,54.0,65.1,4
+S0047,The Kingdom Files,Movie,Sci-Fi & Fantasy,United States,English,2014,2017-04-19,R,117,,No,5.3,96.1,4.09,7.3,63.9,1
+S0048,Frozen Empire: Origins,Movie,Comedy,India,Hindi,2013,2024-04-15,R,103,,No,8.1,4.1,0.67,0.8,70.5,0
+S0049,The Mirror Files,TV Show,Animation,South Korea,Korean,2021,2024-12-24,TV-14,,3,Yes,8.0,23.5,18.73,248.6,62.2,4
+S0050,A Quiet Signal,Movie,Reality TV,South Korea,Korean,2017,2018-04-20,R,80,,No,5.6,6.2,3.84,3.7,52.3,1
+S0051,Iron Shadow,Movie,Drama,South Korea,Korean,2015,2021-05-14,PG,64,,Yes,6.2,59.2,31.97,28.1,91.1,4
+S0052,The Electric Valley,Movie,Drama,Spain,Spanish,2016,2022-06-17,PG,115,,Yes,5.7,18.6,8.48,11.4,74.3,5
+S0053,Valley of the Hollow,TV Show,Drama,South Korea,Korean,2022,2024-07-05,TV-Y,,1,Yes,5.7,45.7,15.26,68.3,77.8,4
+S0054,Beyond the Secret Archive,Movie,Sci-Fi & Fantasy,France,French,2017,2025-11-08,PG-13,104,,Yes,6.6,7.8,4.02,4.0,38.1,0
+S0055,The Last Island,TV Show,Drama,South Korea,Korean,2015,2022-05-30,TV-MA,,2,Yes,6.6,27.8,4.86,44.6,60.5,1
+S0056,Savage Tribe: Origins,TV Show,Crime,United Kingdom,English,2017,2023-03-08,TV-MA,,1,Yes,5.0,138.4,4.54,17.7,44.0,0
+S0057,Verdict of the Wild,Movie,Horror,South Korea,Korean,2020,2020-03-13,R,126,,Yes,8.9,52.2,11.17,20.9,84.0,4
+S0058,Electric Garden,Movie,Crime,United States,English,2013,2016-10-16,PG-13,123,,No,6.2,18.9,15.28,21.4,75.0,4
+S0059,Archive of the Forgotten,Movie,Documentary,United States,English,2019,2023-05-01,R,94,,No,7.0,5.0,4.85,7.1,69.6,3
+S0060,The Lost Orbit,Movie,Family,United Kingdom,English,2015,2025-01-28,PG,95,,Yes,6.0,21.3,2.16,2.8,46.8,0
+S0061,Velvet Valley,Movie,Drama,Mexico,Spanish,2017,2020-08-04,,107,,Yes,6.3,14.7,3.35,5.1,51.5,1
+S0062,Savage Tribe,Movie,Action & Adventure,Japan,Japanese,2019,2023-07-02,PG-13,92,,No,6.1,24.9,10.62,15.1,68.3,2
+S0063,A Quiet Heist,Movie,Comedy,United States,English,2004,2018-02-06,PG-13,101,,No,6.5,8.2,4.26,4.6,72.1,0
+S0064,Hidden Horizon: Origins,TV Show,Reality TV,South Korea,Korean,2019,2022-03-12,TV-14,,1,No,6.0,7.3,4.62,23.0,61.0,0
+S0065,The Frozen Island,Movie,Documentary,United States,English,2017,2023-10-05,NR,94,,Yes,7.8,23.0,25.56,22.7,71.6,2
+S0066,Broken Mirror,Movie,Crime,Spain,Spanish,2017,2022-12-08,R,115,,No,6.7,46.3,2.28,2.6,63.9,0
+S0067,A Velvet Harbor,Movie,Drama,Germany,German,2016,2017-02-21,PG-13,89,,Yes,7.3,28.9,1.19,1.2,70.6,1
+S0068,Paper Archive,Movie,Family,South Korea,Korean,2015,2024-10-15,PG,127,,Yes,6.6,24.0,4.59,8.0,72.6,0
+S0069,Beyond the Savage Season,Movie,Thriller,South Korea,Korean,2014,2025-04-08,PG-13,122,,No,6.7,15.8,8.41,15.1,72.0,4
+S0070,A Forgotten Verdict,Movie,Thriller,United States,English,2019,2022-05-04,PG-13,122,,No,6.3,3.6,3.76,5.0,61.1,1
+S0071,Beyond the Frozen Station,Movie,Family,India,Hindi,2008,2019-05-29,PG,110,,No,7.5,2.0,1.52,2.4,67.3,1
+S0072,The Signal Files,Movie,Action & Adventure,,,2013,2021-04-24,R,128,,No,6.8,9.4,13.29,18.1,62.6,3
+S0073,Beyond the Hollow Shadow,TV Show,Action & Adventure,Spain,Spanish,2019,2024-08-10,TV-14,,3,Yes,6.4,85.2,8.39,89.0,50.5,7
+S0074,Island of the Rising,Movie,Documentary,,,2015,2020-07-10,R,96,,Yes,6.8,3.2,11.34,10.4,52.7,3
+S0075,Iron Witness: Origins,Movie,Drama,India,Hindi,2021,2021-02-24,NR,102,,No,6.4,10.1,7.05,9.4,69.0,1
+S0076,Forgotten Tribe: Origins,Movie,Comedy,United States,English,2021,2021-05-13,PG,125,,No,6.5,23.5,1.54,2.4,52.0,0
+S0077,Beyond the Gentle Tribe,Movie,Comedy,United States,English,2022,2025-03-30,R,85,,Yes,6.5,48.8,9.76,9.1,73.4,2
+S0078,A Gentle Kingdom,Movie,Drama,United States,English,2022,2025-02-23,PG,89,,No,5.9,11.0,9.53,7.8,57.7,2
+S0079,A Savage Shadow,Movie,Crime,India,Hindi,2015,2023-09-20,PG-13,104,,Yes,,12.4,25.4,34.2,78.9,5
+S0080,Hidden Letters,TV Show,Documentary,Turkey,Turkish,2016,2017-04-06,TV-MA,,2,Yes,7.8,9.4,18.84,211.5,78.7,2
+S0081,Beyond the Burning Empire,Movie,Action & Adventure,United Kingdom,English,2022,2022-09-07,PG,123,,No,8.3,10.3,11.4,13.5,84.6,2
+S0082,The Wild Letters,Movie,Action & Adventure,United States,English,2017,2020-07-20,PG,84,,Yes,6.0,62.2,1.36,1.6,52.3,0
+S0083,The Distant Station,TV Show,Thriller,United States,English,2015,2018-04-23,TV-MA,,1,Yes,7.3,28.0,8.8,45.3,72.5,2
+S0084,Midnight Tribe,Movie,Sci-Fi & Fantasy,United States,English,2020,2022-04-27,PG,100,,No,4.6,20.6,1.1,1.4,60.9,0
+S0085,Beyond the Rising Frontier,Movie,Reality TV,Germany,German,2018,2022-06-20,NR,106,,Yes,6.9,72.5,25.91,26.1,42.7,5
+S0086,The Neon Shadow,Movie,Reality TV,India,Hindi,2015,2018-10-19,PG-13,97,,Yes,4.6,31.2,10.79,16.0,74.4,3
+S0087,Electric Harbor,TV Show,Action & Adventure,France,French,2018,2018-12-27,TV-MA,,4,Yes,5.6,29.0,2.45,46.4,88.3,0
+S0088,Paper Harbor: Origins,Movie,Comedy,France,French,2021,2023-01-05,NR,104,,No,6.8,16.0,5.11,6.3,77.1,0
+S0089,The Frontier Files,Movie,Thriller,United States,English,2019,2024-01-21,R,95,,No,5.9,19.6,5.27,7.5,69.7,0
+S0090,Savage Verdict,Movie,Documentary,South Korea,Korean,2022,2024-06-21,PG-13,73,,No,6.1,3.6,13.04,14.1,67.8,5
+S0091,Broken Promise: Origins,Movie,Thriller,Nigeria,English,2015,2019-03-19,NR,129,,Yes,6.1,2.7,1.48,2.7,55.1,0
+S0092,Frontier of the Rising,TV Show,Sci-Fi & Fantasy,India,Hindi,2020,2021-11-13,TV-MA,,2,No,7.2,12.5,0.8,9.0,64.7,0
+S0093,Hidden Tribe: Origins,Movie,Documentary,United States,English,2020,2023-07-02,PG,85,,Yes,6.1,15.3,6.92,5.9,73.1,0
+S0094,The Frozen Witness,Movie,Comedy,Canada,English,2002,2017-09-22,R,95,,No,6.4,11.7,0.49,0.7,47.8,1
+S0095,The Quiet Orbit,Movie,Action & Adventure,Mexico,Spanish,2021,2025-03-02,PG-13,114,,No,6.1,39.4,5.14,6.7,44.7,0
+S0096,A Paper Kingdom,Movie,Action & Adventure,United Kingdom,English,2021,2025-05-06,R,73,,No,7.3,36.4,10.13,11.1,61.2,0
+S0097,The Letters Files,Movie,Drama,United Kingdom,English,2021,2021-02-16,PG,94,,Yes,7.4,16.8,27.68,30.3,76.6,3
+S0098,Quiet Orbit,Movie,Drama,United States,English,2015,2025-09-15,R,103,,Yes,4.8,83.9,2.44,2.4,39.7,0
+S0099,Forgotten Garden,Movie,Romance,Germany,German,2015,2016-03-26,R,129,,Yes,7.6,19.9,10.95,16.9,65.4,5
+S0100,Orbit of the Electric,TV Show,Action & Adventure,United Kingdom,English,2019,2022-03-18,TV-MA,,2,Yes,,42.6,11.68,127.5,57.5,1
+S0101,Distant Archive: Origins,TV Show,Comedy,United States,English,2019,2023-09-02,TV-MA,,2,No,6.7,28.5,1.81,17.3,49.0,2
+S0102,Detour of the Neon,TV Show,Documentary,Japan,Japanese,2015,2019-04-09,TV-MA,,2,Yes,6.1,14.4,15.24,166.9,25.4,2
+S0103,Heist of the Rising,Movie,Horror,Nigeria,English,2016,2018-01-13,R,124,,No,6.9,3.4,6.97,8.1,50.0,1
+S0104,The Promise Files,TV Show,Comedy,Germany,German,2018,2018-05-19,TV-G,,2,No,9.1,2.5,4.74,37.7,81.3,2
+S0105,A Savage Summer,TV Show,Crime,United States,English,2015,2023-04-10,TV-14,,1,Yes,6.7,17.9,8.86,44.0,70.0,1
+S0106,A Silent Archive,TV Show,Reality TV,United States,English,2021,2021-03-09,TV-14,,2,Yes,5.6,174.6,5.08,45.8,63.5,0
+S0107,Beyond the Paper Verdict,Movie,Documentary,,,2020,2022-11-26,R,82,,Yes,6.8,4.6,16.12,18.1,72.3,4
+S0108,The Distant Shadow,Movie,Sci-Fi & Fantasy,Turkey,Turkish,2014,2019-12-05,R,164,,No,5.0,5.1,2.24,5.7,44.2,1
+S0109,The Midnight Season,Movie,Drama,United Kingdom,English,2016,2025-09-03,R,96,,No,7.9,2.5,8.2,10.7,58.6,3
+S0110,A Golden Harbor,TV Show,Reality TV,South Korea,Korean,2017,2025-05-15,TV-14,,1,No,6.3,11.5,3.5,16.1,66.1,0
+S0111,Heist of the Quiet,Movie,Action & Adventure,India,Hindi,2002,2024-03-04,PG-13,88,,No,5.5,15.1,1.6,1.8,53.0,0
+S0112,Beyond the Hollow Verdict,Movie,Reality TV,India,Hindi,2013,2023-04-22,PG,117,,No,5.0,3.6,3.61,6.4,65.7,2
+S0113,Beyond the Paper Witness,Movie,Documentary,United States,English,2019,2022-10-19,R,109,,No,6.9,13.5,2.43,3.6,69.7,1
+S0114,The Witness Files,Movie,Drama,United States,English,2020,2022-02-04,NR,92,,No,7.4,19.6,12.47,16.7,85.4,2
+S0115,Beyond the Lost Frontier,Movie,Drama,United States,English,2015,2017-08-31,PG-13,104,,No,5.3,44.7,5.91,6.9,48.3,1
+S0116,A Velvet Valley,TV Show,Sci-Fi & Fantasy,Germany,German,2010,2025-09-05,TV-MA,,4,No,7.6,18.9,3.17,68.8,83.5,1
+S0117,Detour of the Frozen,TV Show,Documentary,United States,English,2022,2023-07-16,TV-MA,,1,No,6.8,3.4,6.45,25.0,92.3,1
+S0118,Beyond the Neon Detour,TV Show,Drama,United States,English,2016,2020-04-14,TV-MA,,2,No,5.6,42.8,1.92,20.9,57.4,0
+S0119,The Quiet Harbor,Movie,Romance,United Kingdom,English,2018,2019-02-17,NR,93,,No,6.0,45.8,1.02,1.4,66.0,0
+S0120,The Summer Files,Movie,Crime,United States,English,2016,2018-10-07,PG,60,,No,8.2,28.4,4.12,3.8,59.2,1
+S0121,Beyond the Velvet Promise,Movie,Thriller,United States,English,2021,2024-03-04,G,144,,No,5.1,17.4,3.08,4.4,66.1,0
+S0122,Beyond the Hidden Tribe,Movie,Thriller,United Kingdom,English,2010,2020-04-06,R,87,,No,5.8,77.3,6.53,8.4,73.6,0
+S0123,Midnight Kingdom,Movie,Drama,India,Hindi,2008,2021-11-09,PG-13,100,,No,7.5,12.9,7.08,7.0,61.1,0
+S0124,A Final Detour,Movie,Horror,South Korea,Korean,2014,2018-02-11,R,141,,No,,24.5,15.3,26.7,71.4,3
+S0125,A Forgotten Horizon,Movie,Action & Adventure,Canada,English,2006,2016-10-26,R,102,,No,5.7,16.4,1.64,2.3,61.1,1
+S0126,Silent Signal,Movie,Animation,United States,English,2019,2025-03-13,PG,101,,No,7.5,34.2,4.41,5.5,73.5,0
+S0127,A Electric Heist,Movie,Action & Adventure,Canada,English,2016,2020-04-26,R,78,,No,7.5,23.4,27.2,24.3,79.4,4
+S0128,The Crimson Code,Movie,Documentary,Canada,English,2015,2019-08-12,PG-13,54,,Yes,7.3,2.0,1.57,1.2,74.1,0
+S0129,The Electric Kingdom,Movie,Comedy,Germany,German,2015,2018-11-10,PG,101,,No,5.9,17.4,2.8,3.8,56.5,1
+S0130,A Rising Witness,Movie,Drama,South Korea,Korean,2018,2023-04-06,R,113,,No,6.0,11.2,2.15,3.2,70.7,1
+S0131,Echo of the Hollow,Movie,Horror,South Korea,Korean,2018,2022-07-03,R,112,,No,6.8,8.5,5.81,8.3,79.4,1
+S0132,Beyond the Hidden Mirror,TV Show,Thriller,South Korea,Korean,2009,2019-11-21,TV-14,,5,No,5.2,18.8,2.94,78.3,46.4,1
+S0133,Silent Season: Origins,Movie,Documentary,Japan,Japanese,2017,2025-05-18,NR,90,,No,8.2,1.5,12.14,12.9,72.2,3
+S0134,Distant Code,Movie,Reality TV,United States,English,2011,2025-01-06,R,65,,No,7.7,4.5,8.1,5.1,44.4,4
+S0135,The Island Files,Movie,Reality TV,Nigeria,English,2017,2018-10-15,PG-13,115,,Yes,5.9,31.5,1.95,2.9,66.6,0
+S0136,Velvet Island,Movie,Crime,South Korea,Korean,2011,2022-06-03,PG-13,109,,No,6.9,18.4,4.17,6.4,81.5,0
+S0137,Tribe of the Last,TV Show,Drama,France,French,2017,2025-09-18,TV-14,,2,Yes,7.8,34.0,9.84,84.4,66.2,2
+S0138,A Savage Valley,Movie,Documentary,India,Hindi,2014,2020-11-18,PG-13,90,,No,8.9,1.3,15.42,14.0,78.3,5
+S0139,Beyond the Midnight Kingdom,TV Show,Animation,United States,English,2019,2019-03-19,TV-14,,1,No,8.1,20.9,61.94,362.6,68.5,2
+S0140,The Broken Letters,Movie,Action & Adventure,United Kingdom,English,2016,2017-04-27,R,104,,No,4.8,10.2,5.36,8.3,46.4,0
+S0141,Last Garden: Origins,Movie,Drama,United Kingdom,English,2019,2023-09-03,,98,,Yes,6.3,78.7,2.84,3.7,64.1,1
+S0142,Gentle Code,Movie,Crime,India,Hindi,2019,2025-04-24,PG,115,,Yes,7.1,26.9,7.85,13.0,54.6,1
+S0143,A Last Harbor,TV Show,Thriller,United States,English,2018,2019-01-11,TV-Y,,1,No,6.0,10.4,5.1,30.6,55.7,0
+S0144,Beyond the Hollow Empire,Movie,Documentary,United States,English,2018,2022-05-17,R,62,,No,8.7,6.8,4.81,3.9,62.5,0
+S0145,Burning Letters: Origins,Movie,Family,,,2015,2020-12-19,PG,69,,Yes,8.2,20.3,16.17,12.0,80.4,2
+S0146,A Midnight Shadow,Movie,Documentary,India,Hindi,2019,2020-12-29,R,96,,No,6.1,0.7,0.58,0.7,62.9,2
+S0147,Golden Detour: Origins,Movie,Action & Adventure,Nigeria,English,2016,2022-04-25,R,135,,Yes,6.4,3.6,11.92,24.6,55.4,3
+S0148,Hollow Detour,Movie,Action & Adventure,United States,English,2011,2024-10-11,PG-13,107,,No,5.8,10.0,2.66,3.9,58.3,1
+S0149,The Iron Witness,Movie,Action & Adventure,United States,English,2015,2018-05-23,PG-13,123,,Yes,6.4,26.1,6.56,7.5,58.3,1
+S0150,The Harbor Files,Movie,Drama,United States,English,2022,2022-03-21,R,127,,Yes,,54.7,27.09,52.6,77.4,4
+S0151,Crimson Shadow: Origins,TV Show,Horror,United Kingdom,English,2021,2022-10-18,TV-MA,,1,Yes,7.6,34.5,3.04,16.6,62.4,0
+S0152,Golden Island: Origins,TV Show,Crime,United Kingdom,English,2015,2019-02-21,TV-MA,,2,Yes,5.7,35.3,7.6,69.1,66.1,0
+S0153,Frontier of the Final,Movie,Comedy,South Korea,Korean,2019,2024-02-02,PG,109,,No,3.9,23.2,4.6,7.9,36.5,1
+S0154,Orbit of the Secret,Movie,Comedy,Nigeria,English,2022,2024-02-23,NR,132,,No,4.9,4.1,3.46,6.4,63.8,0
+S0155,Beyond the Forgotten Kingdom,Movie,Animation,United States,English,2019,2019-02-15,R,117,,No,5.5,30.9,0.87,1.5,70.5,1
+S0156,Forgotten Signal: Origins,Movie,Drama,Japan,Japanese,2015,2019-05-26,R,121,,Yes,5.9,25.8,21.29,39.8,73.6,5
+S0157,Forgotten Witness: Origins,Movie,Documentary,United States,English,2018,2023-11-18,PG-13,80,,Yes,7.2,12.3,7.22,5.4,86.8,1
+S0158,Frozen Letters,Movie,Thriller,United States,English,2017,2021-04-16,G,101,,Yes,5.5,199.0,3.47,5.0,60.1,1
+S0159,Frozen Horizon: Origins,TV Show,Romance,India,Hindi,2018,2022-07-03,TV-MA,,2,No,,5.2,2.62,23.6,72.1,1
+S0160,Beyond the Quiet Shadow,TV Show,Drama,United States,English,2020,2021-08-02,TV-14,,1,Yes,5.7,17.8,4.21,24.2,79.9,0
+S0161,Beyond the Forgotten Empire,Movie,Sci-Fi & Fantasy,South Korea,Korean,2016,2019-03-12,PG-13,131,,No,5.4,17.3,1.6,3.1,39.7,2
+S0162,Verdict of the Electric,TV Show,Action & Adventure,Japan,Japanese,2022,2022-07-09,TV-14,,1,Yes,6.0,58.4,7.54,42.5,50.6,0
+S0163,Velvet Witness: Origins,Movie,Sci-Fi & Fantasy,Spain,Spanish,2020,2020-06-27,PG,106,,Yes,6.0,9.2,3.8,5.8,38.1,0
+S0164,The Station Files,Movie,Drama,United Kingdom,English,2015,2016-05-14,NR,103,,Yes,7.3,12.5,16.31,24.3,81.7,3
+S0165,Beyond the Secret Shadow,Movie,Thriller,South Korea,Korean,2021,2024-02-14,R,75,,Yes,5.6,13.9,11.93,10.0,35.5,3
+S0166,Beyond the Silent Season,Movie,Documentary,India,Hindi,2017,2018-06-03,R,105,,No,,4.2,21.39,26.7,37.1,1
+S0167,Savage Season,TV Show,Comedy,United States,English,2019,2023-01-06,TV-MA,,2,Yes,,90.8,5.53,42.2,44.2,3
+S0168,Last Verdict,TV Show,Drama,United States,English,2019,2025-09-01,TV-14,,6,Yes,7.4,48.1,4.42,149.6,43.1,0
+S0169,Garden of the Burning,Movie,Drama,South Korea,Korean,2012,2022-12-21,R,146,,No,6.3,3.6,1.63,3.2,64.6,1
+S0170,The Electric Echo,TV Show,Action & Adventure,Australia,English,2011,2021-10-02,TV-14,,2,No,7.6,12.9,45.47,462.7,53.4,2
+S0171,Kingdom of the Wild,Movie,Drama,United States,English,2021,2021-08-02,PG,118,,No,5.3,6.1,6.29,8.0,31.1,2
+S0172,Lost Orbit,Movie,Reality TV,United Kingdom,English,2018,2021-11-29,PG-13,113,,No,6.0,35.7,2.32,3.5,58.4,0
+S0173,Archive of the Lost,Movie,Action & Adventure,Spain,Spanish,2022,2025-07-25,NR,101,,No,5.9,17.8,19.32,23.8,58.6,0
+S0174,Island of the Iron,TV Show,Crime,Germany,German,2013,2019-11-04,TV-MA,,1,No,5.3,3.7,11.75,71.3,28.6,8
+S0175,Rising Witness,Movie,Family,United Kingdom,English,2017,2024-06-07,PG,123,,No,6.4,15.3,1.43,2.6,51.4,1
+S0176,The Savage Valley,Movie,Drama,South Korea,Korean,2021,2024-07-16,PG,89,,No,8.2,12.2,4.66,5.3,71.2,0
+S0177,The Quiet Mirror,Movie,Sci-Fi & Fantasy,Japan,Japanese,2020,2021-08-07,PG,74,,No,5.6,5.2,3.41,3.7,51.6,3
+S0178,Burning Archive,TV Show,Animation,Brazil,Portuguese,2021,2021-09-15,TV-14,,1,Yes,6.5,26.3,2.84,11.2,57.4,0
+S0179,Final Summer,TV Show,Sci-Fi & Fantasy,United States,English,2020,2020-02-07,TV-MA,,3,No,5.2,40.1,3.06,34.8,70.7,1
+S0180,The Detour Files,TV Show,Action & Adventure,Canada,English,2022,2023-02-08,TV-MA,,1,No,5.0,2.3,5.88,30.2,83.1,1
+S0181,Crimson Letters,TV Show,Thriller,United States,English,2015,2019-04-30,TV-MA,,5,Yes,5.8,46.3,1.78,47.9,53.4,1
+S0182,A Golden Witness,TV Show,Drama,Germany,German,2020,2023-12-08,TV-14,,1,No,6.1,14.0,5.8,21.2,41.1,0
+S0183,Valley of the Midnight,Movie,Documentary,United States,English,2017,2022-02-25,NR,102,,No,6.5,9.2,14.18,15.2,58.7,4
+S0184,Tribe of the Electric,Movie,Family,United States,English,2015,2020-10-15,PG,115,,Yes,6.4,39.5,10.38,15.2,64.1,4
+S0185,Velvet Frontier: Origins,TV Show,Reality TV,United States,English,2015,2023-03-25,TV-MA,,3,Yes,4.5,23.6,3.47,38.3,49.3,0
+S0186,Beyond the Neon Witness,Movie,Drama,India,Hindi,2017,2023-12-06,PG-13,119,,No,5.9,6.1,2.31,3.3,66.9,0
+S0187,Frozen Season,Movie,Romance,United States,English,2018,2023-09-16,R,94,,No,7.0,9.4,11.77,13.7,96.0,4
+S0188,Beyond the Velvet Archive,Movie,Comedy,United States,English,2017,2025-01-26,PG-13,95,,Yes,5.2,56.4,1.74,2.5,30.2,0
+S0189,Quiet Kingdom,TV Show,Animation,India,Hindi,2021,2022-10-19,TV-14,,2,Yes,6.2,3.6,8.55,74.0,53.1,1
+S0190,A Golden Empire,Movie,Drama,India,Hindi,2020,2024-12-09,,130,,No,6.8,7.7,5.45,7.3,85.4,0
+S0191,Beyond the Neon Archive,TV Show,Reality TV,Spain,Spanish,2018,2021-05-14,TV-MA,,8,Yes,5.3,268.6,14.32,405.5,47.5,2
+S0192,Burning Summer: Origins,Movie,Crime,Mexico,Spanish,2022,2022-09-26,R,135,,Yes,6.9,17.8,4.84,6.5,75.5,0
+S0193,Orbit of the Gentle,Movie,Drama,South Korea,Korean,2020,2020-11-15,R,144,,Yes,5.1,49.6,4.01,8.2,62.4,1
+S0194,Beyond the Iron Valley,TV Show,Drama,United States,English,2019,2019-08-22,TV-MA,,4,Yes,7.5,28.6,3.04,56.6,85.3,0
+S0195,A Frozen Garden,Movie,Crime,United States,English,2004,2025-07-21,PG-13,60,,No,6.9,17.3,8.08,5.1,91.2,2
+S0196,Beyond the Rising Horizon,Movie,Drama,Canada,English,2010,2017-09-10,R,128,,No,6.6,10.2,3.47,6.8,67.3,0
+S0197,Secret Code,Movie,Documentary,,,2015,2024-05-08,PG-13,82,,No,8.0,24.3,3.13,3.7,46.6,1
+S0198,Beyond the Broken Mirror,TV Show,Animation,India,Hindi,2013,2023-11-01,TV-MA,,3,No,,15.1,2.3,26.3,50.4,0
+S0199,Final Echo: Origins,Movie,Documentary,Turkey,Turkish,2020,2022-08-20,PG-13,77,,No,6.3,3.3,7.63,6.4,91.4,0
+S0200,Hollow Station,Movie,Action & Adventure,Nigeria,English,2017,2025-03-22,PG,96,,Yes,8.0,2.8,3.79,5.4,51.2,0
+S0201,Beyond the Midnight Letters,TV Show,Thriller,India,Hindi,2015,2025-01-30,TV-MA,,2,Yes,8.4,2.3,4.4,46.6,80.4,2
+S0202,The Broken Code,TV Show,Drama,Japan,Japanese,2020,2025-07-20,TV-G,,2,Yes,5.9,16.8,14.15,168.1,23.2,2
+S0203,Crimson Archive: Origins,Movie,Reality TV,India,Hindi,2021,2023-06-26,NR,133,,Yes,6.0,84.3,5.6,7.2,40.1,0
+S0204,Beyond the Frozen Archive,Movie,Comedy,Spain,Spanish,2016,2018-12-25,PG-13,116,,Yes,7.6,17.1,22.38,37.2,81.0,1
+S0205,Letters of the Secret,Movie,Drama,United States,English,2021,2021-03-21,PG-13,98,,Yes,6.5,46.3,5.38,5.1,62.5,1
+S0206,Final Summer: Origins,Movie,Comedy,United States,English,2015,2024-05-26,PG-13,96,,Yes,7.2,48.3,8.72,9.6,60.9,2
+S0207,Beyond the Velvet Verdict,Movie,Reality TV,South Korea,Korean,2011,2024-09-23,NR,117,,No,6.8,3.6,7.97,13.2,52.4,2
+S0208,The Rising Detour,Movie,Drama,United States,English,2020,2023-03-20,R,123,,No,5.9,12.5,14.67,25.1,30.4,5
+S0209,Midnight Empire,Movie,Crime,Japan,Japanese,2020,2020-06-04,PG,127,,No,6.9,17.6,17.65,20.6,74.1,2
+S0210,The Iron Heist,Movie,Romance,India,Hindi,2011,2024-03-23,R,99,,No,6.5,5.4,13.98,14.6,58.0,5
+S0211,Quiet Signal,TV Show,Crime,Mexico,Spanish,2017,2019-09-08,TV-MA,,1,No,5.3,7.4,1.97,10.9,33.5,0
+S0212,Season of the Paper,Movie,Family,Germany,German,2015,2021-06-25,PG,118,,Yes,5.6,18.5,2.37,2.8,57.0,0
+S0213,Beyond the Lost Shadow,Movie,Crime,United Kingdom,English,2018,2023-04-11,R,97,,No,5.8,28.8,8.1,8.9,65.9,2
+S0214,Wild Letters: Origins,TV Show,Reality TV,France,French,2018,2019-03-03,TV-14,,1,Yes,7.0,83.1,28.86,115.2,62.2,2
+S0215,The Forgotten Witness,TV Show,Drama,United States,English,2017,2017-07-26,TV-14,,2,Yes,7.6,106.7,26.98,205.3,70.2,2
+S0216,Electric Signal,TV Show,Horror,United Kingdom,English,2015,2016-10-16,TV-MA,,3,Yes,7.3,32.5,9.02,153.2,67.3,4
+S0217,Velvet Signal: Origins,Movie,Documentary,United States,English,2013,2025-08-03,PG,105,,No,7.3,21.3,11.44,11.5,56.9,3
+S0218,Silent Shadow,Movie,Documentary,Brazil,Portuguese,2020,2025-09-28,PG-13,118,,Yes,7.4,11.2,17.8,26.8,68.2,1
+S0219,A Secret Signal,TV Show,Animation,Germany,German,2016,2020-04-07,TV-MA,,1,No,6.8,14.3,6.09,32.2,74.1,0
+S0220,Burning Witness,Movie,Family,Canada,English,2018,2021-05-28,PG,92,,No,6.9,12.8,6.48,5.7,78.9,0
+S0221,The Hidden Code,Movie,Romance,Mexico,Spanish,2019,2021-11-05,R,97,,No,7.0,2.5,6.09,7.9,76.1,2
+S0222,Beyond the Wild Frontier,Movie,Thriller,Nigeria,English,2015,2019-07-04,R,122,,No,5.1,10.0,1.58,2.2,44.1,0
+S0223,Empire of the Neon,Movie,Thriller,,,2016,2021-06-08,PG,93,,No,5.7,13.4,2.14,2.9,66.1,1
+S0224,The Forgotten Kingdom,TV Show,Action & Adventure,Turkey,Turkish,2020,2022-02-19,TV-14,,1,Yes,5.6,7.6,3.06,17.0,63.1,1
+S0225,Beyond the Lost Horizon,Movie,Action & Adventure,United Kingdom,English,2017,2022-07-18,R,74,,No,7.6,4.0,1.5,1.6,58.7,0
+S0226,The Forgotten Letters,TV Show,Action & Adventure,India,Hindi,2019,2021-08-26,TV-MA,,1,Yes,8.3,3.2,12.25,55.6,66.3,6
+S0227,Distant Signal,Movie,Drama,United Kingdom,English,2015,2022-04-19,PG,101,,Yes,4.4,19.2,3.4,5.0,58.9,0
+S0228,Last Mirror: Origins,Movie,Drama,India,Hindi,2019,2025-08-12,R,91,,Yes,8.2,41.0,21.02,25.6,91.5,4
+S0229,Empire of the Silent,Movie,Horror,United States,English,2018,2019-08-25,R,99,,No,6.6,13.5,15.79,18.3,37.2,2
+S0230,A Frozen Signal,Movie,Thriller,United States,English,2019,2019-06-10,PG,130,,No,7.5,9.1,20.39,25.7,91.0,5
+S0231,The Savage Detour,Movie,Reality TV,United States,English,2022,2024-02-08,R,83,,No,6.5,54.8,17.75,14.2,78.3,2
+S0232,The Empire Files,Movie,Sci-Fi & Fantasy,United Kingdom,English,2007,2017-03-10,R,86,,No,7.9,12.0,3.38,3.2,73.2,0
+S0233,A Paper Island,TV Show,Drama,Mexico,Spanish,2017,2019-01-31,TV-MA,,2,Yes,6.8,35.0,2.2,18.9,60.4,0
+S0234,Secret Detour,Movie,Drama,South Korea,Korean,2007,2023-11-23,R,107,,No,5.1,4.6,9.67,15.9,59.1,5
+S0235,Garden of the Last,TV Show,Comedy,United Kingdom,English,2017,2020-10-05,TV-14,,2,Yes,6.5,35.9,25.77,313.4,53.0,4
+S0236,Savage Verdict: Origins,TV Show,Family,India,Hindi,2015,2021-06-29,TV-G,,1,Yes,7.1,9.9,34.66,134.8,63.1,3
+S0237,Beyond the Forgotten Tribe,Movie,Comedy,India,Hindi,2019,2024-06-06,R,104,,No,6.3,1.8,7.28,11.7,40.1,0
+S0238,Beyond the Rising Kingdom,TV Show,Thriller,United States,English,2019,2019-11-25,TV-MA,,1,Yes,7.3,115.1,1.48,7.9,42.4,0
+S0239,Mirror of the Gentle,Movie,Reality TV,Germany,German,2017,2021-04-22,PG-13,123,,No,5.9,9.1,5.85,9.0,91.1,2
+S0240,Letters of the Broken,Movie,Family,United States,English,2015,2016-05-05,PG,131,,Yes,6.0,46.0,10.72,21.8,59.9,3
+S0241,Beyond the Velvet Detour,TV Show,Comedy,Japan,Japanese,2020,2022-12-29,TV-MA,,2,No,5.4,27.2,11.08,118.5,58.3,4
+S0242,Beyond the Crimson Tribe,TV Show,Drama,Spain,Spanish,2022,2022-11-24,TV-MA,,1,No,6.1,8.5,16.14,81.3,59.2,4
+S0243,Verdict of the Gentle,Movie,Drama,United Kingdom,English,2011,2025-02-09,R,134,,No,6.7,7.3,11.79,16.7,51.6,2
+S0244,Iron Echo: Origins,Movie,Drama,Brazil,Portuguese,2013,2018-08-10,PG-13,97,,No,4.5,114.5,1.46,1.5,45.7,1
+S0245,Beyond the Paper Letters,Movie,Comedy,United States,English,2019,2020-05-26,NR,88,,No,5.7,13.5,1.57,2.1,58.5,1
+S0246,A Hollow Empire,TV Show,Documentary,Mexico,Spanish,2015,2016-02-21,TV-14,,1,Yes,5.0,5.5,7.51,30.6,50.2,2
+S0247,The Horizon Files,Movie,Animation,Spain,Spanish,2002,2017-05-01,R,123,,No,5.9,9.6,2.06,2.4,47.9,1
+S0248,The Distant Promise,Movie,Documentary,France,French,2022,2022-11-12,R,102,,No,8.1,4.1,26.16,29.2,78.3,3
+S0249,The Final Kingdom,Movie,Sci-Fi & Fantasy,Japan,Japanese,2020,2021-05-14,PG-13,99,,Yes,5.4,30.9,1.16,1.4,58.0,1
+S0250,Electric Horizon,Movie,Comedy,Brazil,Portuguese,2017,2023-08-24,R,123,,Yes,7.3,60.7,14.85,21.4,72.3,0
+S0251,Beyond the Last Letters,Movie,Crime,Australia,English,2015,2024-11-15,R,108,,No,9.3,17.6,11.23,18.7,88.7,4
+S0252,Crimson Code: Origins,TV Show,Sci-Fi & Fantasy,India,Hindi,2016,2024-07-21,TV-MA,,2,Yes,8.1,59.8,8.64,79.3,69.2,2
+S0253,Forgotten Shadow: Origins,Movie,Crime,Germany,German,2017,2025-08-09,PG-13,89,,No,6.6,29.3,2.21,3.0,60.2,0
+S0254,The Hollow Detour,Movie,Reality TV,Spain,Spanish,2021,2025-06-28,R,114,,No,6.9,15.0,0.85,1.3,85.2,0
+S0255,The Hollow Archive,Movie,Action & Adventure,India,Hindi,2015,2020-07-21,R,103,,No,,6.9,2.0,2.6,40.4,0
+S0256,Electric Heist: Origins,TV Show,Drama,Canada,English,2015,2019-11-24,TV-MA,,2,Yes,5.0,33.6,2.92,23.0,26.8,0
+S0257,The Orbit Files,TV Show,Comedy,India,Hindi,2012,2022-06-29,TV-G,,1,No,6.5,3.5,13.47,56.8,69.8,1
+S0258,Beyond the Silent Garden,Movie,Thriller,United Kingdom,English,2021,2022-08-06,PG-13,94,,No,6.9,93.9,2.69,3.8,55.6,1
+S0259,Archive of the Rising,Movie,Reality TV,United States,English,2018,2022-10-30,PG-13,140,,No,7.1,12.7,8.56,17.2,50.5,2
+S0260,Frozen Shadow,Movie,Action & Adventure,United States,English,2019,2025-12-30,R,74,,Yes,6.0,32.9,2.03,1.8,71.4,1
+S0261,Quiet Station,Movie,Horror,Brazil,Portuguese,2021,2021-12-28,R,101,,No,6.7,4.8,8.01,12.3,61.2,2
+S0262,Iron Season: Origins,TV Show,Documentary,India,Hindi,2018,2024-02-26,TV-14,,8,Yes,7.2,12.2,1.17,52.4,48.5,0
+S0263,Island of the Secret,Movie,Drama,India,Hindi,2020,2025-08-11,PG-13,84,,No,6.4,11.1,31.83,26.5,88.5,2
+S0264,Code of the Hidden,Movie,Comedy,United States,English,2021,2023-09-08,PG,94,,Yes,6.5,268.2,6.54,8.1,39.5,0
+S0265,Neon Summer: Origins,TV Show,Sci-Fi & Fantasy,United Kingdom,English,2013,2019-07-24,TV-MA,,2,No,5.6,10.0,0.31,3.5,55.4,0
+S0266,Harbor of the Wild,Movie,Sci-Fi & Fantasy,France,French,2019,2020-10-13,PG-13,108,,Yes,6.9,38.4,4.28,6.7,38.0,0
+S0267,Lost Code,Movie,Thriller,Mexico,Spanish,2020,2021-01-03,PG-13,88,,No,6.7,15.2,2.36,2.0,67.0,0
+S0268,Distant Frontier,Movie,Comedy,United States,English,2015,2019-03-19,PG-13,65,,Yes,6.2,97.1,3.81,2.6,51.2,0
+S0269,Garden of the Neon,Movie,Romance,,,2014,2023-06-19,NR,67,,No,7.2,75.1,4.19,3.3,77.7,1
+S0270,Beyond the Iron Summer,Movie,Drama,India,Hindi,2022,2024-01-23,PG-13,93,,No,7.5,17.2,3.41,3.4,67.8,1
+S0271,Electric Code: Origins,Movie,Reality TV,,,2015,2018-03-19,R,91,,No,6.7,10.5,3.24,2.9,82.1,0
+S0272,The Silent Frontier,Movie,Drama,India,Hindi,2015,2021-06-02,PG,100,,Yes,5.6,17.8,2.03,2.7,50.6,0
+S0273,Beyond the Last Echo,Movie,Drama,India,Hindi,2018,2024-06-21,PG,60,,Yes,6.7,19.2,16.34,12.3,40.7,2
+S0274,Beyond the Distant Heist,Movie,Thriller,India,Hindi,2018,2018-02-09,PG,103,,Yes,5.7,11.4,17.52,18.4,60.5,7
+S0275,Midnight Heist: Origins,TV Show,Thriller,South Korea,Korean,2022,2022-01-31,TV-Y,,1,No,6.6,11.4,5.25,26.4,59.1,0
+S0276,A Lost Kingdom,Movie,Thriller,United Kingdom,English,2003,2025-08-04,PG-13,141,,No,5.6,6.7,3.78,5.1,31.1,0
+S0277,The Final Shadow,Movie,Thriller,India,Hindi,2018,2023-12-26,PG-13,63,,Yes,7.9,29.1,3.64,2.7,55.6,2
+S0278,The Velvet Promise,Movie,Family,Germany,German,2015,2021-10-03,PG,87,,No,7.3,34.6,6.34,8.0,56.5,1
+S0279,Midnight Summer,TV Show,Thriller,Spain,Spanish,2018,2025-03-31,TV-MA,,1,Yes,7.8,22.4,12.11,70.2,91.6,0
+S0280,Garden of the Hidden,TV Show,Thriller,India,Hindi,2020,2023-07-14,TV-14,,1,Yes,7.7,15.0,7.93,32.9,79.1,0
+S0281,Detour of the Electric,Movie,Action & Adventure,France,French,2013,2021-03-16,PG,78,,No,6.2,33.2,6.54,7.6,55.3,1
+S0282,A Wild Tribe,Movie,Drama,Brazil,Portuguese,2016,2018-02-11,PG,142,,No,6.1,3.3,5.89,12.6,66.2,1
+S0283,Midnight Mirror: Origins,Movie,Documentary,United States,English,2018,2024-06-25,G,91,,No,8.6,5.3,2.92,3.5,46.0,0
+S0284,Detour of the Final,Movie,Comedy,South Korea,Korean,2015,2023-08-25,R,102,,No,,63.9,17.9,28.7,52.9,2
+S0285,The Golden Harbor,Movie,Sci-Fi & Fantasy,United States,English,2017,2019-08-30,NR,140,,No,5.1,24.2,2.67,4.0,59.2,0
+S0286,The Last Archive,Movie,Drama,Spain,Spanish,2015,2023-05-16,R,105,,Yes,7.6,11.8,42.8,43.3,70.9,4
+S0287,Beyond the Electric Valley,Movie,Family,United States,English,2013,2023-04-09,PG,114,,No,6.6,21.0,7.41,12.5,55.0,0
+S0288,Savage Detour: Origins,Movie,Thriller,Japan,Japanese,2015,2016-12-13,NR,88,,No,8.0,28.8,40.14,43.9,70.5,7
+S0289,Burning Frontier,Movie,Animation,United States,English,2021,2021-10-20,NR,75,,No,,2.5,14.98,12.9,67.9,5
+S0290,The Garden Files,Movie,Thriller,United Kingdom,English,2015,2021-12-12,PG-13,92,,Yes,6.6,33.5,9.34,8.2,62.5,0
+S0291,Harbor of the Neon,TV Show,Drama,Turkey,Turkish,2015,2022-03-27,TV-MA,,2,Yes,8.1,41.4,5.43,40.0,83.7,0
+S0292,Savage Kingdom,Movie,Crime,India,Hindi,2020,2023-12-13,R,119,,No,5.0,1.4,1.65,1.9,57.5,0
+S0293,A Electric Horizon,TV Show,Sci-Fi & Fantasy,,,2021,2022-11-13,TV-14,,1,Yes,6.0,42.3,10.5,41.9,66.2,2
+S0294,Valley of the Burning,Movie,Horror,Indonesia,Indonesian,2013,2024-05-09,R,84,,No,5.6,4.6,4.37,5.7,80.6,0
+S0295,Beyond the Gentle Garden,TV Show,Action & Adventure,Mexico,Spanish,2012,2020-06-15,TV-MA,,3,No,4.3,8.8,1.31,16.7,60.4,1
+S0296,Frontier of the Iron,TV Show,Sci-Fi & Fantasy,United States,English,2019,2020-06-10,TV-14,,2,No,7.4,34.5,12.84,144.1,91.8,2
+S0297,Garden of the Lost,TV Show,Crime,Germany,German,2019,2019-10-22,TV-Y,,1,Yes,6.0,20.1,6.73,24.0,49.6,0
+S0298,A Crimson Witness,TV Show,Sci-Fi & Fantasy,United States,English,2016,2024-10-10,TV-14,,1,Yes,7.5,47.1,19.76,85.8,45.7,2
+S0299,Beyond the Electric Orbit,TV Show,Action & Adventure,India,Hindi,2019,2023-12-13,TV-MA,,1,Yes,7.0,8.5,3.47,20.3,63.0,1
+S0300,Iron Kingdom,Movie,Sci-Fi & Fantasy,Mexico,Spanish,2022,2023-11-05,R,147,,Yes,7.2,57.8,21.46,32.8,63.0,1
+S0301,Electric Verdict: Origins,TV Show,Sci-Fi & Fantasy,Japan,Japanese,2020,2021-04-03,TV-MA,,1,Yes,6.1,13.4,10.5,44.6,80.0,3
+S0302,A Broken Promise,Movie,Reality TV,United Kingdom,English,2016,2016-12-18,PG-13,90,,No,5.2,12.0,9.82,13.0,38.4,3
+S0303,Hidden Season,Movie,Action & Adventure,India,Hindi,2020,2020-11-30,PG-13,69,,No,6.6,2.2,12.24,8.4,61.5,3
+S0304,Kingdom of the Quiet,Movie,Action & Adventure,Germany,German,2012,2017-01-20,PG-13,107,,No,7.4,9.4,5.62,5.7,73.1,1
+S0305,Signal of the Frozen,TV Show,Crime,Japan,Japanese,2015,2021-04-17,TV-Y,,1,Yes,6.5,10.4,6.4,38.4,63.4,1
+S0306,Beyond the Lost Promise,Movie,Thriller,India,Hindi,2015,2017-12-23,R,122,,No,5.8,7.6,20.34,29.4,55.4,3
+S0307,A Electric Promise,Movie,Romance,Mexico,Spanish,2017,2018-02-24,PG-13,125,,No,5.3,8.7,2.67,4.5,59.8,0
+S0308,A Hidden Tribe,Movie,Thriller,United States,English,2020,2021-09-11,R,101,,No,6.7,2.4,10.2,10.3,78.3,4
+S0309,The Electric Horizon,Movie,Comedy,United States,English,2014,2022-12-29,PG-13,117,,No,5.9,11.1,2.99,3.7,79.9,0
+S0310,A Last Archive,Movie,Romance,South Korea,Korean,2020,2022-12-23,NR,90,,No,6.4,8.6,1.18,1.3,61.9,0
+S0311,Harbor of the Last,Movie,Drama,Indonesia,Indonesian,2012,2017-07-15,R,117,,No,6.3,2.5,1.56,2.5,49.4,0
+S0312,A Secret Frontier,Movie,Comedy,United States,English,2008,2023-06-27,NR,94,,No,6.1,13.7,6.42,6.7,81.1,0
+S0313,Iron Heist: Origins,Movie,Sci-Fi & Fantasy,United States,English,2016,2020-11-22,PG-13,115,,No,6.8,36.7,10.01,17.3,48.7,0
+S0314,A Distant Island,Movie,Romance,United States,English,2009,2017-11-12,G,113,,No,7.1,18.5,8.23,13.4,90.7,2
+S0315,Secret Promise,Movie,Animation,Brazil,Portuguese,2020,2024-02-23,R,107,,No,8.5,28.1,20.84,28.6,92.8,4
+S0316,A Savage Archive,Movie,Comedy,,,2015,2025-12-04,R,122,,Yes,7.4,13.0,12.94,19.3,88.3,1
+S0317,Beyond the Rising Season,Movie,Drama,United Kingdom,English,2017,2021-11-11,PG,70,,No,8.1,10.0,3.45,3.2,81.2,0
+S0318,Summer of the Golden,TV Show,Reality TV,Australia,English,2015,2017-08-12,TV-14,,1,Yes,5.3,5.6,8.88,47.9,25.2,2
+S0319,Island of the Final,Movie,Drama,United States,English,2022,2023-03-28,R,99,,No,4.9,13.6,3.46,3.5,37.9,0
+S0320,Tribe of the Savage,TV Show,Comedy,United Kingdom,English,2015,2021-12-28,TV-MA,,2,Yes,6.6,22.8,4.54,51.7,66.9,1
+S0321,Beyond the Forgotten Heist,TV Show,Comedy,United Kingdom,English,2019,2025-12-29,TV-MA,,2,Yes,7.5,33.1,14.21,135.6,58.5,2
+S0322,Wild Empire,Movie,Documentary,France,French,2017,2025-05-11,PG-13,82,,No,7.6,7.1,6.78,8.6,64.2,0
+S0323,The Midnight Summer,Movie,Animation,India,Hindi,2015,2025-05-01,G,134,,Yes,7.8,26.2,5.71,11.9,78.4,0
+S0324,The Gentle Frontier,Movie,Horror,India,Hindi,2014,2024-04-28,R,108,,No,4.0,3.6,1.58,1.6,44.6,0
+S0325,The Code Files,TV Show,Romance,United States,English,2015,2021-09-30,TV-MA,,3,Yes,7.9,141.7,35.79,483.7,53.3,3
+S0326,Wild Summer,Movie,Drama,Spain,Spanish,2016,2022-06-24,R,112,,No,6.8,5.5,18.45,26.2,76.2,5
+S0327,A Burning Echo,TV Show,Action & Adventure,France,French,2015,2023-05-04,TV-MA,,1,Yes,5.1,10.3,5.72,28.0,60.8,0
+S0328,A Midnight Promise,Movie,Thriller,United States,English,2013,2023-02-25,NR,108,,No,7.2,81.2,6.13,9.7,62.7,0
+S0329,Beyond the Quiet Promise,Movie,Drama,India,Hindi,2016,2022-05-21,PG-13,121,,Yes,6.8,16.2,2.2,2.7,73.8,0
+S0330,Silent Witness,Movie,Comedy,Mexico,Spanish,2016,2017-05-05,PG-13,131,,No,6.9,9.4,25.6,44.7,65.7,1
+S0331,The Hollow Valley,TV Show,Comedy,United States,English,2016,2024-10-17,TV-MA,,2,Yes,7.6,67.2,24.07,285.7,87.2,1
+S0332,A Secret Heist,Movie,Drama,United States,English,2017,2017-02-01,R,69,,No,6.9,18.6,10.72,11.7,66.5,1
+S0333,Secret Echo: Origins,TV Show,Documentary,United Kingdom,English,2021,2023-02-17,TV-14,,1,Yes,5.5,6.1,0.72,2.6,74.5,1
+S0334,Electric Shadow: Origins,TV Show,Romance,United States,English,2015,2020-05-04,TV-PG,,1,Yes,,51.2,7.71,46.3,35.8,1
+S0335,Golden Archive,Movie,Drama,United States,English,2019,2025-12-20,PG-13,60,,No,4.9,23.5,2.65,1.6,58.8,0
+S0336,Secret Summer: Origins,Movie,Thriller,India,Hindi,2018,2018-09-19,PG,144,,Yes,7.2,12.7,16.14,29.6,60.6,1
+S0337,The Wild Station,Movie,Horror,United States,English,2015,2020-10-03,R,118,,Yes,8.0,55.4,6.81,8.7,59.0,2
+S0338,Heist of the Forgotten,TV Show,Romance,United Kingdom,English,2017,2020-03-21,TV-14,,1,No,5.3,12.0,2.81,14.3,71.0,0
+S0339,Silent Signal: Origins,Movie,Crime,Japan,Japanese,2018,2018-10-13,PG-13,81,,No,5.8,9.1,7.14,5.4,70.2,0
+S0340,A Final Archive,TV Show,Thriller,United Kingdom,English,2016,2018-03-28,TV-14,,1,Yes,5.7,11.9,2.96,12.2,29.1,0
+S0341,Letters of the Hidden,Movie,Crime,United States,English,2018,2021-05-17,R,80,,Yes,6.1,99.6,3.99,3.6,69.6,2
+S0342,Rising Shadow: Origins,TV Show,Comedy,Brazil,Portuguese,2015,2025-02-28,TV-MA,,3,Yes,7.0,40.4,9.95,175.0,73.3,5
+S0343,Crimson Code,TV Show,Action & Adventure,United States,English,2015,2019-11-18,TV-14,,1,Yes,6.2,31.9,22.92,114.9,50.1,1
+S0344,A Golden Mirror,Movie,Drama,Spain,Spanish,2005,2024-10-18,R,108,,No,7.2,47.5,12.05,18.1,54.5,5
+S0345,The Lost Shadow,TV Show,Thriller,India,Hindi,2016,2023-05-03,TV-PG,,1,Yes,7.7,10.2,25.42,133.5,46.9,0
+S0346,Frontier of the Neon,TV Show,Action & Adventure,France,French,2019,2024-09-24,TV-14,,1,No,7.6,17.8,6.69,30.2,63.9,0
+S0347,The Neon Station,TV Show,Comedy,United States,English,2015,2024-07-14,TV-PG,,1,Yes,5.5,74.2,21.4,76.1,53.5,2
+S0348,Witness of the Gentle,Movie,Horror,United States,English,2018,2023-09-17,R,105,,Yes,8.0,51.5,2.13,2.2,82.2,0
+S0349,The Frozen Empire,Movie,Comedy,United Kingdom,English,2012,2023-05-02,PG,127,,No,8.0,5.3,42.03,65.3,74.8,3
+S0350,A Velvet Frontier,Movie,Comedy,United States,English,2019,2020-01-29,PG,90,,Yes,8.2,34.8,73.42,102.0,57.4,4
+S0351,Frozen Summer: Origins,Movie,Drama,United States,English,2015,2023-03-03,PG-13,65,,No,6.3,66.0,7.1,5.0,64.1,0
+S0352,A Midnight Season,Movie,Thriller,Spain,Spanish,2010,2016-06-25,R,90,,No,5.7,4.5,8.38,10.4,53.6,1
+S0353,Electric Echo: Origins,Movie,Comedy,Germany,German,2018,2023-11-24,PG-13,87,,No,5.5,7.0,3.59,4.6,42.9,0
+S0354,The Broken Summer,Movie,Action & Adventure,United States,English,2018,2023-03-26,R,91,,No,5.4,46.2,2.97,4.1,33.1,1
+S0355,Mirror of the Midnight,Movie,Comedy,Mexico,Spanish,2021,2024-10-13,NR,84,,Yes,6.6,23.4,4.39,4.1,71.3,0
+S0356,Hollow Station: Origins,Movie,Horror,France,French,2019,2023-06-30,R,95,,No,7.3,11.6,5.69,8.3,73.0,2
+S0357,The Lost Season,TV Show,Reality TV,Brazil,Portuguese,2016,2019-09-08,TV-14,,1,No,7.3,3.7,9.8,49.8,74.6,0
+S0358,Hidden Harbor: Origins,TV Show,Thriller,Japan,Japanese,2015,2019-09-11,TV-14,,2,No,6.0,73.7,6.32,61.0,48.8,0
+S0359,Golden Promise: Origins,Movie,Sci-Fi & Fantasy,Japan,Japanese,2015,2021-12-17,PG-13,67,,Yes,6.6,9.0,45.52,43.8,65.0,2
+S0360,Paper Frontier: Origins,Movie,Crime,,,2022,2023-11-22,PG,77,,No,6.4,4.2,5.29,4.4,42.1,2
+S0361,Archive of the Paper,TV Show,Family,South Korea,Korean,2018,2020-09-21,TV-G,,4,Yes,6.0,33.0,2.21,49.6,45.2,0
+S0362,Distant Shadow: Origins,Movie,Sci-Fi & Fantasy,Canada,English,2021,2023-06-12,PG,122,,Yes,7.3,35.8,39.16,64.5,67.3,2
+S0363,Last Summer: Origins,Movie,Animation,United States,English,2016,2021-05-13,PG,100,,No,6.9,11.0,1.82,2.6,68.1,0
+S0364,Hidden Archive: Origins,Movie,Animation,United States,English,2022,2022-12-17,R,89,,Yes,6.7,17.3,4.72,6.2,40.4,0
+S0365,Frontier of the Midnight,Movie,Horror,United States,English,2021,2024-03-10,R,121,,Yes,7.0,35.1,10.67,17.2,50.2,4
+S0366,Beyond the Neon Verdict,Movie,Thriller,Turkey,Turkish,2015,2019-02-21,NR,126,,Yes,7.2,28.4,12.71,15.1,61.1,1
+S0367,The Neon Valley,TV Show,Drama,India,Hindi,2019,2020-11-15,TV-MA,,6,Yes,7.2,8.9,2.38,61.1,79.6,0
+S0368,The Broken Signal,Movie,Drama,Japan,Japanese,2015,2020-03-07,R,87,,Yes,5.8,17.1,3.13,4.1,46.4,1
+S0369,Beyond the Last Frontier,Movie,Thriller,Brazil,Portuguese,2014,2017-01-12,PG-13,111,,No,7.4,4.9,1.6,2.4,69.4,0
+S0370,Valley of the Silent,TV Show,Thriller,Australia,English,2018,2022-10-28,TV-MA,,2,Yes,6.9,16.0,14.3,165.8,67.8,4
+S0371,The Gentle Echo,TV Show,Action & Adventure,United States,English,2012,2023-05-02,TV-MA,,2,No,6.1,84.0,12.93,116.5,56.1,5
+S0372,Golden Valley: Origins,Movie,Documentary,France,French,2018,2025-08-23,NR,79,,Yes,7.2,63.2,2.91,2.9,70.0,0
+S0373,The Archive Files,Movie,Documentary,Mexico,Spanish,2013,2018-11-01,NR,110,,No,7.2,6.1,14.26,23.4,47.4,9
+S0374,Summer of the Crimson,Movie,Crime,,,2020,2023-03-25,PG-13,110,,Yes,7.7,41.8,22.32,35.0,60.0,4
+S0375,A Final Orbit,Movie,Drama,Spain,Spanish,2015,2021-01-12,R,128,,Yes,5.6,58.0,3.18,4.8,76.7,1
+S0376,Forgotten Mirror,Movie,Comedy,India,Hindi,2021,2024-08-27,R,134,,Yes,7.9,20.3,1.68,2.1,91.5,1
+S0377,Beyond the Wild Summer,TV Show,Horror,,,2021,2024-02-15,TV-MA,,2,Yes,6.6,94.3,3.77,43.6,74.4,1
+S0378,Burning Echo,Movie,Crime,United Kingdom,English,2020,2024-11-03,PG,94,,Yes,6.1,183.4,3.91,5.3,75.0,0
+S0379,A Lost Code,Movie,Family,United States,English,2019,2024-12-14,PG,128,,No,6.0,18.7,17.36,27.0,33.4,5
+S0380,A Final Shadow,TV Show,Animation,United States,English,2015,2017-02-18,TV-MA,,2,No,5.5,105.5,3.34,32.9,42.7,1
+S0381,Golden Code,Movie,Animation,United States,English,2017,2020-03-12,PG-13,162,,Yes,,67.8,1.8,3.1,48.0,1
+S0382,Code of the Iron,TV Show,Comedy,United States,English,2015,2022-07-13,TV-Y,,2,Yes,7.3,38.3,10.18,93.2,98.0,4
+S0383,The Last Season,TV Show,Action & Adventure,South Korea,Korean,2010,2021-06-08,TV-G,,4,No,8.5,14.7,3.01,47.4,69.6,0
+S0384,The Savage Orbit,Movie,Comedy,India,Hindi,2022,2023-12-05,NR,111,,Yes,5.0,7.3,7.38,8.7,63.4,3
+S0385,Crimson Promise: Origins,Movie,Documentary,United States,English,2009,2017-09-24,PG,88,,No,5.9,14.3,1.75,2.3,63.7,0
+S0386,Beyond the Golden Code,TV Show,Reality TV,Japan,Japanese,2018,2022-07-31,TV-MA,,8,Yes,6.9,56.3,3.86,137.5,69.4,1
+S0387,Beyond the Silent Detour,TV Show,Action & Adventure,Japan,Japanese,2015,2023-05-28,TV-14,,1,Yes,6.6,18.2,10.68,59.9,62.3,4
+S0388,The Crimson Shadow,TV Show,Documentary,United Kingdom,English,2020,2020-03-25,TV-14,,2,Yes,7.8,16.8,47.56,450.3,53.0,2
+S0389,Hidden Signal: Origins,Movie,Comedy,Turkey,Turkish,2022,2024-05-13,R,130,,No,6.4,3.8,34.91,43.7,23.6,0
+S0390,Last Kingdom,TV Show,Drama,India,Hindi,2014,2025-01-22,TV-14,,1,No,5.9,1.5,1.65,7.3,76.3,0
+S0391,Code of the Rising,Movie,Comedy,Germany,German,2014,2021-09-26,PG-13,95,,No,6.3,16.9,2.75,2.7,52.2,2
+S0392,Wild Frontier: Origins,Movie,Drama,United States,English,2021,2025-10-05,R,98,,No,4.1,9.9,3.15,4.3,21.5,0
+S0393,A Gentle Detour,Movie,Reality TV,Spain,Spanish,2020,2022-02-11,PG-13,76,,Yes,5.0,85.3,13.29,15.4,59.1,6
+S0394,Beyond the Burning Valley,TV Show,Action & Adventure,Indonesia,Indonesian,2015,2016-01-13,TV-14,,2,Yes,7.5,16.2,1.32,14.5,73.9,0
+S0395,Iron Tribe: Origins,Movie,Crime,Brazil,Portuguese,2015,2022-10-26,NR,93,,Yes,7.8,27.4,10.65,14.2,80.6,1
+S0396,Letters of the Final,Movie,Sci-Fi & Fantasy,,,2018,2019-09-14,PG,126,,Yes,8.0,20.0,6.59,12.4,86.6,0
+S0397,A Velvet Witness,TV Show,Comedy,South Korea,Korean,2015,2016-02-05,TV-MA,,2,Yes,7.0,82.0,1.92,21.2,52.1,2
+S0398,Savage Signal: Origins,Movie,Drama,India,Hindi,2016,2017-10-20,PG-13,112,,No,4.2,8.6,0.63,0.9,36.0,1
+S0399,Heist of the Secret,Movie,Crime,Japan,Japanese,2020,2025-08-08,R,102,,Yes,6.0,8.1,3.9,5.5,54.5,0
+S0400,Hollow Summer: Origins,Movie,Comedy,France,French,2015,2023-10-24,R,88,,Yes,7.9,39.3,10.58,11.1,81.9,3
+S0401,Beyond the Gentle Valley,Movie,Animation,Australia,English,2014,2018-10-01,PG-13,84,,No,8.1,21.4,17.18,13.9,42.2,5
+S0402,Beyond the Gentle Kingdom,TV Show,Drama,United Kingdom,English,2017,2022-05-20,TV-PG,,8,Yes,8.0,62.1,14.05,598.8,72.8,1
+S0403,Burning Verdict,TV Show,Sci-Fi & Fantasy,United States,English,2013,2019-05-24,TV-MA,,3,No,6.3,47.7,11.04,177.8,73.8,4
+S0404,A Frozen Tribe,Movie,Crime,South Korea,Korean,2015,2017-10-09,R,130,,Yes,5.3,50.7,6.93,9.6,67.3,0
+S0405,Beyond the Neon Station,TV Show,Comedy,United States,English,2020,2025-12-05,TV-PG,,3,Yes,6.6,89.0,4.04,72.2,72.5,0
+S0406,Velvet Kingdom: Origins,TV Show,Comedy,United States,English,2018,2024-07-05,TV-MA,,1,Yes,6.6,33.3,6.45,23.6,77.5,0
+S0407,Wild Island: Origins,Movie,Reality TV,,,2018,2020-11-27,NR,114,,No,7.6,14.7,11.81,18.9,30.1,1
+S0408,Distant Verdict: Origins,TV Show,Comedy,Spain,Spanish,2015,2019-07-14,TV-14,,1,Yes,6.8,18.7,20.23,121.4,86.4,1
+S0409,A Forgotten Witness,Movie,Action & Adventure,United States,English,2019,2024-09-15,G,80,,Yes,6.6,10.3,6.67,6.0,67.2,1
+S0410,A Secret Harbor,TV Show,Thriller,United States,English,2013,2020-08-10,TV-PG,,1,No,6.6,8.3,2.2,12.9,81.3,0
+S0411,A Quiet Garden,Movie,Comedy,United States,English,2019,2021-08-21,R,118,,Yes,7.0,76.5,11.31,19.6,48.6,4
+S0412,Frontier of the Lost,Movie,Horror,Mexico,Spanish,2021,2022-12-08,R,94,,Yes,7.2,74.1,13.42,17.8,41.6,2
+S0413,Frontier of the Silent,Movie,Horror,Japan,Japanese,2017,2021-01-08,R,98,,No,5.8,7.1,12.39,18.9,82.8,1
+S0414,Quiet Horizon: Origins,TV Show,Action & Adventure,United States,English,2019,2022-08-25,TV-MA,,1,Yes,5.5,60.9,3.02,15.7,43.0,1
+S0415,A Broken Witness,Movie,Crime,United States,English,2016,2016-05-26,PG-13,151,,No,7.9,5.7,3.67,6.9,66.0,0
+S0416,A Quiet Mirror,Movie,Comedy,United Kingdom,English,2015,2020-10-19,PG-13,65,,No,4.9,6.3,5.87,5.2,59.8,1
+S0417,Beyond the Final Harbor,Movie,Drama,United States,English,2022,2023-10-05,PG-13,116,,Yes,8.2,48.2,7.34,10.1,83.0,0
+S0418,A Quiet Empire,TV Show,Documentary,South Korea,Korean,2019,2020-12-02,TV-MA,,1,Yes,5.1,9.9,4.19,18.2,68.7,0
+S0419,Letters of the Gentle,Movie,Family,India,Hindi,2017,2020-03-13,PG,91,,Yes,6.0,44.6,20.1,17.8,62.1,4
+S0420,A Midnight Empire,TV Show,Drama,Canada,English,2013,2020-03-30,TV-14,,1,No,7.5,7.2,1.8,8.1,53.2,0
+S0421,Code of the Paper,Movie,Comedy,United States,English,2015,2019-08-29,R,120,,Yes,6.6,21.8,48.46,84.4,72.5,2
+S0422,Frontier of the Gentle,Movie,Thriller,Japan,Japanese,2020,2025-06-13,PG-13,121,,Yes,5.3,14.0,3.0,5.6,64.9,2
+S0423,Last Witness: Origins,Movie,Crime,United States,English,2018,2022-03-24,PG,109,,Yes,7.0,25.2,18.23,31.1,39.6,6
+S0424,Code of the Wild,Movie,Drama,Nigeria,English,2015,2021-01-10,PG,129,,No,6.6,30.1,4.6,6.3,82.5,0
+S0425,A Secret Tribe,Movie,Action & Adventure,Indonesia,Indonesian,2018,2020-02-08,R,133,,No,6.3,9.3,6.01,10.4,26.0,1
+S0426,Witness of the Rising,TV Show,Romance,Spain,Spanish,2020,2025-06-30,TV-MA,,1,No,5.9,18.6,3.32,16.6,72.9,0
+S0427,The Iron Tribe,Movie,Action & Adventure,India,Hindi,2017,2017-03-18,PG-13,93,,No,6.5,4.2,10.71,10.3,53.1,0
+S0428,Gentle Kingdom,TV Show,Drama,United States,English,2015,2021-07-02,TV-14,,4,No,5.9,30.1,3.08,61.7,68.3,1
+S0429,Broken Kingdom,Movie,Comedy,Germany,German,2020,2021-01-04,PG-13,116,,No,8.9,22.3,4.73,6.4,83.5,0
+S0430,Velvet Tribe: Origins,TV Show,Action & Adventure,Spain,Spanish,2014,2023-09-08,TV-14,,1,No,6.3,7.3,24.06,142.8,60.3,5
+S0431,Beyond the Last Island,TV Show,Thriller,United States,English,2016,2019-10-13,TV-MA,,1,Yes,6.2,100.2,7.06,29.4,66.5,1
+S0432,The Forgotten Island,TV Show,Crime,India,Hindi,2015,2018-12-08,TV-PG,,1,Yes,6.1,18.5,3.64,20.6,58.4,0
+S0433,Beyond the Iron Garden,TV Show,Sci-Fi & Fantasy,India,Hindi,2017,2017-07-10,TV-G,,1,No,8.3,6.0,1.88,10.9,82.8,1
+S0434,Beyond the Golden Island,TV Show,Romance,Germany,German,2015,2023-11-26,,,1,Yes,5.0,19.0,24.89,134.5,83.6,4
+S0435,The Golden Tribe,Movie,Family,Japan,Japanese,2015,2019-12-18,PG,79,,Yes,7.0,15.1,5.09,4.3,46.2,0
+S0436,Last Heist: Origins,Movie,Action & Adventure,South Korea,Korean,2013,2018-08-23,PG,128,,No,,16.0,39.12,54.6,16.2,4
+S0437,Valley of the Final,Movie,Action & Adventure,South Korea,Korean,2015,2024-06-10,PG,108,,Yes,5.2,36.5,9.33,15.8,48.4,7
+S0438,Electric Season,Movie,Reality TV,United States,English,2018,2018-02-27,R,135,,No,5.2,16.5,3.8,5.0,47.4,0
+S0439,Beyond the Midnight Mirror,TV Show,Comedy,India,Hindi,2016,2020-09-08,TV-MA,,4,Yes,6.9,6.5,9.52,145.5,59.1,2
+S0440,Horizon of the Distant,Movie,Romance,United States,English,2019,2020-02-15,NR,82,,No,5.6,20.8,28.2,36.3,43.6,3
+S0441,A Hidden Empire,TV Show,Horror,France,French,2015,2017-04-08,TV-MA,,3,Yes,6.9,10.9,1.14,18.8,76.6,0
+S0442,A Secret Orbit,Movie,Drama,India,Hindi,2015,2016-03-20,PG-13,120,,No,8.2,5.3,8.56,14.5,52.9,3
+S0443,Frozen Harbor: Origins,TV Show,Thriller,India,Hindi,2020,2021-02-13,TV-MA,,1,Yes,6.8,5.3,6.29,24.7,70.1,0
+S0444,The Lost Mirror,Movie,Comedy,United States,English,2009,2025-06-20,R,73,,No,5.0,7.0,2.56,2.3,61.9,1
+S0445,Beyond the Midnight Empire,Movie,Drama,United States,English,2018,2021-07-25,NR,107,,No,5.7,108.6,4.53,7.2,61.6,0
+S0446,Lost Witness,TV Show,Thriller,South Korea,Korean,2015,2025-12-30,TV-PG,,1,Yes,6.3,31.9,7.22,31.5,67.6,0
+S0447,Horizon of the Rising,TV Show,Comedy,United States,English,2022,2023-01-26,TV-PG,,3,Yes,6.2,73.5,8.14,98.0,73.5,8
+S0448,Electric Station,Movie,Horror,United States,English,2015,2023-08-15,R,96,,Yes,6.8,23.9,7.82,6.9,64.5,1
+S0449,The Secret Summer,Movie,Animation,Spain,Spanish,2015,2016-11-23,R,143,,No,6.8,31.7,1.63,3.1,58.9,1
+S0450,Shadow of the Final,Movie,Crime,India,Hindi,2020,2020-08-24,G,60,,No,8.2,4.6,9.95,6.6,79.0,4
+S0451,Beyond the Rising Verdict,Movie,Comedy,India,Hindi,2015,2016-02-29,R,108,,No,6.5,3.7,9.44,15.2,70.4,3
+S0452,The Midnight Letters,TV Show,Comedy,India,Hindi,2008,2024-12-26,TV-MA,,7,No,5.3,9.9,2.13,63.3,67.3,0
+S0453,Signal of the Midnight,TV Show,Comedy,Germany,German,2019,2023-09-13,TV-MA,,1,Yes,7.8,52.3,52.88,206.6,45.8,3
+S0454,Secret Mirror,Movie,Drama,United States,English,2019,2024-03-16,PG-13,101,,No,7.8,26.7,21.83,34.3,67.2,2
+S0455,The Quiet Heist,Movie,Reality TV,Spain,Spanish,2018,2025-06-01,PG-13,96,,No,6.2,14.6,9.79,14.7,45.3,4
+S0456,Orbit of the Lost,Movie,Action & Adventure,Turkey,Turkish,2017,2019-12-28,NR,90,,No,6.3,4.9,9.95,12.3,68.7,2
+S0457,Shadow of the Crimson,TV Show,Comedy,Japan,Japanese,2015,2023-03-23,TV-14,,3,Yes,7.2,43.5,8.97,158.7,76.4,2
+S0458,Beyond the Wild Shadow,Movie,Crime,India,Hindi,2015,2021-01-08,NR,77,,No,6.3,2.8,13.14,10.4,57.0,2
+S0459,A Velvet Summer,TV Show,Action & Adventure,Spain,Spanish,2018,2022-05-05,TV-14,,5,Yes,,27.6,15.27,358.8,39.8,2
+S0460,The Last Harbor,Movie,Drama,India,Hindi,2016,2022-08-13,PG-13,116,,No,,7.4,11.79,14.4,74.0,3
+S0461,Code of the Final,Movie,Drama,India,Hindi,2006,2020-09-12,R,100,,No,7.4,8.6,3.63,4.5,65.5,0
+S0462,A Golden Horizon,Movie,Sci-Fi & Fantasy,United Kingdom,English,2014,2016-03-28,PG-13,83,,No,7.9,24.1,6.45,7.7,90.4,0
+S0463,The Paper Witness,TV Show,Horror,United States,English,2017,2017-09-04,TV-MA,,1,Yes,5.9,12.0,10.58,60.1,83.2,2
+S0464,Beyond the Hollow Orbit,Movie,Comedy,United States,English,2018,2022-01-05,PG-13,121,,No,6.7,25.9,11.05,12.3,77.2,2
+S0465,Broken Verdict: Origins,Movie,Animation,India,Hindi,2016,2021-09-12,NR,82,,Yes,6.8,10.2,7.45,7.2,67.1,0
+S0466,Paper Orbit: Origins,TV Show,Crime,United States,English,2012,2023-04-28,TV-MA,,4,No,6.6,37.2,3.05,73.9,88.2,0
+S0467,Silent Garden,Movie,Crime,India,Hindi,2020,2023-06-07,R,84,,Yes,6.7,9.8,32.46,35.7,66.6,2
+S0468,Paper Mirror: Origins,TV Show,Comedy,United Kingdom,English,2013,2017-11-18,TV-14,,1,No,6.5,7.1,1.89,8.1,55.3,0
+S0469,A Wild Kingdom,Movie,Drama,Turkey,Turkish,2017,2020-04-20,R,111,,No,6.7,2.2,2.23,2.9,53.7,1
+S0470,The Secret Harbor,Movie,Crime,United States,English,2017,2020-12-29,R,122,,Yes,7.3,27.7,2.7,3.7,57.0,0
+S0471,The Paper Promise,Movie,Comedy,,,1998,2025-11-02,R,98,,No,7.7,14.2,3.58,4.3,69.1,1
+S0472,A Midnight Signal,Movie,Sci-Fi & Fantasy,India,Hindi,2014,2021-04-28,PG-13,85,,No,5.7,2.1,12.18,12.6,63.7,8
+S0473,A Wild Frontier,Movie,Horror,United States,English,2019,2023-06-12,R,125,,No,6.3,10.8,14.9,23.4,41.0,7
+S0474,Midnight Garden,Movie,Drama,United States,English,2015,2023-05-10,PG-13,93,,Yes,6.2,150.5,6.43,7.3,53.9,1
+S0475,Witness of the Crimson,Movie,Horror,United States,English,2015,2019-08-15,R,109,,Yes,6.0,12.1,10.16,14.0,62.0,2
+S0476,A Distant Witness,Movie,Reality TV,United States,English,2014,2025-08-23,R,71,,No,4.4,16.5,2.33,1.5,58.4,0
+S0477,A Broken Verdict,Movie,Romance,United States,English,2022,2024-09-12,PG,92,,No,6.5,7.5,1.69,1.5,61.6,1
+S0478,The Final Harbor,Movie,Thriller,India,Hindi,2017,2024-08-19,R,127,,No,7.0,2.8,41.02,60.6,68.4,5
+S0479,Wild Island,Movie,Animation,United Kingdom,English,2015,2023-06-29,PG-13,89,,Yes,6.4,24.8,24.96,33.5,44.1,2
+S0480,Hollow Signal: Origins,Movie,Documentary,United States,English,2015,2022-03-19,R,108,,No,6.9,3.5,7.5,11.7,51.6,1
+S0481,Garden of the Paper,Movie,Romance,United States,English,2019,2019-03-20,R,60,,No,6.9,30.2,2.52,1.5,63.5,1
+S0482,Quiet Empire,Movie,Crime,United States,English,2015,2021-11-01,R,93,,Yes,8.0,128.6,8.34,9.7,78.1,2
+S0483,The Burning Code,Movie,Romance,United Kingdom,English,2011,2017-04-17,R,101,,No,6.1,24.9,2.39,3.2,62.8,0
+S0484,The Hollow Season,Movie,Comedy,United States,English,2022,2024-05-30,PG-13,143,,Yes,5.4,99.0,5.88,10.4,43.5,0
+S0485,Season of the Distant,Movie,Drama,United Kingdom,English,2022,2024-10-21,PG,79,,No,6.4,4.2,6.38,7.0,58.1,1
+S0486,Lost Detour: Origins,Movie,Comedy,United States,English,2015,2021-06-13,R,120,,No,8.4,15.7,5.37,10.2,94.6,0
+S0487,Beyond the Gentle Code,Movie,Thriller,United States,English,2013,2019-01-31,PG-13,128,,No,5.3,27.7,0.94,1.2,62.4,2
+S0488,The Forgotten Horizon,Movie,Thriller,Turkey,Turkish,2019,2019-06-01,PG,89,,No,7.2,10.2,39.65,44.5,63.9,2
+S0489,The Midnight Harbor,Movie,Documentary,United States,English,2022,2024-09-06,PG,82,,Yes,8.2,70.9,13.11,13.5,57.8,4
+S0490,A Quiet Horizon,Movie,Action & Adventure,United States,English,2017,2023-04-14,PG-13,108,,Yes,4.2,102.6,4.76,6.6,38.2,2
+S0491,Last Orbit: Origins,TV Show,Horror,United States,English,2015,2020-10-11,TV-MA,,4,Yes,7.0,72.0,5.71,90.2,65.1,1
+S0492,Burning Detour: Origins,Movie,Animation,Indonesia,Indonesian,2018,2023-09-24,PG,95,,No,7.1,41.8,1.4,1.8,69.5,0
+S0493,Echo of the Silent,Movie,Comedy,South Korea,Korean,2011,2023-10-16,PG-13,133,,No,6.2,13.7,5.53,7.0,68.1,3
+S0494,Final Verdict: Origins,Movie,Romance,South Korea,Korean,2016,2021-02-14,NR,116,,Yes,6.0,23.1,6.32,10.3,64.4,1
+S0495,Gentle Promise: Origins,TV Show,Sci-Fi & Fantasy,Indonesia,Indonesian,2019,2019-05-02,TV-MA,,2,Yes,6.0,16.9,12.31,128.5,53.8,4
+S0496,Electric Archive: Origins,Movie,Documentary,United States,English,2019,2025-02-02,PG-13,92,,Yes,6.7,8.4,17.63,18.4,56.0,4
+S0497,The Paper Echo,Movie,Drama,Indonesia,Indonesian,2017,2021-03-14,NR,118,,No,6.2,5.4,9.12,17.0,88.9,2
+S0498,A Distant Detour,Movie,Horror,United States,English,2018,2023-05-19,R,122,,No,6.0,4.8,10.55,18.9,51.2,4
+S0499,A Electric Season,Movie,Reality TV,South Korea,Korean,2022,2025-08-22,R,93,,No,5.7,8.3,26.12,31.0,39.1,5
+S0500,Midnight Season: Origins,Movie,Romance,India,Hindi,2016,2019-08-17,G,139,,No,7.7,4.6,9.15,20.0,46.3,3
+S0501,Heist of the Broken,TV Show,Animation,,,2019,2023-05-09,TV-PG,,1,Yes,5.4,21.4,14.49,81.8,50.5,2
+S0502,Midnight Orbit,TV Show,Family,Turkey,Turkish,2019,2019-02-20,TV-G,,1,No,4.8,4.8,4.44,17.2,65.0,0
+S0503,A Golden Signal,TV Show,Action & Adventure,United States,English,2020,2025-04-23,TV-MA,,4,No,7.7,41.7,1.16,23.4,61.1,0
+S0504,Kingdom of the Midnight,Movie,Sci-Fi & Fantasy,Australia,English,2015,2016-08-04,G,83,,Yes,6.4,153.1,6.3,6.8,82.1,0
+S0505,Beyond the Quiet Harbor,Movie,Thriller,India,Hindi,2014,2021-05-30,PG-13,98,,No,6.1,5.7,2.04,2.7,59.5,0
+S0506,Secret Season,TV Show,Family,South Korea,Korean,2015,2019-07-08,TV-G,,4,Yes,6.5,31.7,11.9,282.1,77.5,7
+S0507,Verdict of the Iron,Movie,Drama,Nigeria,English,2018,2018-04-15,PG,66,,No,6.7,1.4,2.55,2.1,52.6,2
+S0508,The Paper Valley,TV Show,Action & Adventure,United States,English,2014,2020-08-14,TV-14,,2,No,,8.8,7.48,55.6,48.6,0
+S0509,Beyond the Hidden Promise,Movie,Animation,Canada,English,2016,2025-05-09,PG-13,133,,No,7.0,29.5,13.47,22.2,66.3,3
+S0510,A Secret Mirror,Movie,Comedy,United Kingdom,English,2019,2020-03-02,PG,118,,No,5.5,14.6,10.97,18.7,62.8,4
+S0511,The Golden Mirror,Movie,Horror,Japan,Japanese,2018,2020-05-03,R,90,,Yes,6.3,31.7,30.31,31.5,58.3,2
+S0512,A Broken Echo,TV Show,Action & Adventure,United States,English,2014,2017-11-22,TV-14,,3,No,4.3,37.1,0.49,5.3,52.9,1
+S0513,Harbor of the Gentle,Movie,Family,United Kingdom,English,2020,2020-09-30,PG,112,,No,7.7,4.0,2.19,2.7,77.4,1
+S0514,Lost Promise,Movie,Animation,Japan,Japanese,2011,2018-04-20,R,102,,No,6.3,11.8,65.61,91.8,40.9,5
+S0515,Promise of the Broken,Movie,Comedy,India,Hindi,2016,2021-09-19,R,115,,No,7.2,15.7,14.44,16.2,61.4,2
+S0516,A Iron Signal,Movie,Horror,United States,English,2015,2023-10-21,R,118,,Yes,7.1,104.0,10.46,14.4,58.3,1
+S0517,Midnight Island,Movie,Action & Adventure,United States,English,2015,2022-11-26,PG-13,129,,No,7.0,17.3,5.74,7.4,58.4,0
+S0518,The Secret Verdict,TV Show,Documentary,Brazil,Portuguese,2021,2024-11-08,TV-MA,,2,No,6.9,6.6,5.18,49.1,70.1,0
+S0519,Neon Witness: Origins,Movie,Sci-Fi & Fantasy,United States,English,2017,2023-06-10,PG-13,110,,Yes,7.0,15.9,1.47,1.6,57.9,0
+S0520,Golden Letters: Origins,TV Show,Crime,Japan,Japanese,2015,2019-10-30,TV-Y,,1,Yes,5.6,34.4,2.87,10.9,28.5,0
+S0521,A Iron Promise,TV Show,Drama,Australia,English,2016,2024-12-31,TV-PG,,1,No,5.3,38.3,3.14,16.6,51.5,1
+S0522,A Frozen Promise,Movie,Comedy,United States,English,2017,2018-07-21,PG-13,124,,No,6.4,30.3,2.54,3.2,46.5,0
+S0523,A Hollow Promise,Movie,Romance,United States,English,2016,2022-12-30,R,126,,No,5.8,15.1,2.41,3.1,64.7,0
+S0524,Kingdom of the Electric,Movie,Documentary,Japan,Japanese,2022,2022-06-11,NR,121,,No,8.3,4.9,71.84,114.0,84.1,2
+S0525,Forgotten Summer,Movie,Thriller,United States,English,2010,2023-08-27,R,114,,No,6.9,10.0,4.34,4.7,34.0,0
+S0526,Broken Code: Origins,Movie,Drama,South Korea,Korean,2022,2022-05-08,NR,103,,Yes,5.9,36.3,10.54,10.2,47.6,3
+S0527,Frozen Echo,TV Show,Action & Adventure,,,2015,2018-02-28,TV-G,,1,Yes,6.3,14.3,8.78,40.6,65.7,3
+S0528,The Silent Echo,TV Show,Crime,South Korea,Korean,2018,2021-02-16,TV-14,,1,Yes,6.7,47.4,17.24,76.8,43.5,2
+S0529,Neon Shadow,TV Show,Drama,India,Hindi,2015,2022-12-11,TV-MA,,4,No,6.4,15.2,3.14,61.8,72.4,0
+S0530,Letters of the Rising,Movie,Action & Adventure,Japan,Japanese,2022,2022-03-08,G,98,,No,6.8,15.7,16.36,25.3,78.5,7
+S0531,Heist of the Burning,TV Show,Reality TV,South Korea,Korean,2013,2018-07-28,TV-MA,,1,No,6.1,6.3,8.64,40.0,57.3,5
+S0532,A Paper Witness,TV Show,Drama,,,2014,2019-05-03,TV-14,,2,No,5.1,23.1,1.01,10.1,42.8,2
+S0533,Iron Valley: Origins,Movie,Romance,United Kingdom,English,2014,2023-04-23,NR,78,,No,,35.0,2.02,2.4,16.5,0
+S0534,The Frozen Garden,Movie,Comedy,Mexico,Spanish,2022,2025-11-04,R,85,,No,6.1,72.2,3.82,4.0,71.0,1
+S0535,Tribe of the Iron,Movie,Crime,Japan,Japanese,2020,2023-09-07,NR,139,,No,7.1,60.2,4.68,9.4,93.6,1
+S0536,Iron Code: Origins,Movie,Romance,India,Hindi,2015,2021-01-27,NR,111,,Yes,6.2,19.6,10.87,15.5,85.3,4
+S0537,Beyond the Quiet Heist,Movie,Animation,United States,English,2011,2019-05-13,R,92,,No,7.7,15.4,11.4,14.1,66.5,2
+S0538,The Iron Frontier,Movie,Comedy,United States,English,2020,2024-12-07,NR,102,,No,6.5,18.0,7.89,12.4,46.7,1
+S0539,Beyond the Distant Kingdom,Movie,Documentary,United States,English,2020,2020-08-22,R,114,,No,8.3,10.6,9.74,10.2,84.5,1
+S0540,Forgotten Harbor: Origins,TV Show,Horror,United States,English,2016,2017-04-17,TV-MA,,1,No,7.7,19.5,6.95,40.5,67.4,0
+S0541,The Secret Frontier,TV Show,Comedy,Indonesia,Indonesian,2015,2018-01-04,TV-MA,,1,Yes,7.7,9.0,1.39,6.7,75.9,0
+S0542,A Hidden Promise,Movie,Comedy,United States,English,2019,2020-11-16,PG-13,141,,No,5.3,3.7,6.98,13.0,59.0,0
+S0543,A Gentle Horizon,TV Show,Drama,Germany,German,2018,2021-09-10,TV-14,,1,Yes,6.6,33.3,11.82,55.2,63.9,6
+S0544,Promise of the Hidden,TV Show,Reality TV,United States,English,2019,2025-08-16,TV-MA,,1,Yes,7.3,10.0,3.67,15.4,81.2,0
+S0545,Beyond the Golden Promise,Movie,Romance,United States,English,2017,2022-11-08,PG-13,79,,No,6.8,9.7,6.85,5.2,78.7,1
+S0546,Neon Promise,Movie,Sci-Fi & Fantasy,India,Hindi,2015,2019-11-01,PG-13,128,,Yes,7.2,9.6,15.64,31.0,58.9,0
+S0547,Harbor of the Paper,Movie,Romance,United States,English,2017,2018-11-27,R,115,,Yes,5.2,70.1,14.39,22.1,41.3,3
+S0548,Quiet Echo,Movie,Documentary,France,French,1998,2022-06-25,R,58,,No,8.8,17.1,12.35,10.7,40.8,5
+S0549,Golden Code: Origins,TV Show,Thriller,Nigeria,English,2017,2019-04-12,TV-PG,,1,Yes,5.8,8.2,8.19,34.9,53.0,2
+S0550,Frozen Kingdom,Movie,Thriller,Mexico,Spanish,2009,2025-10-04,NR,174,,No,4.5,4.3,5.81,11.1,34.7,0
+S0551,Crimson Signal,Movie,Sci-Fi & Fantasy,United States,English,2018,2021-10-27,NR,105,,Yes,6.2,20.5,5.22,6.2,66.1,1
+S0552,A Final Kingdom,Movie,Comedy,France,French,2021,2023-10-03,NR,89,,No,4.1,3.7,2.87,2.7,42.9,2
+S0553,Beyond the Rising Orbit,Movie,Animation,United States,English,2017,2025-02-16,R,83,,No,5.4,5.9,2.05,2.1,52.2,0
+S0554,Promise of the Midnight,TV Show,Crime,Canada,English,2015,2019-01-20,TV-MA,,2,Yes,9.2,53.6,33.8,400.0,89.6,4
+S0555,Paper Horizon,Movie,Action & Adventure,United Kingdom,English,2020,2022-10-30,NR,124,,No,6.1,34.1,1.05,1.9,65.2,0
+S0556,Beyond the Gentle Verdict,Movie,Documentary,United States,English,2015,2021-04-26,PG,121,,Yes,5.6,13.6,12.01,18.1,55.0,5
+S0557,A Hollow Horizon,Movie,Drama,United States,English,2019,2020-11-23,PG,110,,No,6.5,19.6,5.03,6.4,85.6,1
+S0558,The Savage Verdict,Movie,Family,United States,English,2020,2020-04-29,PG,133,,Yes,5.7,20.3,14.17,25.0,67.5,2
+S0559,A Electric Mirror,Movie,Animation,United States,English,2001,2018-11-02,R,86,,No,7.4,31.7,3.01,3.4,61.6,1
+S0560,Gentle Summer,Movie,Reality TV,Canada,English,2020,2020-09-03,R,109,,Yes,5.2,130.4,5.44,8.1,49.0,0
+S0561,Season of the Silent,Movie,Action & Adventure,France,French,2019,2023-09-24,G,111,,No,6.8,6.3,5.62,8.0,74.8,0
+S0562,The Velvet Island,Movie,Drama,Nigeria,English,2015,2016-01-27,R,135,,Yes,5.5,46.2,8.23,10.4,58.8,3
+S0563,Wild Mirror,TV Show,Comedy,United States,English,2018,2020-07-13,TV-14,,2,No,9.1,15.6,3.18,23.7,61.9,1
+S0564,Iron Orbit,Movie,Drama,South Korea,Korean,2020,2025-04-21,PG-13,91,,No,7.0,12.9,12.84,18.3,77.5,2
+S0565,Beyond the Savage Island,Movie,Drama,United States,English,2019,2022-12-24,PG-13,106,,No,6.4,26.3,0.92,1.4,79.0,0
+S0566,The Silent Signal,Movie,Drama,United Kingdom,English,2015,2022-09-17,PG-13,68,,Yes,6.3,39.7,3.87,4.1,77.3,0
+S0567,A Paper Signal,TV Show,Family,United States,English,2015,2022-09-07,TV-G,,1,Yes,6.0,64.3,1.59,7.0,80.6,3
+S0568,A Silent Summer,Movie,Drama,United States,English,2013,2018-12-25,PG,123,,No,5.7,28.9,8.35,13.1,86.2,3
+S0569,Golden Horizon,Movie,Drama,United Kingdom,English,2016,2022-04-28,PG-13,97,,No,5.7,19.6,5.68,6.2,81.4,1
+S0570,Quiet Summer,Movie,Crime,United States,English,2015,2018-03-18,G,99,,No,8.2,13.6,10.64,16.0,77.0,2
+S0571,Beyond the Lost Heist,Movie,Documentary,India,Hindi,2019,2023-06-13,R,108,,No,6.3,4.0,17.72,21.2,57.9,4
+S0572,Hidden Kingdom,TV Show,Horror,South Korea,Korean,2016,2022-10-30,TV-MA,,5,No,4.4,11.5,2.3,60.9,23.8,0
+S0573,Kingdom of the Neon,Movie,Sci-Fi & Fantasy,United States,English,2022,2025-07-03,R,117,,No,5.3,20.8,6.0,7.3,55.0,0
+S0574,Velvet Letters: Origins,TV Show,Animation,Turkey,Turkish,2015,2025-03-12,TV-MA,,3,Yes,7.5,26.4,9.86,112.0,75.3,3
+S0575,Neon Verdict,TV Show,Sci-Fi & Fantasy,,,2019,2019-03-03,TV-MA,,1,No,6.2,14.4,4.24,16.6,60.8,0
+S0576,The Savage Heist,Movie,Documentary,Germany,German,2021,2022-06-30,PG-13,97,,No,6.8,6.1,17.26,21.3,37.4,4
+S0577,Frozen Orbit: Origins,TV Show,Romance,South Korea,Korean,2016,2021-06-21,TV-14,,1,No,7.7,7.2,54.51,309.7,65.2,2
+S0578,A Crimson Island,Movie,Thriller,Japan,Japanese,2018,2020-07-28,R,77,,No,5.7,10.6,2.69,3.3,66.2,1
+S0579,A Rising Orbit,TV Show,Action & Adventure,Japan,Japanese,2012,2022-03-09,TV-14,,2,No,7.1,11.4,12.06,123.4,51.2,6
+S0580,Golden Heist,Movie,Thriller,Mexico,Spanish,2017,2024-09-08,PG-13,60,,No,,13.7,5.45,4.2,60.1,0
+S0581,Beyond the Iron Station,Movie,Drama,South Korea,Korean,2019,2020-10-21,PG-13,92,,No,7.1,10.4,9.98,13.2,71.6,4
+S0582,Detour of the Secret,Movie,Horror,United States,English,2017,2025-01-14,R,106,,Yes,6.2,52.1,8.58,8.7,75.9,2
+S0583,Silent Empire,Movie,Comedy,United States,English,2008,2024-10-26,R,88,,No,6.3,12.9,3.49,4.5,84.8,0
+S0584,Station of the Velvet,Movie,Drama,South Korea,Korean,2012,2025-02-20,PG-13,95,,No,7.3,64.2,0.31,0.4,61.5,1
+S0585,Frozen Archive: Origins,TV Show,Comedy,United States,English,2014,2016-09-25,TV-14,,1,No,7.2,7.0,23.16,112.9,68.8,3
+S0586,Island of the Gentle,Movie,Crime,United States,English,2011,2018-12-06,NR,129,,No,6.3,30.1,2.52,3.0,63.8,1
+S0587,Lost Harbor: Origins,Movie,Action & Adventure,United States,English,2015,2017-03-29,R,90,,Yes,6.1,25.5,5.38,5.1,68.7,0
+S0588,Beyond the Forgotten Witness,Movie,Sci-Fi & Fantasy,United Kingdom,English,2020,2020-09-20,PG,95,,Yes,8.2,61.3,8.68,9.6,79.7,1
+S0589,Beyond the Silent Promise,Movie,Crime,United States,English,2015,2016-07-13,PG,77,,Yes,7.2,78.4,4.31,5.1,86.2,0
+S0590,A Lost Shadow,Movie,Drama,South Korea,Korean,2011,2020-05-25,PG,121,,No,6.1,17.8,7.19,11.7,27.0,1
+S0591,The Lost Empire,TV Show,Horror,France,French,2015,2016-11-14,TV-MA,,3,Yes,5.9,49.6,6.07,87.9,64.3,0
+S0592,Paper Heist,Movie,Comedy,Germany,German,2021,2022-06-24,PG,62,,No,7.5,7.0,3.25,2.5,74.8,0
+S0593,Beyond the Last Valley,Movie,Comedy,United States,English,2019,2025-11-13,PG,107,,No,6.6,73.5,5.81,8.9,59.3,1
+S0594,Frozen Station: Origins,Movie,Sci-Fi & Fantasy,United Kingdom,English,2019,2025-03-09,R,115,,No,6.3,6.9,4.57,5.9,29.1,1
+S0595,Mirror of the Silent,Movie,Animation,United Kingdom,English,2018,2025-06-30,R,126,,Yes,6.7,48.6,17.98,22.2,62.3,5
+S0596,Beyond the Secret Station,Movie,Comedy,India,Hindi,2015,2016-05-13,,103,,No,6.8,2.4,1.59,2.2,53.9,1
+S0597,Frozen Witness: Origins,TV Show,Documentary,South Korea,Korean,2016,2022-08-10,TV-PG,,1,Yes,6.9,11.5,5.15,22.4,87.9,2
+S0598,A Silent Island,Movie,Comedy,United States,English,2016,2022-05-03,R,149,,No,7.7,11.0,12.37,20.9,74.5,2
+S0599,Beyond the Frozen Orbit,TV Show,Documentary,Indonesia,Indonesian,2021,2021-08-31,,,1,Yes,8.3,4.1,6.06,28.4,61.7,1
+S0600,Detour of the Lost,Movie,Sci-Fi & Fantasy,United States,English,2019,2025-05-05,NR,121,,Yes,7.1,24.7,3.79,4.9,36.9,1
+S0601,Beyond the Paper Frontier,Movie,Sci-Fi & Fantasy,Germany,German,2015,2020-01-16,R,93,,Yes,8.0,18.7,6.01,8.6,79.3,0
+S0602,A Gentle Heist,TV Show,Sci-Fi & Fantasy,South Korea,Korean,2011,2025-10-06,TV-MA,,2,No,6.5,12.5,5.88,66.9,71.7,0
+S0603,Season of the Rising,TV Show,Drama,United States,English,2017,2018-01-10,TV-MA,,2,Yes,7.3,22.7,8.17,99.0,63.8,2
+S0604,Last Signal: Origins,TV Show,Romance,Spain,Spanish,2013,2022-07-02,TV-MA,,1,No,7.5,12.1,5.13,30.7,76.5,1
+S0605,Empire of the Paper,TV Show,Sci-Fi & Fantasy,United States,English,2015,2017-04-22,TV-Y,,3,No,7.5,50.6,2.45,31.8,63.1,0
+S0606,The Silent Kingdom,TV Show,Sci-Fi & Fantasy,,,2012,2025-07-01,TV-MA,,2,No,7.4,8.9,12.17,109.4,82.3,5
+S0607,Beyond the Iron Archive,TV Show,Drama,South Korea,Korean,2015,2022-01-27,TV-PG,,1,Yes,7.2,6.8,37.44,198.7,80.1,1
+S0608,Echo of the Final,Movie,Thriller,United States,English,2017,2017-09-06,PG,92,,Yes,8.6,84.5,2.03,1.7,51.7,0
+S0609,A Gentle Promise,TV Show,Action & Adventure,United States,English,2015,2018-02-23,TV-14,,1,Yes,6.1,20.3,1.65,10.0,40.1,0
+S0610,Distant Promise: Origins,Movie,Drama,Spain,Spanish,2015,2019-08-05,G,138,,Yes,6.4,36.1,17.86,22.8,89.8,3
+S0611,Beyond the Iron Mirror,Movie,Comedy,United States,English,2017,2017-02-12,PG-13,104,,No,6.3,77.5,19.33,25.5,73.9,3
+S0612,Neon Code,Movie,Thriller,Mexico,Spanish,2018,2018-01-26,NR,127,,No,6.1,11.2,0.66,1.1,41.9,1
+S0613,The Silent Garden,TV Show,Romance,Spain,Spanish,2015,2025-04-02,TV-MA,,1,Yes,4.6,32.1,8.13,47.6,28.6,4
+S0614,Valley of the Broken,TV Show,Comedy,Japan,Japanese,2017,2025-10-30,TV-14,,1,Yes,8.0,29.8,44.61,230.6,73.9,7
+S0615,Beyond the Golden Season,Movie,Crime,United States,English,2013,2021-05-12,PG-13,122,,No,5.5,7.7,1.71,2.7,40.0,0
+S0616,The Paper Horizon,TV Show,Documentary,Japan,Japanese,2015,2025-01-09,TV-PG,,8,Yes,7.2,53.1,36.18,1241.3,61.8,0
+S0617,The Electric Season,TV Show,Horror,Turkey,Turkish,2014,2022-07-20,TV-MA,,1,No,5.1,2.4,2.74,13.8,52.9,0
+S0618,Beyond the Broken Season,Movie,Thriller,United States,English,2015,2016-04-12,R,84,,Yes,7.2,24.9,11.59,13.8,64.9,1
+S0619,Garden of the Hollow,Movie,Thriller,United States,English,2017,2023-06-06,G,83,,No,5.7,15.6,2.07,2.2,73.0,0
+S0620,Beyond the Paper Tribe,Movie,Sci-Fi & Fantasy,United States,English,2015,2016-03-07,R,127,,No,5.4,39.2,8.84,16.1,81.1,9
+S0621,Gentle Signal: Origins,TV Show,Reality TV,India,Hindi,2018,2024-07-13,TV-14,,1,Yes,6.3,2.0,14.96,55.3,54.1,0
+S0622,Silent Mirror,Movie,Thriller,Spain,Spanish,2015,2019-09-02,R,93,,Yes,5.9,61.0,29.82,31.6,42.6,5
+S0623,A Silent Tribe,TV Show,Documentary,India,Hindi,2021,2021-09-15,TV-14,,5,Yes,6.4,19.6,26.49,791.6,66.8,3
+S0624,The Paper Archive,Movie,Documentary,United Kingdom,English,2017,2019-04-30,NR,75,,Yes,7.2,9.5,8.66,7.4,89.0,3
+S0625,Hidden Heist: Origins,TV Show,Romance,United States,English,2015,2022-10-31,TV-MA,,1,Yes,7.4,46.7,149.3,763.2,61.8,7
+S0626,A Gentle Archive,Movie,Drama,United States,English,2014,2024-06-19,R,104,,No,5.7,25.6,13.36,17.6,69.1,2
+S0627,The Neon Empire,TV Show,Thriller,United States,English,2018,2022-07-26,TV-PG,,1,No,5.5,39.0,6.04,35.8,44.3,0
+S0628,Code of the Midnight,Movie,Thriller,Brazil,Portuguese,2022,2022-08-23,NR,93,,Yes,6.6,6.2,3.1,3.0,62.9,1
+S0629,Gentle Witness,Movie,Reality TV,South Korea,Korean,2021,2025-07-01,PG-13,127,,No,6.5,11.2,1.62,2.3,45.7,0
+S0630,Distant Summer: Origins,TV Show,Thriller,India,Hindi,2016,2023-11-27,TV-14,,3,Yes,8.1,36.6,2.83,48.7,71.8,0
+S0631,Rising Island,TV Show,Thriller,France,French,2022,2023-08-22,TV-14,,4,No,5.4,22.1,1.55,32.4,53.8,1
+S0632,Beyond the Electric Mirror,TV Show,Reality TV,United States,English,2015,2021-07-17,TV-MA,,2,Yes,5.8,30.6,21.17,207.9,66.3,6
+S0633,A Midnight Echo,Movie,Thriller,United States,English,2010,2025-08-21,R,117,,No,7.7,27.6,9.98,13.8,94.1,7
+S0634,The Savage Shadow,Movie,Drama,United States,English,2013,2019-10-10,PG-13,115,,No,8.5,15.6,4.28,5.9,68.6,1
+S0635,The Final Empire,Movie,Comedy,Indonesia,Indonesian,2015,2016-04-04,PG-13,85,,Yes,5.6,35.3,5.1,6.7,28.6,1
+S0636,Mirror of the Wild,Movie,Drama,Japan,Japanese,2022,2022-08-01,R,113,,Yes,5.9,101.7,5.01,7.7,55.6,2
+S0637,Beyond the Hollow Horizon,Movie,Drama,South Korea,Korean,2018,2022-10-20,R,122,,No,6.9,19.2,14.55,27.3,68.6,1
+S0638,The Neon Summer,TV Show,Thriller,United States,English,2020,2025-12-25,TV-14,,1,No,5.9,16.3,1.91,11.5,61.2,0
+S0639,A Hidden Summer,TV Show,Horror,United States,English,2021,2024-09-12,TV-MA,,2,Yes,5.8,141.6,8.4,82.6,55.6,5
+S0640,A Neon Letters,TV Show,Romance,South Korea,Korean,2019,2023-04-29,TV-MA,,1,No,6.7,7.7,8.86,45.0,84.0,5
+S0641,Valley of the Last,TV Show,Drama,,,2007,2019-03-25,TV-MA,,1,No,8.0,3.0,3.17,16.5,72.9,0
+S0642,The Midnight Signal,TV Show,Documentary,Canada,English,2004,2020-05-23,TV-MA,,1,No,5.6,10.3,16.03,90.8,55.1,3
+S0643,The Last Station,Movie,Drama,Spain,Spanish,2020,2020-03-25,PG,109,,No,8.0,9.8,5.22,7.7,60.1,0
+S0644,Hidden Verdict,Movie,Reality TV,India,Hindi,2016,2019-09-17,NR,102,,No,5.4,6.3,1.47,1.5,30.9,1
+S0645,A Rising Tribe,Movie,Drama,Spain,Spanish,2015,2022-03-26,PG,80,,No,6.8,2.6,11.47,14.2,68.4,7
+S0646,Harbor of the Quiet,TV Show,Sci-Fi & Fantasy,Indonesia,Indonesian,2018,2025-03-30,TV-14,,1,Yes,8.2,4.9,11.12,58.0,75.6,2
+S0647,Beyond the Distant Echo,Movie,Comedy,India,Hindi,2009,2025-03-22,R,60,,No,6.8,3.4,7.69,6.9,49.0,0
+S0648,Savage Horizon,Movie,Sci-Fi & Fantasy,South Korea,Korean,2019,2024-09-29,PG-13,60,,Yes,6.3,27.9,3.16,2.3,60.2,0
+S0649,Beyond the Burning Island,Movie,Action & Adventure,Canada,English,2019,2019-02-24,PG-13,102,,Yes,7.3,19.6,18.52,23.3,64.8,2
+S0650,Rising Kingdom,Movie,Horror,United States,English,2020,2024-11-12,R,156,,No,6.3,15.4,33.24,71.4,52.1,2
+S0651,Beyond the Gentle Frontier,Movie,Comedy,Mexico,Spanish,2018,2019-10-01,PG-13,145,,Yes,7.1,16.5,2.74,5.7,54.5,1
+S0652,Beyond the Distant Station,TV Show,Animation,United States,English,2023,2024-11-05,TV-MA,,4,Yes,6.4,32.9,9.96,148.3,67.1,7
+S0653,Paper Summer,Movie,Thriller,South Korea,Korean,2018,2025-07-27,PG,108,,Yes,7.5,19.0,5.95,7.6,64.8,1
+S0654,Frozen Island,Movie,Horror,France,French,2016,2024-11-16,R,73,,No,5.1,10.7,36.23,37.8,45.3,1
+S0655,Wild Letters,TV Show,Crime,South Korea,Korean,2016,2022-08-23,TV-14,,1,No,5.5,1.5,14.74,89.3,43.9,0
+S0656,The Wild Tribe,Movie,Family,United Kingdom,English,2020,2021-10-17,PG,79,,Yes,5.2,31.8,6.46,4.7,52.4,0
+S0657,Last Letters,TV Show,Comedy,South Korea,Korean,2016,2021-03-17,TV-MA,,1,Yes,6.5,17.9,3.2,13.4,74.9,0
+S0658,A Broken Letters,Movie,Comedy,United States,English,2016,2023-01-13,PG-13,101,,No,5.0,32.9,1.27,1.6,55.9,1
+S0659,Silent Shadow: Origins,Movie,Comedy,United States,English,2016,2021-02-20,R,111,,No,5.8,11.5,8.0,9.5,54.5,1
+S0660,Station of the Paper,Movie,Comedy,United States,English,2015,2020-01-17,PG-13,120,,Yes,5.5,12.4,1.63,1.8,60.3,0
+S0661,The Neon Witness,Movie,Documentary,,,2020,2022-06-01,R,83,,No,8.4,14.1,2.87,3.0,92.5,2
+S0662,Beyond the Silent Harbor,TV Show,Family,India,Hindi,2018,2022-10-19,TV-G,,3,No,5.5,4.1,3.74,58.2,62.9,0
+S0663,The Burning Orbit,Movie,Family,United States,English,2022,2022-02-22,PG,81,,Yes,5.3,20.3,5.86,5.7,58.4,0
+S0664,A Iron Verdict,Movie,Documentary,Mexico,Spanish,2013,2025-12-24,PG-13,60,,No,7.1,6.4,8.02,5.6,74.5,3
+S0665,Beyond the Secret Harbor,Movie,Sci-Fi & Fantasy,India,Hindi,2020,2020-08-11,NR,72,,No,8.2,12.0,4.75,5.4,70.0,0
+S0666,Beyond the Midnight Garden,TV Show,Crime,India,Hindi,2015,2025-11-04,TV-MA,,1,Yes,6.5,8.4,17.01,80.7,64.6,5
+S0667,Savage Promise,TV Show,Reality TV,India,Hindi,2015,2016-05-09,TV-14,,7,Yes,6.1,15.4,3.08,119.9,52.8,0
+S0668,Hollow Garden: Origins,TV Show,Comedy,United States,English,2017,2021-08-12,TV-PG,,2,No,7.8,21.6,11.54,98.2,48.1,4
+S0669,Frontier of the Golden,Movie,Documentary,Spain,Spanish,2018,2021-05-04,PG-13,89,,No,7.8,1.9,7.96,10.4,74.6,0
+S0670,Rising Horizon,Movie,Crime,India,Hindi,2021,2023-11-14,R,78,,No,6.9,4.9,9.35,10.7,69.3,2
+S0671,Distant Orbit,Movie,Comedy,United States,English,2017,2020-11-25,NR,142,,No,5.9,14.6,12.2,19.0,54.4,4
+S0672,Quiet Detour: Origins,Movie,Thriller,Nigeria,English,2012,2024-12-21,R,92,,No,7.0,6.7,3.7,4.6,79.5,1
+S0673,Beyond the Iron Letters,TV Show,Family,Germany,German,2015,2016-03-01,TV-G,,1,No,5.1,7.8,1.78,9.4,43.5,1
+S0674,Burning Station,TV Show,Family,Spain,Spanish,2008,2025-11-08,TV-G,,1,No,5.9,2.6,0.92,4.3,33.6,0
+S0675,Valley of the Savage,Movie,Animation,Brazil,Portuguese,2018,2023-07-07,NR,84,,Yes,8.0,13.7,1.66,2.0,61.2,1
+S0676,Code of the Velvet,Movie,Horror,Canada,English,2018,2024-03-24,R,107,,Yes,7.9,10.6,8.56,10.3,48.8,2
+S0677,The Frozen Detour,TV Show,Comedy,United States,English,2020,2020-11-02,TV-MA,,4,Yes,7.0,272.9,7.59,144.5,69.7,1
+S0678,A Paper Station,Movie,Comedy,South Korea,Korean,2002,2016-08-26,NR,108,,No,4.6,19.2,1.27,2.2,40.1,2
+S0679,The Electric Verdict,Movie,Documentary,South Korea,Korean,2021,2022-12-26,NR,98,,Yes,5.8,16.6,3.64,3.7,71.6,2
+S0680,Broken Signal: Origins,Movie,Documentary,United States,English,2013,2019-03-24,PG-13,61,,No,6.2,5.8,18.05,11.2,73.7,3
+S0681,The Quiet Code,Movie,Thriller,United States,English,2015,2023-10-30,PG-13,117,,Yes,6.4,54.0,15.93,18.9,48.5,4
+S0682,Beyond the Paper Heist,Movie,Sci-Fi & Fantasy,United States,English,2013,2024-12-18,R,94,,No,5.2,8.7,1.07,1.6,42.9,3
+S0683,Beyond the Wild Signal,Movie,Action & Adventure,South Korea,Korean,2020,2022-07-25,R,113,,No,6.3,17.3,4.11,4.8,68.3,2
+S0684,Secret Harbor,Movie,Romance,France,French,2017,2023-11-30,R,125,,Yes,8.4,11.4,15.79,20.6,87.1,3
+S0685,The Last Detour,Movie,Action & Adventure,Spain,Spanish,2014,2016-08-05,PG-13,120,,No,6.9,9.5,3.1,5.1,36.2,1
+S0686,The Electric Signal,Movie,Action & Adventure,United States,English,2019,2024-03-12,PG-13,113,,Yes,6.8,26.1,3.86,6.2,67.7,0
+S0687,Garden of the Velvet,Movie,Drama,United States,English,2018,2018-10-18,PG-13,119,,No,5.5,1.4,2.74,4.1,25.2,0
+S0688,A Savage Island,TV Show,Drama,India,Hindi,2019,2023-09-04,TV-MA,,3,Yes,5.0,12.6,12.39,224.4,45.3,5
+S0689,Lost Shadow: Origins,TV Show,Crime,United Kingdom,English,2016,2019-10-27,TV-MA,,2,No,5.3,3.8,10.04,72.7,70.1,4
+S0690,Final Verdict,Movie,Thriller,Canada,English,2017,2020-09-26,PG,104,,No,4.8,10.8,1.47,2.0,93.9,2
+S0691,The Forgotten Archive,Movie,Comedy,Mexico,Spanish,2015,2018-10-06,PG-13,109,,Yes,6.7,29.1,11.81,17.0,59.9,3
+S0692,Last Tribe,TV Show,Horror,Canada,English,2015,2020-01-12,TV-MA,,3,Yes,7.0,52.9,8.31,108.3,47.5,2
+S0693,A Last Code,Movie,Documentary,Brazil,Portuguese,2021,2025-05-15,PG-13,79,,Yes,6.0,14.8,2.62,3.1,51.8,0
+S0694,Hollow Witness: Origins,Movie,Drama,Nigeria,English,2021,2025-01-16,PG-13,76,,No,6.6,6.6,3.89,3.8,63.5,0
+S0695,Hollow Empire,TV Show,Comedy,India,Hindi,2013,2019-05-27,TV-14,,2,No,8.0,2.6,2.18,18.1,61.6,1
+S0696,Garden of the Midnight,Movie,Drama,United States,English,2017,2019-08-24,PG,100,,No,,38.3,21.16,20.6,61.1,1
+S0697,The Wild Horizon,TV Show,Sci-Fi & Fantasy,United States,English,2015,2021-02-02,TV-MA,,2,Yes,7.4,144.4,36.8,279.3,61.4,2
+S0698,Frontier of the Velvet,Movie,Comedy,India,Hindi,2003,2022-11-06,PG,116,,No,6.3,6.4,3.25,5.7,66.3,0
+S0699,Rising Detour,Movie,Drama,United States,English,2020,2021-02-03,PG-13,136,,No,7.2,33.7,3.24,4.8,63.8,0
+S0700,A Last Valley,Movie,Drama,United States,English,2015,2023-04-06,R,69,,No,7.9,2.7,17.27,18.1,58.1,0
+S0701,Hollow Kingdom: Origins,Movie,Documentary,Nigeria,English,2021,2025-09-28,PG-13,112,,No,4.9,10.8,8.88,9.9,43.0,3
+S0702,The Lost Witness,Movie,Drama,United States,English,2013,2024-06-11,R,60,,No,8.0,68.1,2.5,2.4,65.2,3
+S0703,Electric Empire,Movie,Crime,Nigeria,English,2005,2021-06-25,PG-13,96,,No,6.0,6.1,3.79,5.4,45.0,0
+S0704,Heist of the Gentle,TV Show,Drama,Spain,Spanish,2016,2019-03-14,TV-PG,,4,Yes,6.1,23.9,6.34,96.8,49.7,1
+S0705,The Secret Code,Movie,Documentary,South Korea,Korean,2018,2020-08-02,PG,83,,Yes,6.6,30.6,4.95,4.0,71.6,0
+S0706,Beyond the Golden Detour,Movie,Thriller,Japan,Japanese,2015,2023-06-02,R,107,,Yes,6.9,16.7,11.57,18.0,61.2,0
+S0707,Kingdom of the Crimson,TV Show,Thriller,United States,English,2012,2020-07-19,TV-14,,1,No,5.4,6.4,1.91,7.1,30.9,0
+S0708,Verdict of the Secret,TV Show,Drama,South Korea,Korean,2015,2017-01-23,TV-14,,3,Yes,6.3,54.6,5.64,70.9,75.1,0
+S0709,The Crimson Kingdom,Movie,Crime,United States,English,2018,2023-06-03,PG,107,,No,7.0,113.3,5.09,7.9,70.8,0
+S0710,Code of the Neon,Movie,Animation,Turkey,Turkish,2019,2019-12-19,R,106,,No,6.7,1.6,1.36,2.2,43.8,0
+S0711,Wild Harbor: Origins,TV Show,Drama,United States,English,2016,2025-11-13,TV-MA,,1,Yes,7.0,43.7,1.31,7.2,59.9,0
+S0712,A Electric Island,Movie,Drama,United States,English,2018,2021-05-04,PG-13,78,,No,6.2,3.5,10.47,12.3,49.1,2
+S0713,The Final Verdict,TV Show,Animation,Japan,Japanese,2015,2019-06-02,TV-Y,,2,Yes,7.3,44.2,4.58,45.4,76.3,1
+S0714,Rising Witness: Origins,TV Show,Documentary,South Korea,Korean,2018,2018-06-11,TV-14,,1,No,8.0,2.4,60.47,333.6,65.8,2
+S0715,A Iron Echo,TV Show,Drama,India,Hindi,2016,2017-09-04,TV-G,,2,Yes,7.6,21.0,55.87,491.8,67.6,3
+S0716,A Secret Island,Movie,Comedy,South Korea,Korean,2015,2025-06-22,R,130,,No,6.9,9.1,4.49,8.4,61.8,1
+S0717,Velvet Mirror,Movie,Sci-Fi & Fantasy,United States,English,2021,2023-09-08,PG,106,,No,7.4,47.5,49.8,72.3,46.7,2
+S0718,Broken Horizon,Movie,Romance,Japan,Japanese,2019,2025-04-24,PG-13,93,,No,7.4,5.6,14.11,17.1,87.1,3
+S0719,A Lost Orbit,Movie,Documentary,,,2003,2025-07-23,R,79,,No,9.5,6.1,4.85,6.0,89.3,1
+S0720,Lost Detour,TV Show,Reality TV,,,2015,2016-06-27,TV-PG,,1,Yes,7.3,9.3,0.87,4.1,56.3,0
+S0721,A Hollow Kingdom,Movie,Thriller,United States,English,2018,2021-01-17,PG,95,,No,6.4,28.4,8.97,11.3,64.1,1
+S0722,A Rising Detour,Movie,Comedy,United States,English,2013,2024-05-19,PG,77,,No,5.6,25.6,3.95,3.8,70.2,1
+S0723,A Lost Letters,Movie,Thriller,,,2009,2020-12-15,PG-13,99,,No,6.2,34.0,6.75,7.3,61.0,2
+S0724,Rising Island: Origins,TV Show,Action & Adventure,India,Hindi,2018,2022-01-26,TV-PG,,1,Yes,6.3,3.9,5.74,25.1,82.6,0
+S0725,Midnight Detour,Movie,Comedy,United States,English,2015,2021-09-12,PG-13,88,,Yes,7.1,74.0,3.05,4.2,98.0,1
+S0726,The Forgotten Echo,Movie,Drama,,,2013,2023-01-07,R,108,,No,5.8,9.3,2.78,3.5,56.0,0
+S0727,Signal of the Velvet,Movie,Action & Adventure,United Kingdom,English,2021,2025-09-10,R,110,,Yes,7.8,39.7,18.59,28.0,61.6,1
+S0728,A Hidden Garden,Movie,Romance,United States,English,2018,2025-02-03,NR,93,,No,5.1,69.1,2.34,2.8,39.7,1
+S0729,The Paper Detour,Movie,Drama,Japan,Japanese,2006,2022-04-01,PG-13,102,,No,4.9,3.3,2.15,3.3,21.4,1
+S0730,Beyond the Rising Code,Movie,Thriller,,,2004,2021-10-08,PG,152,,No,6.4,7.5,1.23,2.7,78.9,3
+S0731,Beyond the Silent Echo,Movie,Sci-Fi & Fantasy,India,Hindi,2015,2019-08-11,PG-13,152,,Yes,5.8,20.0,6.65,9.8,52.9,0
+S0732,Golden Signal: Origins,Movie,Sci-Fi & Fantasy,Canada,English,2019,2019-10-25,PG,82,,No,5.2,40.9,1.23,1.2,66.5,1
+S0733,Beyond the Neon Letters,Movie,Horror,United States,English,2022,2024-11-01,R,85,,Yes,6.0,78.0,14.86,17.6,74.1,2
+S0734,The Wild Harbor,Movie,Crime,United States,English,2019,2019-01-07,,82,,No,5.7,20.7,2.05,1.7,42.1,0
+S0735,Beyond the Savage Valley,Movie,Romance,Spain,Spanish,2021,2024-06-28,PG-13,128,,No,6.5,17.9,3.8,6.1,49.0,0
+S0736,Empire of the Forgotten,TV Show,Drama,Spain,Spanish,2015,2020-12-19,TV-MA,,3,Yes,6.0,77.6,45.58,592.6,83.4,1
+S0737,Hidden Orbit: Origins,Movie,Thriller,Brazil,Portuguese,2022,2025-02-22,R,110,,Yes,6.1,21.3,5.07,5.4,58.6,0
+S0738,Horizon of the Wild,Movie,Documentary,United States,English,2021,2025-09-29,NR,134,,Yes,7.0,6.0,5.62,11.9,55.8,1
+S0739,Velvet Garden,Movie,Comedy,France,French,2016,2021-07-12,PG-13,105,,No,7.5,41.8,10.49,16.9,53.4,2
+S0740,Secret Code: Origins,Movie,Drama,India,Hindi,2017,2022-02-25,R,121,,No,8.0,7.3,1.37,2.3,69.0,0
+S0741,The Lost Valley,Movie,Comedy,United States,English,2015,2020-11-14,R,116,,Yes,6.7,21.0,24.05,29.3,84.3,1
+S0742,A Quiet Harbor,Movie,Thriller,United States,English,2015,2019-09-23,PG-13,92,,Yes,6.8,54.2,19.54,28.3,73.4,4
+S0743,Promise of the Golden,TV Show,Action & Adventure,Australia,English,2017,2017-10-20,TV-MA,,2,No,6.3,12.2,7.54,77.5,63.3,2
+S0744,A Hollow Shadow,Movie,Drama,United States,English,2015,2016-04-22,PG-13,86,,Yes,7.1,96.5,0.41,0.5,87.8,0
+S0745,Island of the Frozen,Movie,Crime,Germany,German,2018,2023-10-13,PG-13,134,,No,6.9,6.1,4.31,5.5,83.9,1
+S0746,Savage Witness,Movie,Reality TV,South Korea,Korean,2006,2025-02-23,PG-13,92,,No,7.3,1.0,2.46,2.3,71.5,1
+S0747,Silent Letters,Movie,Comedy,Spain,Spanish,2020,2020-04-27,,94,,No,4.6,17.5,7.15,9.2,89.5,1
+S0748,Wild Season: Origins,Movie,Reality TV,Japan,Japanese,2017,2019-12-12,R,81,,No,5.8,6.3,10.54,13.0,54.3,4
+S0749,Midnight Letters,TV Show,Drama,Brazil,Portuguese,2022,2024-06-06,TV-MA,,1,Yes,6.9,12.5,11.59,46.0,79.8,3
+S0750,A Midnight Valley,TV Show,Reality TV,United States,English,2011,2023-01-17,TV-MA,,1,No,6.0,7.6,1.47,6.4,53.5,0
+S0751,A Electric Code,Movie,Reality TV,United States,English,2016,2023-05-09,,60,,Yes,5.2,106.3,19.25,15.1,66.8,5
+S0752,A Hidden Detour,Movie,Drama,South Korea,Korean,2015,2022-12-10,PG-13,100,,Yes,5.3,117.4,5.34,8.5,51.3,1
+S0753,Kingdom of the Broken,Movie,Horror,India,Hindi,2018,2018-09-02,,94,,No,7.3,13.7,30.18,41.1,73.3,1
+S0754,Midnight Station: Origins,Movie,Family,United States,English,2021,2022-04-09,PG,122,,Yes,5.8,176.8,7.78,14.6,91.3,0
+S0755,Gentle Mirror: Origins,TV Show,Animation,United States,English,2014,2020-09-09,TV-14,,1,No,4.7,28.2,4.3,22.6,64.5,1
+S0756,Last Detour,Movie,Family,United States,English,2019,2019-06-13,PG,89,,No,7.4,61.7,4.01,5.4,74.1,1
+S0757,The Final Archive,Movie,Documentary,,,2012,2019-06-07,PG-13,80,,No,7.4,7.4,21.52,21.6,56.6,4
+S0758,The Electric Summer,TV Show,Drama,United States,English,2020,2022-04-23,TV-MA,,1,Yes,6.5,103.4,12.85,49.3,64.6,2
+S0759,Beyond the Forgotten Frontier,Movie,Crime,Canada,English,2008,2025-10-12,PG-13,138,,No,5.6,92.7,14.07,27.0,42.5,3
+S0760,Beyond the Midnight Code,Movie,Sci-Fi & Fantasy,United States,English,2016,2019-03-04,PG-13,87,,No,6.4,20.1,5.67,6.5,73.8,2
+S0761,Golden Mirror,TV Show,Sci-Fi & Fantasy,Indonesia,Indonesian,2017,2025-09-27,TV-MA,,1,Yes,7.8,4.7,9.44,44.9,81.9,1
+S0762,Hidden Island,Movie,Action & Adventure,Nigeria,English,2008,2023-01-01,R,80,,No,4.9,3.3,5.08,4.5,49.9,0
+S0763,Beyond the Last Promise,Movie,Documentary,United States,English,2011,2022-12-03,PG-13,57,,No,5.3,16.5,12.7,10.4,78.1,1
+S0764,Beyond the Electric Kingdom,Movie,Drama,Japan,Japanese,2019,2024-09-26,NR,112,,No,5.9,1.8,10.51,17.2,79.7,4
+S0765,The Forgotten Verdict,TV Show,Romance,South Korea,Korean,2012,2024-06-03,TV-14,,3,No,6.5,16.1,7.29,97.4,64.1,1
+S0766,The Gentle Season,Movie,Drama,Japan,Japanese,2015,2018-03-23,PG,133,,Yes,6.1,26.9,1.26,2.6,67.5,0
+S0767,Broken Frontier,Movie,Romance,United States,English,2017,2020-10-15,PG-13,128,,No,7.1,27.6,11.81,17.6,57.4,5
+S0768,Heist of the Paper,Movie,Crime,United States,English,2012,2021-04-13,R,158,,No,7.6,45.0,1.73,2.7,64.8,2
+S0769,Orbit of the Hidden,Movie,Thriller,United States,English,2015,2025-10-07,R,103,,Yes,6.9,18.2,8.43,8.9,49.3,4
+S0770,Quiet Verdict: Origins,Movie,Thriller,South Korea,Korean,2017,2017-05-14,R,99,,No,7.1,21.6,6.67,8.2,58.9,0
+S0771,The Paper Station,Movie,Comedy,Indonesia,Indonesian,2017,2021-04-16,R,76,,Yes,6.9,31.0,2.28,1.7,62.9,0
+S0772,Beyond the Burning Letters,Movie,Reality TV,Japan,Japanese,2017,2018-12-06,PG-13,120,,Yes,6.1,189.9,9.35,15.7,36.4,2
+S0773,Beyond the Secret Echo,Movie,Romance,Japan,Japanese,2019,2020-06-12,PG-13,108,,No,5.2,22.4,23.24,36.3,62.3,1
+S0774,The Crimson Valley,TV Show,Action & Adventure,Indonesia,Indonesian,2017,2023-11-09,TV-MA,,1,Yes,5.6,8.6,4.35,21.4,70.9,0
+S0775,Forgotten Verdict,Movie,Drama,Japan,Japanese,2017,2018-10-26,R,80,,No,,4.6,6.41,7.8,53.5,0
+S0776,Beyond the Savage Letters,TV Show,Comedy,United States,English,2018,2024-05-06,TV-PG,,1,Yes,6.5,54.7,61.9,369.1,24.2,4
+S0777,Beyond the Paper Signal,Movie,Thriller,Brazil,Portuguese,2018,2025-12-13,R,110,,No,6.7,22.9,11.3,15.1,59.7,6
+S0778,The Broken Detour,Movie,Reality TV,India,Hindi,2021,2024-11-17,R,108,,Yes,4.7,11.4,2.29,2.4,31.7,1
+S0779,Lost Verdict,TV Show,Romance,United States,English,2011,2017-09-12,TV-MA,,1,No,6.6,18.2,6.28,25.8,54.1,0
+S0780,Beyond the Hollow Detour,TV Show,Comedy,United Kingdom,English,2019,2019-12-30,TV-14,,2,Yes,5.7,20.1,9.16,95.3,77.5,4
+S0781,A Hollow Frontier,Movie,Crime,Turkey,Turkish,2007,2020-05-15,PG-13,150,,No,5.4,8.4,13.05,23.2,21.3,0
+S0782,Beyond the Last Mirror,TV Show,Action & Adventure,United States,English,2020,2023-04-22,TV-MA,,1,Yes,6.0,29.2,19.39,102.2,47.6,5
+S0783,The Gentle Island,Movie,Crime,United Kingdom,English,2015,2023-10-13,R,121,,Yes,5.5,6.1,0.46,0.8,67.6,1
+S0784,The Rising Horizon,Movie,Comedy,United States,English,2018,2021-05-19,PG-13,60,,No,7.1,31.7,2.64,2.1,55.8,1
+S0785,The Final Horizon,TV Show,Sci-Fi & Fantasy,United States,English,2011,2017-09-02,TV-MA,,1,No,6.3,12.6,4.42,17.3,49.9,0
+S0786,Season of the Electric,Movie,Reality TV,United States,English,2016,2025-11-29,NR,64,,No,6.8,56.4,2.14,1.5,92.3,0
+S0787,A Silent Promise,TV Show,Comedy,Spain,Spanish,2021,2025-07-09,TV-14,,2,Yes,6.2,37.7,0.25,2.2,65.5,1
+S0788,The Gentle Harbor,Movie,Romance,Brazil,Portuguese,2021,2024-04-08,NR,76,,Yes,6.2,20.1,3.58,4.0,73.3,0
+S0789,Season of the Lost,TV Show,Family,United States,English,2019,2023-11-13,TV-G,,1,No,8.4,15.8,7.28,38.4,80.3,1
+S0790,The Last Echo,Movie,Drama,United States,English,2018,2025-06-24,NR,123,,No,4.9,25.3,1.85,3.1,54.7,0
+S0791,Archive of the Distant,Movie,Drama,United States,English,2017,2021-04-10,PG,64,,Yes,7.9,125.9,4.09,3.6,88.1,2
+S0792,Detour of the Velvet,Movie,Sci-Fi & Fantasy,United States,English,2015,2017-06-14,PG-13,97,,No,8.2,20.4,7.33,8.9,98.0,0
+S0793,Velvet Kingdom,Movie,Action & Adventure,United Kingdom,English,2017,2022-06-15,PG,94,,No,7.3,14.2,8.09,7.2,43.2,4
+S0794,The Secret Promise,Movie,Drama,Japan,Japanese,2015,2020-07-04,R,140,,No,6.2,10.1,3.01,4.4,59.7,0
+S0795,Crimson Signal: Origins,Movie,Thriller,South Korea,Korean,2014,2023-12-30,NR,114,,No,7.9,15.7,29.88,34.4,69.8,2
+S0796,A Distant Harbor,Movie,Horror,India,Hindi,2018,2024-03-03,R,79,,No,6.2,19.8,4.83,3.7,54.2,1
+S0797,Silent Orbit: Origins,Movie,Comedy,United Kingdom,English,2015,2020-09-17,PG-13,95,,Yes,5.9,19.4,2.88,3.1,72.1,0
+S0798,Verdict of the Velvet,Movie,Action & Adventure,United States,English,2012,2019-09-05,PG-13,139,,No,6.1,32.0,1.62,3.2,63.2,0
+S0799,Forgotten Echo: Origins,TV Show,Crime,United States,English,2015,2020-03-21,TV-PG,,3,Yes,6.0,36.3,5.37,61.4,86.0,1
+S0800,Beyond the Rising Garden,TV Show,Documentary,Turkey,Turkish,2014,2022-04-28,TV-14,,2,No,6.0,0.8,11.81,89.8,74.4,1
+S0801,The Velvet Signal,TV Show,Crime,Spain,Spanish,2016,2022-05-15,TV-14,,1,No,7.6,5.8,3.01,11.5,87.7,1
+S0802,Beyond the Burning Promise,Movie,Thriller,Canada,English,2010,2021-02-11,NR,100,,No,5.7,17.1,6.77,7.4,40.4,1
+S0803,Beyond the Midnight Frontier,TV Show,Reality TV,Canada,English,2017,2021-10-14,TV-MA,,1,Yes,6.1,41.5,7.28,29.4,48.3,0
+S0804,Beyond the Silent Kingdom,Movie,Sci-Fi & Fantasy,South Korea,Korean,2019,2025-12-10,PG,67,,Yes,5.2,8.8,39.2,24.3,44.1,2
+S0805,Wild Signal,Movie,Drama,Canada,English,2017,2019-04-14,R,90,,No,6.5,16.2,7.04,7.0,80.5,0
+S0806,Gentle Station,Movie,Animation,India,Hindi,2021,2021-11-14,NR,136,,No,5.3,6.3,1.85,4.0,41.3,0
+S0807,Code of the Electric,TV Show,Thriller,United States,English,2021,2024-12-29,TV-Y,,4,No,5.3,51.2,6.73,117.9,41.7,1
+S0808,A Gentle Valley,Movie,Drama,United States,English,2012,2025-05-08,R,103,,No,6.4,6.5,9.66,10.5,45.7,3
+S0809,Orbit of the Savage,Movie,Drama,United States,English,2007,2022-01-31,G,108,,No,7.6,15.6,4.42,6.0,98.0,2
+S0810,Rising Harbor,TV Show,Sci-Fi & Fantasy,United States,English,2018,2021-03-18,TV-14,,2,Yes,7.0,62.2,2.93,24.1,63.0,0
+S0811,Verdict of the Final,Movie,Drama,India,Hindi,2012,2019-06-26,R,105,,No,7.0,7.1,9.03,12.2,72.4,3
+S0812,Crimson Frontier: Origins,Movie,Comedy,Japan,Japanese,2022,2023-11-15,PG-13,129,,Yes,6.5,14.4,7.87,12.0,46.0,2
+S0813,The Midnight Kingdom,TV Show,Drama,France,French,2014,2016-07-10,TV-14,,7,No,6.2,33.2,1.17,47.6,73.6,0
+S0814,Midnight Tribe: Origins,Movie,Thriller,South Korea,Korean,2017,2021-10-03,R,99,,Yes,7.4,59.1,14.88,22.6,42.6,1
+S0815,Beyond the Secret Kingdom,Movie,Action & Adventure,United States,English,2015,2018-09-11,PG-13,105,,Yes,6.0,17.1,3.66,5.4,45.3,1
+S0816,A Burning Tribe,TV Show,Documentary,Spain,Spanish,2017,2019-05-22,TV-14,,1,No,7.7,2.4,1.65,6.7,59.0,0
+S0817,A Paper Archive,TV Show,Comedy,India,Hindi,2020,2023-05-12,TV-PG,,2,Yes,7.8,8.9,7.17,67.9,72.9,0
+S0818,A Velvet Signal,Movie,Drama,United States,English,2021,2025-10-25,NR,125,,Yes,5.8,15.7,19.45,27.2,46.7,5
+S0819,Valley of the Velvet,Movie,Sci-Fi & Fantasy,United States,English,2017,2018-11-08,PG-13,87,,Yes,5.9,109.9,18.73,23.6,79.7,2
+S0820,Final Code,Movie,Action & Adventure,United States,English,2016,2025-02-10,PG,105,,No,6.0,69.7,10.16,10.0,66.0,3
+S0821,A Gentle Echo,Movie,Sci-Fi & Fantasy,United States,English,2018,2022-02-26,NR,121,,Yes,5.1,36.5,6.15,10.1,43.9,0
+S0822,A Savage Verdict,Movie,Drama,Germany,German,2015,2025-09-23,R,87,,Yes,6.1,22.1,11.43,11.3,73.6,3
+S0823,A Iron Island,Movie,Drama,Spain,Spanish,2008,2019-10-27,R,129,,No,7.8,29.1,7.17,11.4,64.3,1
+S0824,The Wild Promise,Movie,Comedy,Japan,Japanese,2018,2025-12-22,R,107,,Yes,5.6,25.1,2.13,2.6,48.3,0
+S0825,Summer of the Midnight,TV Show,Thriller,United States,English,2022,2024-08-21,TV-MA,,1,No,7.8,12.8,2.91,12.9,82.3,1
+S0826,A Broken Orbit,Movie,Action & Adventure,France,French,2015,2022-09-12,NR,61,,No,6.1,11.8,2.58,2.2,25.3,0
+S0827,A Crimson Archive,Movie,Crime,Japan,Japanese,2015,2021-08-18,NR,97,,Yes,8.7,42.4,40.65,51.8,85.5,1
+S0828,Quiet Tribe: Origins,Movie,Action & Adventure,United States,English,2018,2021-08-12,PG-13,113,,Yes,5.9,78.8,16.64,20.3,48.4,5
+S0829,A Forgotten Echo,TV Show,Documentary,,,2015,2021-04-01,TV-14,,3,Yes,6.9,6.8,4.02,43.8,54.4,0
+S0830,Burning Valley,Movie,Documentary,United Kingdom,English,2020,2025-02-06,PG-13,102,,Yes,6.1,9.4,7.02,10.6,87.0,1
+S0831,Burning Detour,Movie,Drama,India,Hindi,2015,2023-12-03,R,130,,Yes,5.9,25.4,4.4,7.1,51.0,0
+S0832,Golden Promise,Movie,Thriller,United States,English,2014,2016-03-27,R,78,,No,7.8,18.2,5.71,5.9,83.2,0
+S0833,Forgotten Frontier,Movie,Action & Adventure,United Kingdom,English,2015,2022-12-11,R,102,,No,7.0,3.7,3.44,4.4,68.9,0
+S0834,A Velvet Horizon,Movie,Action & Adventure,United States,English,2003,2024-05-05,NR,132,,No,7.5,51.4,21.94,38.5,73.4,1
+S0835,Forgotten Letters,TV Show,Drama,United States,English,2007,2023-06-10,TV-MA,,1,No,5.2,17.8,3.29,16.8,50.7,0
+S0836,Final Season,Movie,Horror,United States,English,2013,2020-12-21,R,126,,No,7.2,45.7,7.07,8.3,62.0,0
+S0837,A Secret Garden,TV Show,Reality TV,Nigeria,English,2010,2019-05-10,TV-14,,3,No,5.0,12.0,3.79,55.5,74.4,1
+S0838,A Last Signal,TV Show,Drama,United States,English,2015,2022-09-24,TV-14,,3,Yes,5.3,8.3,2.06,29.7,67.8,0
+S0839,Paper Promise,Movie,Documentary,India,Hindi,2017,2022-12-21,PG,83,,Yes,,7.0,9.63,7.8,59.2,2
+S0840,Beyond the Wild Harbor,Movie,Horror,United States,English,2018,2020-12-28,R,83,,Yes,6.8,40.7,20.78,24.4,49.2,4
+S0841,Frozen Code,Movie,Comedy,Mexico,Spanish,2020,2022-06-09,R,144,,Yes,6.7,11.3,29.36,45.4,55.0,4
+S0842,Midnight Code,TV Show,Horror,United Kingdom,English,2015,2019-09-08,TV-MA,,1,Yes,7.3,60.5,3.17,11.6,80.5,0
+S0843,Savage Island,Movie,Sci-Fi & Fantasy,Canada,English,2002,2016-06-13,R,112,,No,7.4,43.0,1.55,2.5,83.9,1
+S0844,Quiet Tribe,Movie,Reality TV,,,2016,2016-04-25,PG-13,96,,No,7.5,23.3,6.55,9.4,75.8,0
+S0845,Beyond the Hidden Signal,Movie,Family,United States,English,2016,2016-10-30,PG,106,,Yes,5.4,110.9,14.62,16.7,32.8,3
+S0846,The Paper Garden,TV Show,Drama,United Kingdom,English,2015,2020-03-27,TV-PG,,1,Yes,8.1,10.1,14.38,75.9,82.2,2
+S0847,Beyond the Frozen Summer,Movie,Thriller,India,Hindi,2017,2021-08-05,PG-13,114,,No,8.4,8.2,13.48,14.1,91.7,1
+S0848,Beyond the Iron Frontier,TV Show,Documentary,France,French,2020,2022-06-13,TV-MA,,2,Yes,6.6,10.3,2.24,24.0,65.0,1
+S0849,Beyond the Iron Island,Movie,Drama,Mexico,Spanish,2021,2025-10-10,R,88,,No,4.8,18.8,1.7,1.8,79.5,1
+S0850,The Final Island,TV Show,Action & Adventure,India,Hindi,2015,2018-03-31,TV-MA,,3,Yes,5.2,15.4,0.69,11.6,35.7,0
+S0851,Rising Orbit: Origins,Movie,Family,Indonesia,Indonesian,2021,2022-12-19,PG,107,,No,6.0,5.4,3.81,4.8,68.6,1
+S0852,Beyond the Secret Garden,Movie,Drama,United Kingdom,English,2015,2018-06-22,PG-13,67,,No,8.5,58.2,1.06,0.8,59.7,1
+S0853,A Broken Shadow,TV Show,Thriller,United States,English,2021,2022-07-02,TV-MA,,4,No,6.5,36.8,16.43,372.9,76.8,1
+S0854,Neon Island: Origins,TV Show,Crime,United Kingdom,English,2017,2022-04-04,TV-MA,,2,No,5.9,22.4,17.06,123.5,67.0,8
+S0855,Shadow of the Electric,Movie,Comedy,United States,English,2018,2020-06-24,G,116,,No,5.8,42.1,4.64,5.6,83.0,1
+S0856,Golden Echo,Movie,Thriller,France,French,2021,2022-08-03,NR,149,,Yes,5.3,15.1,1.33,2.4,61.8,0
+S0857,The Final Garden,TV Show,Family,United States,English,2015,2022-09-15,TV-G,,2,Yes,7.5,37.2,13.02,131.4,62.3,3
+S0858,Rising Verdict: Origins,TV Show,Thriller,United States,English,2020,2024-12-24,TV-Y,,2,No,6.4,14.9,25.74,181.9,54.5,9
+S0859,Hollow Archive,Movie,Drama,United Kingdom,English,2021,2022-01-23,NR,100,,Yes,8.7,103.6,17.67,23.0,71.7,0
+S0860,Final Promise: Origins,Movie,Drama,United States,English,2013,2017-02-10,R,113,,No,7.1,38.7,16.55,21.9,58.4,3
+S0861,Hidden Empire: Origins,TV Show,Reality TV,United States,English,2018,2019-12-01,TV-MA,,4,Yes,6.9,19.6,5.28,108.4,83.3,0
+S0862,Quiet Witness,TV Show,Comedy,Japan,Japanese,2019,2023-01-16,TV-Y,,5,Yes,6.4,14.5,3.31,96.6,79.3,1
+S0863,The Savage Station,TV Show,Thriller,United States,English,2015,2025-08-05,TV-PG,,2,Yes,,27.4,5.23,48.6,35.0,0
+S0864,Burning Shadow,Movie,Drama,India,Hindi,2020,2020-12-16,PG,104,,No,5.6,1.5,0.68,0.9,57.1,1
+S0865,Neon Verdict: Origins,Movie,Action & Adventure,United States,English,2022,2022-03-04,PG,62,,Yes,5.2,155.0,38.48,29.2,55.1,2
+S0866,Summer of the Lost,TV Show,Reality TV,United States,English,2015,2021-04-13,TV-MA,,1,Yes,7.0,46.3,9.48,36.2,54.1,5
+S0867,Beyond the Broken Heist,TV Show,Thriller,United States,English,2015,2025-11-27,TV-14,,2,Yes,6.2,43.3,14.99,166.4,66.3,3
+S0868,Beyond the Gentle Island,TV Show,Family,Spain,Spanish,2017,2021-12-21,TV-G,,1,No,7.5,25.1,4.09,23.6,88.5,1
+S0869,A Forgotten Garden,Movie,Comedy,Nigeria,English,2023,2025-10-09,R,131,,No,6.6,7.4,1.27,2.4,75.1,1
+S0870,Beyond the Quiet Garden,Movie,Thriller,United States,English,2017,2022-10-12,R,130,,Yes,6.3,37.1,25.47,51.3,79.7,5
+S0871,A Savage Garden,TV Show,Crime,Nigeria,English,2012,2016-04-25,TV-14,,1,No,5.3,8.4,1.26,5.9,44.7,0
+S0872,Frozen Frontier,Movie,Thriller,,,2015,2020-04-09,NR,140,,Yes,6.9,88.5,14.54,27.5,64.9,2
+S0873,The Final Mirror,TV Show,Comedy,South Korea,Korean,2020,2024-08-14,,,1,No,6.3,8.9,9.11,36.0,50.1,3
+S0874,Beyond the Lost Mirror,Movie,Crime,Japan,Japanese,2018,2022-01-28,R,106,,Yes,7.5,18.0,9.93,16.5,71.4,3
+S0875,The Neon Season,TV Show,Action & Adventure,Japan,Japanese,2015,2017-12-12,TV-MA,,2,Yes,5.9,49.8,3.12,31.2,63.0,0
+S0876,Heist of the Hollow,TV Show,Documentary,Germany,German,2012,2017-10-22,TV-PG,,4,No,7.5,2.6,5.41,90.7,81.4,0
+S0877,Rising Heist,Movie,Family,United Kingdom,English,2013,2022-08-20,PG,60,,No,8.1,18.1,2.95,2.6,90.0,0
+S0878,Beyond the Crimson Station,Movie,Drama,United Kingdom,English,2015,2020-08-17,PG-13,101,,Yes,6.9,52.5,16.93,22.4,74.0,3
+S0879,A Burning Harbor,Movie,Comedy,United States,English,2010,2021-09-27,PG,75,,No,7.3,9.8,9.94,11.6,54.8,4
+S0880,Valley of the Secret,Movie,Drama,United States,English,2017,2020-05-10,NR,141,,No,7.1,41.6,5.59,11.3,46.7,0
+S0881,Beyond the Crimson Garden,Movie,Action & Adventure,Japan,Japanese,2007,2019-05-23,NR,140,,No,8.4,12.5,4.38,9.2,80.7,1
+S0882,Final Harbor,Movie,Comedy,United States,English,2019,2023-08-30,PG,124,,No,6.9,12.3,36.3,57.7,85.4,1
+S0883,The Secret Signal,TV Show,Sci-Fi & Fantasy,United States,English,2013,2016-01-29,TV-MA,,2,No,7.2,34.4,1.8,17.5,65.9,1
+S0884,The Silent Archive,Movie,Drama,United States,English,2018,2021-06-24,PG-13,83,,Yes,6.6,18.3,1.9,2.2,41.2,1
+S0885,Island of the Lost,Movie,Sci-Fi & Fantasy,United States,English,2017,2020-05-03,G,91,,No,5.7,38.3,3.68,3.3,86.4,0
+S0886,Burning Mirror,Movie,Comedy,South Korea,Korean,2016,2023-10-17,PG-13,148,,Yes,5.4,6.0,5.55,7.8,62.3,0
+S0887,The Hollow Island,Movie,Action & Adventure,South Korea,Korean,2019,2024-02-05,NR,90,,No,7.8,16.0,22.91,32.4,72.2,0
+S0888,A Hollow Orbit,Movie,Action & Adventure,India,Hindi,2015,2020-04-04,PG,60,,Yes,5.6,12.0,10.3,9.4,40.2,2
+S0889,The Silent Island,Movie,Romance,United States,English,2018,2020-02-07,PG,128,,Yes,7.3,28.3,9.16,18.2,67.0,2
+S0890,The Verdict Files,TV Show,Thriller,India,Hindi,2017,2019-02-14,TV-14,,2,Yes,7.0,21.5,13.11,96.5,74.6,1
+S0891,Velvet Detour,Movie,Action & Adventure,India,Hindi,2014,2018-02-10,PG-13,142,,No,7.4,4.8,9.36,14.6,74.4,2
+S0892,The Hidden Frontier,TV Show,Crime,Spain,Spanish,1997,2018-09-26,TV-MA,,1,No,6.0,48.1,28.78,167.7,49.5,1
+S0893,Rising Season: Origins,Movie,Documentary,United Kingdom,English,2013,2023-08-09,PG-13,116,,No,6.1,8.0,5.6,6.3,58.8,0
+S0894,Beyond the Paper Code,Movie,Comedy,United Kingdom,English,2016,2016-06-14,R,106,,Yes,7.0,41.8,4.53,5.8,56.4,0
+S0895,The Iron Detour,TV Show,Animation,United Kingdom,English,2022,2022-02-08,TV-14,,2,Yes,6.3,46.7,8.44,74.2,84.1,3
+S0896,Beyond the Lost Island,TV Show,Action & Adventure,Nigeria,English,2017,2021-11-10,TV-14,,2,Yes,5.4,18.1,0.51,5.9,67.9,2
+S0897,Beyond the Distant Witness,Movie,Drama,Spain,Spanish,2019,2020-07-25,PG,119,,No,8.4,10.0,7.09,10.7,66.1,0
+S0898,A Midnight Kingdom,Movie,Thriller,United Kingdom,English,2018,2024-08-24,PG-13,102,,No,5.7,15.5,10.6,12.0,40.8,5
+S0899,Wild Archive: Origins,Movie,Drama,India,Hindi,2018,2024-01-07,R,101,,No,5.5,4.4,6.39,8.2,59.9,2
+S0900,Burning Frontier: Origins,Movie,Comedy,United States,English,2014,2023-09-09,PG-13,84,,No,6.3,46.4,6.16,5.1,53.9,0
+S0901,Midnight Archive,Movie,Romance,Turkey,Turkish,2017,2021-02-10,PG,83,,Yes,7.9,12.5,17.99,21.0,64.5,0
+S0902,Beyond the Frozen Season,Movie,Drama,United States,English,2020,2022-08-17,PG-13,145,,No,4.3,25.8,6.02,11.6,32.9,1
+S0903,Quiet Shadow,Movie,Crime,United States,English,2011,2020-04-03,PG-13,146,,No,7.7,6.2,23.22,44.7,55.0,4
+S0904,A Distant Signal,Movie,Reality TV,Australia,English,2021,2021-12-24,PG-13,105,,No,5.1,27.1,4.82,6.1,55.9,0
+S0905,A Quiet Code,TV Show,Documentary,Japan,Japanese,2016,2021-09-02,TV-MA,,1,Yes,7.3,8.7,6.71,28.7,63.1,3
+S0906,Frozen Tribe,Movie,Romance,United States,English,2017,2024-10-08,R,83,,No,5.8,8.3,0.51,0.4,92.8,1
+S0907,Beyond the Midnight Archive,Movie,Romance,United States,English,2015,2018-07-26,R,119,,No,8.5,71.2,17.92,33.0,82.3,4
+S0908,Beyond the Final Verdict,Movie,Family,United States,English,2015,2016-07-26,PG,144,,Yes,6.7,76.2,12.4,21.3,47.1,3
+S0909,Lost Empire,Movie,Action & Adventure,South Korea,Korean,1995,2021-08-24,R,71,,No,5.8,27.8,6.09,5.4,36.3,0
+S0910,The Velvet Empire,Movie,Drama,United States,English,2016,2019-12-28,R,115,,Yes,6.3,62.7,3.8,5.1,66.4,1
+S0911,The Quiet Shadow,TV Show,Thriller,Turkey,Turkish,2019,2024-07-31,TV-14,,1,No,6.6,6.5,12.1,73.2,57.0,3
+S0912,Silent Kingdom: Origins,TV Show,Documentary,Turkey,Turkish,2019,2024-12-29,TV-PG,,1,Yes,7.2,1.7,6.93,38.5,84.8,1
+S0913,Iron Horizon: Origins,TV Show,Drama,United Kingdom,English,2019,2025-08-26,TV-PG,,3,No,6.9,32.6,5.28,59.7,68.3,0
+S0914,Paper Signal: Origins,TV Show,Sci-Fi & Fantasy,South Korea,Korean,2015,2019-12-06,TV-PG,,3,Yes,6.6,153.0,9.41,143.4,34.8,2
+S0915,The Frozen Orbit,TV Show,Drama,United States,English,2022,2025-08-09,TV-14,,1,Yes,5.2,31.7,7.52,35.8,39.9,0
+S0916,Beyond the Hollow Tribe,TV Show,Reality TV,United States,English,2021,2021-08-04,TV-Y,,1,Yes,5.8,92.3,2.18,12.1,48.3,0
+S0917,Beyond the Paper Detour,Movie,Comedy,Spain,Spanish,2015,2019-09-23,R,107,,No,7.1,10.9,9.45,16.0,71.8,4
+S0918,Beyond the Velvet Witness,Movie,Drama,United States,English,2015,2018-08-29,R,91,,Yes,5.9,14.3,3.3,4.2,43.7,2
+S0919,Beyond the Quiet Tribe,Movie,Drama,United States,English,2011,2025-03-25,NR,111,,No,7.2,4.8,3.14,5.2,68.3,0
+S0920,Final Island: Origins,Movie,Comedy,United States,English,2016,2021-12-31,NR,120,,Yes,6.6,11.3,16.89,25.4,43.9,3
+S0921,Lost Season: Origins,Movie,Comedy,United States,English,2015,2019-08-29,PG-13,110,,Yes,6.4,31.3,2.96,3.8,61.5,0
+S0922,Beyond the Neon Code,TV Show,Drama,India,Hindi,2015,2017-07-09,TV-14,,1,Yes,7.8,8.0,21.8,112.6,75.0,4
+S0923,The Neon Heist,Movie,Comedy,Japan,Japanese,2018,2024-04-06,R,95,,No,4.8,22.0,3.12,4.2,72.3,2
+S0924,Distant Mirror: Origins,Movie,Comedy,France,French,2010,2022-07-19,NR,95,,No,5.8,12.4,0.93,0.9,61.2,2
+S0925,A Silent Mirror,Movie,Action & Adventure,South Korea,Korean,2021,2025-04-06,,86,,No,7.7,25.0,28.58,30.8,57.8,5
+S0926,A Last Heist,Movie,Action & Adventure,Brazil,Portuguese,2021,2023-03-11,PG-13,112,,No,8.3,13.2,9.5,10.6,93.7,1
+S0927,Beyond the Savage Summer,Movie,Action & Adventure,India,Hindi,2018,2019-03-14,R,114,,No,8.8,5.1,11.12,13.5,73.2,2
+S0928,Distant Tribe,TV Show,Comedy,Brazil,Portuguese,2022,2023-05-04,TV-MA,,1,No,6.6,5.2,12.57,72.6,73.4,1
+S0929,The Gentle Verdict,Movie,Drama,United Kingdom,English,2015,2022-03-14,PG,86,,Yes,7.1,90.7,32.93,28.7,57.0,1
+S0930,Last Verdict: Origins,TV Show,Drama,United States,English,2019,2020-09-07,TV-MA,,2,No,7.3,96.0,7.12,79.7,68.1,0
+S0931,Beyond the Burning Horizon,Movie,Comedy,Turkey,Turkish,2017,2017-08-21,G,139,,No,7.8,6.5,11.44,18.5,58.6,3
+S0932,Quiet Orbit: Origins,Movie,Horror,United States,English,2017,2024-05-29,R,101,,Yes,6.9,37.7,11.41,15.7,68.9,2
+S0933,Frontier of the Savage,Movie,Family,United States,English,2018,2022-03-30,PG,106,,No,7.4,35.7,4.46,7.2,78.7,0
+S0934,The Gentle Detour,TV Show,Reality TV,United States,English,2019,2021-10-10,TV-MA,,2,Yes,6.6,43.7,1.83,20.2,55.7,0
+S0935,Rising Shadow,TV Show,Thriller,India,Hindi,2015,2021-07-11,TV-14,,1,Yes,7.1,10.1,10.37,58.4,57.9,5
+S0936,Beyond the Frozen Shadow,Movie,Documentary,,,2019,2024-03-02,PG-13,116,,Yes,6.1,3.8,23.13,29.3,64.6,3
+S0937,Gentle Frontier: Origins,TV Show,Comedy,United Kingdom,English,2017,2017-01-05,TV-MA,,4,No,6.2,31.9,7.74,137.7,48.6,1
+S0938,A Forgotten Frontier,Movie,Horror,Mexico,Spanish,2015,2020-05-27,R,106,,No,6.0,12.7,1.66,2.5,37.7,1
+S0939,A Last Verdict,TV Show,Horror,United States,English,2015,2018-07-17,TV-MA,,1,Yes,5.4,99.1,14.46,79.7,60.3,3
+S0940,A Hidden Kingdom,Movie,Crime,United Kingdom,English,2010,2016-12-01,R,147,,No,4.8,15.8,2.16,4.6,50.3,0
+S0941,A Electric Garden,Movie,Animation,India,Hindi,2019,2019-04-02,PG,124,,Yes,6.2,11.8,1.05,1.8,58.4,1
+S0942,Promise of the Burning,TV Show,Thriller,Germany,German,2020,2022-08-23,TV-MA,,3,Yes,6.3,143.6,17.64,217.7,68.1,4
+S0943,Beyond the Neon Summer,Movie,Horror,United States,English,2008,2021-06-09,R,136,,No,6.6,30.0,2.17,3.3,71.9,1
+S0944,The Hollow Heist,Movie,Crime,United States,English,2019,2022-07-21,PG-13,93,,No,7.1,11.9,28.29,40.6,63.3,4
+S0945,The Hollow Empire,Movie,Comedy,United Kingdom,English,2014,2023-10-30,PG,136,,No,6.7,14.3,14.61,25.6,47.5,0
+S0946,Electric Detour,Movie,Reality TV,Japan,Japanese,2022,2023-10-31,PG-13,138,,Yes,5.8,29.3,4.99,9.8,48.9,1
+S0947,A Wild Horizon,TV Show,Drama,France,French,2022,2024-05-11,TV-G,,1,No,5.6,4.4,5.8,29.3,64.8,0
+S0948,Hollow Orbit: Origins,TV Show,Family,South Korea,Korean,2016,2024-02-28,TV-G,,1,Yes,7.5,22.5,106.96,629.7,69.9,5
+S0949,Signal of the Last,TV Show,Horror,France,French,2018,2023-04-04,TV-MA,,2,No,6.4,9.1,11.88,136.5,53.7,5
+S0950,Letters of the Midnight,Movie,Drama,India,Hindi,2015,2025-02-08,PG-13,163,,Yes,6.2,12.5,8.52,15.1,49.2,5
+S0951,Distant Summer,Movie,Sci-Fi & Fantasy,United States,English,2019,2020-07-20,PG,89,,Yes,6.4,153.0,97.55,130.8,70.0,3
+S0952,Verdict of the Broken,Movie,Drama,United States,English,2015,2023-11-13,R,137,,No,5.8,26.8,4.54,6.9,54.7,1
+S0953,Quiet Shadow: Origins,Movie,Horror,United States,English,2015,2022-12-19,R,105,,Yes,6.1,350.8,11.29,14.3,70.1,6
+S0954,A Electric Empire,Movie,Horror,United States,English,2019,2023-01-29,R,78,,No,5.9,19.9,1.81,2.1,70.7,0
+S0955,Beyond the Electric Echo,TV Show,Documentary,United Kingdom,English,2018,2018-01-11,TV-MA,,2,Yes,6.7,16.7,1.73,15.0,58.8,1
+S0956,A Midnight Orbit,TV Show,Crime,India,Hindi,2020,2023-04-01,TV-PG,,2,No,7.2,2.7,4.49,38.3,79.5,0
+S0957,Beyond the Silent Mirror,TV Show,Drama,United Kingdom,English,2012,2024-08-01,TV-14,,3,No,6.9,26.7,5.64,88.5,66.3,0
+S0958,The Frozen Summer,Movie,Comedy,United Kingdom,English,2014,2022-06-12,PG,112,,No,8.0,7.2,9.16,16.2,74.7,6
+S0959,The Crimson Orbit,Movie,Action & Adventure,Japan,Japanese,2015,2016-01-19,PG-13,126,,Yes,7.8,41.9,2.74,3.5,39.2,1
+S0960,Forgotten Archive: Origins,Movie,Drama,Japan,Japanese,2018,2020-04-20,R,110,,No,8.5,10.3,13.46,20.5,60.4,4
+S0961,Rising Horizon: Origins,Movie,Thriller,United States,English,2014,2021-09-10,NR,93,,No,7.1,27.4,2.7,3.2,52.8,0
+S0962,Orbit of the Final,Movie,Comedy,India,Hindi,2017,2024-04-21,PG-13,102,,Yes,7.1,9.6,14.78,17.9,61.1,4
+S0963,Savage Harbor: Origins,Movie,Action & Adventure,South Korea,Korean,2015,2020-06-12,R,105,,Yes,6.1,15.5,20.16,30.0,61.2,2
+S0964,Crimson Tribe: Origins,Movie,Action & Adventure,South Korea,Korean,2017,2024-09-16,PG,110,,No,7.3,10.2,5.41,7.7,69.0,1
+S0965,Final Signal: Origins,TV Show,Animation,United States,English,2015,2023-12-16,TV-MA,,2,Yes,5.9,57.4,2.65,29.5,62.4,1
+S0966,Forgotten Valley,Movie,Comedy,United States,English,2018,2020-02-20,PG-13,111,,No,5.0,27.7,12.42,19.5,43.4,2
+S0967,Beyond the Frozen Letters,TV Show,Animation,Japan,Japanese,2008,2017-12-12,TV-MA,,1,No,8.0,4.8,14.94,90.3,80.7,3
+S0968,Silent Valley: Origins,Movie,Action & Adventure,South Korea,Korean,2020,2025-06-01,PG,93,,Yes,5.4,69.8,8.03,10.9,80.7,1
+S0969,Beyond the Iron Empire,Movie,Comedy,United States,English,2015,2021-11-21,R,109,,No,6.9,9.4,20.43,21.4,59.5,4
+S0970,A Gentle Empire,Movie,Thriller,,,2019,2024-12-09,PG-13,130,,No,5.6,9.2,4.14,7.7,47.3,1
+S0971,Crimson Mirror: Origins,Movie,Action & Adventure,Mexico,Spanish,2015,2025-03-21,R,134,,Yes,7.7,45.3,5.53,10.0,59.6,2
+S0972,Beyond the Distant Harbor,Movie,Comedy,United States,English,2019,2021-12-20,R,144,,No,7.8,31.2,2.66,3.7,71.0,1
+S0973,The Iron Shadow,Movie,Thriller,Brazil,Portuguese,2017,2017-05-31,R,108,,Yes,7.1,128.1,7.75,11.1,58.2,1
+S0974,Station of the Forgotten,TV Show,Drama,United States,English,2018,2025-04-09,TV-MA,,1,Yes,7.8,18.4,19.72,107.3,45.6,4
+S0975,Rising Tribe,Movie,Action & Adventure,United Kingdom,English,2013,2021-11-01,PG-13,73,,No,6.5,20.7,17.3,13.2,41.6,5
+S0976,The Gentle Horizon,Movie,Documentary,India,Hindi,2015,2017-03-15,R,99,,Yes,9.2,12.7,12.71,15.2,92.5,4
+S0977,A Iron Garden,Movie,Action & Adventure,United States,English,2019,2022-09-16,G,81,,No,7.2,11.4,17.34,18.0,84.1,3
+S0978,Frozen Frontier: Origins,Movie,Crime,Canada,English,2019,2019-03-13,NR,104,,Yes,5.7,16.0,4.9,6.1,79.6,1
+S0979,The Electric Garden,Movie,Comedy,India,Hindi,2020,2021-09-26,R,172,,No,6.6,4.0,2.51,6.5,65.8,0
+S0980,Detour of the Golden,Movie,Reality TV,Nigeria,English,2020,2022-02-01,PG-13,112,,Yes,5.9,15.1,1.95,2.2,44.5,1
+S0981,Midnight Garden: Origins,TV Show,Horror,United States,English,2013,2020-07-17,TV-MA,,1,No,6.2,12.4,2.9,16.0,54.1,0
+S0982,A Last Island,TV Show,Reality TV,Brazil,Portuguese,2020,2023-05-23,TV-PG,,1,No,4.3,3.9,0.71,3.9,27.9,0
+S0983,Witness of the Frozen,TV Show,Crime,Canada,English,2015,2024-05-23,TV-MA,,1,No,6.9,7.9,33.24,155.1,43.0,2
+S0984,Savage Signal,Movie,Drama,United Kingdom,English,2019,2021-06-17,R,84,,No,5.1,35.8,4.78,5.1,57.2,0
+S0985,Heist of the Silent,Movie,Documentary,United States,English,2011,2023-05-09,R,136,,No,4.4,11.5,2.16,3.0,56.9,0
+S0986,The Burning Kingdom,TV Show,Drama,Japan,Japanese,2004,2025-06-02,TV-G,,2,No,6.2,5.5,21.58,173.5,87.6,4
+S0987,Beyond the Last Kingdom,Movie,Crime,United Kingdom,English,2023,2025-03-30,NR,113,,No,5.7,21.7,1.23,1.8,56.0,2
+S0988,Empire of the Wild,Movie,Documentary,Turkey,Turkish,2020,2021-07-12,R,81,,No,6.0,1.6,3.83,3.3,40.0,1
+S0989,Beyond the Distant Archive,Movie,Comedy,India,Hindi,2019,2023-09-29,R,98,,No,3.4,2.7,6.74,9.6,41.7,2
+S0990,Last Harbor,TV Show,Reality TV,United States,English,2018,2020-04-01,TV-MA,,2,No,5.1,34.3,2.83,28.8,49.6,0
+S0991,A Wild Echo,Movie,Drama,United States,English,2018,2021-10-27,R,112,,Yes,6.4,42.6,65.52,70.0,54.5,0
+S0992,Lost Verdict: Origins,TV Show,Documentary,Japan,Japanese,2021,2024-03-04,TV-PG,,2,Yes,6.4,16.3,14.69,130.3,66.2,2
+S0993,Beyond the Wild Kingdom,TV Show,Romance,Indonesia,Indonesian,2003,2018-12-06,TV-MA,,1,No,6.9,3.8,17.65,100.9,47.4,3
+S0994,Silent Echo,Movie,Drama,United States,English,2018,2018-01-12,NR,109,,Yes,8.0,219.7,33.96,40.8,72.8,4
+S0995,The Quiet Horizon,TV Show,Documentary,Spain,Spanish,2015,2024-05-15,TV-Y,,3,Yes,7.5,19.5,9.3,149.6,77.1,0
+S0996,The Neon Detour,Movie,Crime,Canada,English,2014,2023-04-11,PG-13,129,,No,7.5,10.8,3.99,5.0,87.9,0
+S0997,Forgotten Valley: Origins,Movie,Drama,,,2021,2021-08-13,PG,115,,No,7.6,80.4,5.69,10.1,72.9,0
+S0998,Hollow Archive: Origins,Movie,Thriller,United States,English,2018,2021-01-07,R,121,,Yes,5.6,23.3,2.37,3.5,71.2,0
+S0999,A Crimson Echo,TV Show,Comedy,Japan,Japanese,2015,2018-08-13,TV-MA,,2,Yes,7.0,24.9,7.88,75.3,58.8,1
+S1000,The Quiet Kingdom,Movie,Sci-Fi & Fantasy,South Korea,Korean,2008,2025-10-10,R,78,,No,7.5,4.6,8.02,8.1,63.7,1
+S1001,Empire of the Hollow,Movie,Drama,United States,English,2018,2025-07-14,NR,111,,No,6.1,83.6,20.39,26.2,78.5,1
+S1002,Distant Code: Origins,Movie,Reality TV,Germany,German,2021,2024-06-15,PG,136,,No,5.2,3.4,5.7,10.9,35.0,0
+S1003,A Quiet Season,Movie,Animation,United Kingdom,English,2019,2022-01-31,PG-13,91,,No,7.0,4.0,46.72,39.4,59.4,4
+S1004,Neon Kingdom,Movie,Drama,Canada,English,2018,2018-06-02,NR,89,,No,5.0,7.7,0.44,0.4,68.8,0
+S1005,Beyond the Final Mirror,Movie,Comedy,Mexico,Spanish,2018,2019-12-23,NR,132,,No,5.4,36.6,1.2,1.7,52.4,0
+S1006,Quiet Frontier,Movie,Documentary,Germany,German,2020,2020-07-21,PG-13,80,,Yes,6.3,25.0,5.13,5.5,56.8,0
+S1007,Beyond the Savage Mirror,TV Show,Romance,United Kingdom,English,2021,2024-12-11,TV-MA,,2,No,7.0,13.2,21.35,247.7,61.3,6
+S1008,Horizon of the Frozen,Movie,Thriller,United States,English,2020,2020-07-12,PG-13,97,,Yes,6.8,98.6,7.24,6.7,65.4,0
+S1009,The Silent Detour,TV Show,Drama,United Kingdom,English,2019,2023-09-28,TV-14,,1,Yes,7.6,30.6,2.53,14.4,83.8,0
+S1010,Electric Archive,Movie,Drama,United States,English,2013,2025-07-10,R,70,,No,5.6,26.8,3.08,3.2,69.5,1
+S1011,Hollow Garden,Movie,Family,South Korea,Korean,2010,2019-01-29,PG,93,,No,5.5,47.7,1.64,1.5,56.2,1
+S1012,A Hidden Shadow,Movie,Thriller,United States,English,2016,2022-11-03,PG-13,110,,Yes,,35.8,2.44,2.7,80.9,1
+S1013,Kingdom of the Distant,Movie,Animation,United Kingdom,English,2020,2025-04-10,R,110,,No,5.7,6.9,23.95,30.3,62.0,2
+S1014,A Hidden Signal,TV Show,Thriller,United States,English,2019,2021-12-28,TV-MA,,1,Yes,6.0,11.0,4.74,18.1,71.0,0
+S1015,The Electric Shadow,Movie,Reality TV,United States,English,2022,2023-10-18,R,145,,Yes,4.2,78.9,3.69,7.6,33.8,0
+S1016,Letters of the Paper,Movie,Drama,United States,English,2015,2018-01-02,PG-13,138,,Yes,6.9,47.6,7.52,13.0,88.7,1
+S1017,Hidden Shadow,Movie,Drama,South Korea,Korean,2019,2021-12-28,PG-13,125,,Yes,8.1,64.9,10.78,16.0,74.7,1
+S1018,Last Shadow: Origins,TV Show,Reality TV,France,French,2015,2024-09-25,TV-MA,,1,Yes,5.1,17.0,2.27,12.2,15.1,1
+S1019,Wild Tribe: Origins,Movie,Reality TV,United States,English,2011,2022-08-19,NR,91,,No,7.0,21.1,4.21,4.3,88.2,0
+S1020,Crimson Archive,Movie,Comedy,Brazil,Portuguese,2005,2018-01-06,PG-13,105,,No,6.4,17.2,6.54,10.3,61.5,0
+S1021,Beyond the Burning Kingdom,TV Show,Action & Adventure,Brazil,Portuguese,2015,2021-04-06,TV-14,,2,Yes,4.8,22.4,15.32,159.1,46.3,2
+S1022,Wild Shadow,TV Show,Thriller,India,Hindi,2018,2023-08-27,TV-MA,,1,No,5.6,2.7,9.01,39.7,48.1,2
+S1023,Velvet Signal,TV Show,Action & Adventure,South Korea,Korean,2014,2016-10-09,TV-PG,,2,No,5.5,6.9,1.61,15.8,62.2,1
+S1024,Beyond the Secret Verdict,Movie,Comedy,India,Hindi,2005,2023-08-19,PG-13,102,,No,6.2,4.0,11.15,12.4,47.8,3
+S1025,Witness of the Wild,Movie,Animation,United States,English,2019,2020-05-29,PG-13,122,,Yes,7.0,66.5,12.82,24.6,56.9,1
+S1026,Quiet Echo: Origins,Movie,Comedy,,,2021,2022-06-22,R,133,,No,8.3,28.5,4.09,6.6,65.1,1
+S1027,Silent Harbor: Origins,TV Show,Romance,United States,English,2020,2022-07-01,TV-MA,,1,No,5.1,28.2,3.79,22.1,49.5,0
+S1028,Beyond the Broken Promise,Movie,Drama,Mexico,Spanish,2015,2021-01-17,R,104,,Yes,6.1,51.7,11.19,18.3,52.4,4
+S1029,Distant Harbor: Origins,TV Show,Drama,Canada,English,2018,2025-04-29,TV-Y,,1,Yes,5.7,39.1,6.2,30.3,69.1,0
+S1030,The Secret Valley,Movie,Sci-Fi & Fantasy,Germany,German,2017,2019-01-03,NR,86,,Yes,5.3,4.0,8.01,9.7,58.6,6
+S1031,Shadow of the Burning,Movie,Action & Adventure,United Kingdom,English,2015,2018-07-23,R,90,,Yes,6.7,80.7,3.59,4.2,68.7,1
+S1032,Burning Tribe: Origins,TV Show,Sci-Fi & Fantasy,United Kingdom,English,2020,2022-04-10,TV-MA,,3,Yes,6.6,35.9,45.77,515.6,71.1,4
+S1033,Quiet Archive,Movie,Drama,Indonesia,Indonesian,2017,2024-09-18,R,116,,Yes,4.8,11.4,0.75,1.4,50.5,0
+S1034,Beyond the Distant Island,TV Show,Reality TV,United States,English,2019,2025-10-02,TV-MA,,1,Yes,6.1,35.1,11.25,52.7,45.3,4
+S1035,Gentle Horizon: Origins,Movie,Romance,United States,English,2006,2020-07-17,R,94,,No,5.3,89.2,4.82,6.9,80.1,0
+S1036,The Quiet Island,Movie,Animation,United Kingdom,English,2015,2022-12-06,PG-13,110,,Yes,6.6,90.1,13.58,20.2,75.6,3
+S1037,Rising Letters,Movie,Drama,United States,English,2018,2025-05-03,PG,85,,Yes,7.9,94.2,5.3,4.4,93.0,0
+S1038,A Lost Horizon,Movie,Comedy,United States,English,2018,2024-10-08,R,115,,No,7.0,9.4,15.96,21.9,79.5,0
+S1039,A Lost Verdict,Movie,Action & Adventure,United States,English,2015,2022-10-23,PG-13,98,,Yes,6.8,23.8,7.25,7.4,57.4,0
+S1040,Echo of the Hidden,Movie,Documentary,,,2015,2021-05-28,NR,74,,Yes,6.5,1.7,3.32,2.5,29.1,1
+S1041,The Hidden Signal,Movie,Comedy,United States,English,2015,2025-11-03,PG-13,106,,Yes,6.7,72.4,2.91,4.3,46.0,1
+S1042,Beyond the Iron Tribe,Movie,Drama,United States,English,2017,2019-02-25,R,114,,Yes,7.2,105.9,9.77,10.4,75.1,3
+S1043,Hollow Mirror: Origins,Movie,Action & Adventure,United States,English,2021,2022-10-25,PG-13,86,,No,7.0,49.4,1.32,1.8,63.6,0
+S1044,The Midnight Orbit,Movie,Comedy,,,2020,2024-04-10,R,100,,Yes,6.5,20.0,37.56,45.7,56.1,4
+S1045,Beyond the Hidden Summer,Movie,Action & Adventure,Mexico,Spanish,2021,2021-02-08,PG,115,,Yes,6.8,25.7,20.53,29.3,28.9,3
+S1046,The Lost Harbor,Movie,Comedy,United States,English,2010,2021-01-02,PG-13,88,,No,5.2,12.2,17.31,17.0,54.0,4
+S1047,Iron Echo,Movie,Comedy,Japan,Japanese,2021,2025-04-09,PG,69,,No,,6.6,19.24,12.9,42.7,4
+S1048,Beyond the Savage Witness,TV Show,Sci-Fi & Fantasy,Spain,Spanish,2018,2019-06-01,TV-MA,,1,Yes,7.3,11.5,6.5,32.6,56.7,0
+S1049,Silent Detour,TV Show,Action & Adventure,United States,English,2022,2025-03-18,TV-14,,2,Yes,7.4,34.6,4.16,36.6,79.3,0
+S1050,Secret Orbit: Origins,Movie,Action & Adventure,Germany,German,2021,2023-01-23,R,76,,No,6.6,51.8,0.46,0.5,48.2,0
+S1051,A Rising Harbor,Movie,Documentary,Japan,Japanese,2013,2024-08-08,PG,82,,No,8.4,1.8,5.07,5.3,60.3,1
+S1052,Savage Mirror: Origins,Movie,Horror,United Kingdom,English,2015,2022-05-07,R,142,,No,7.0,10.9,27.3,41.1,67.6,2
+S1053,A Golden Detour,Movie,Action & Adventure,United States,English,2017,2018-06-01,R,75,,Yes,6.4,9.3,3.44,3.2,73.6,0
+S1054,Broken Empire,Movie,Documentary,United States,English,2018,2023-11-18,G,84,,Yes,5.8,22.1,5.07,4.8,52.2,1
+S1055,Hollow Echo,Movie,Reality TV,Australia,English,2022,2022-03-23,PG,152,,No,7.4,12.7,3.68,6.0,87.9,0
+S1056,A Burning Signal,Movie,Documentary,France,French,2019,2020-09-13,PG-13,99,,No,7.7,3.8,9.02,12.8,51.3,5
+S1057,The Rising Island,TV Show,Animation,Turkey,Turkish,2018,2025-02-07,TV-14,,1,No,8.3,0.9,22.85,81.1,52.4,4
+S1058,The Frozen Tribe,Movie,Horror,Canada,English,2015,2024-10-04,R,102,,Yes,8.8,29.1,2.93,3.3,54.2,0
+S1059,Burning Heist,Movie,Drama,United States,English,2011,2016-06-18,PG,114,,No,5.2,12.3,0.99,1.4,31.1,1
+S1060,Secret Garden: Origins,TV Show,Action & Adventure,France,French,2015,2019-10-18,TV-14,,1,Yes,5.3,25.6,19.82,93.9,59.5,3
+S1061,Beyond the Rising Promise,TV Show,Romance,India,Hindi,2015,2016-12-09,TV-MA,,1,No,3.6,5.8,2.63,15.6,30.9,1
+S1062,Tribe of the Secret,Movie,Family,France,French,2017,2019-06-10,PG,88,,No,7.4,14.6,4.8,6.3,47.7,0
+S1063,The Hidden Echo,Movie,Thriller,United States,English,2016,2025-09-03,R,75,,No,7.2,29.2,27.05,28.8,71.5,2
+S1064,Beyond the Frozen Promise,Movie,Drama,United States,English,2019,2020-05-13,NR,107,,Yes,6.7,30.1,2.28,3.1,74.7,2
+S1065,Beyond the Final Detour,Movie,Documentary,Spain,Spanish,2016,2022-05-31,R,59,,No,5.7,2.7,9.16,6.5,71.9,0
+S1066,Beyond the Final Season,TV Show,Drama,France,French,2018,2024-06-06,TV-MA,,1,Yes,6.5,44.5,6.99,25.2,74.3,0
+S1067,A Savage Tribe,Movie,Horror,South Korea,Korean,2000,2024-10-22,R,85,,No,6.7,94.3,11.67,14.5,50.3,0
+S1068,Letters of the Burning,TV Show,Thriller,United States,English,2016,2019-07-17,TV-14,,6,Yes,7.4,79.6,1.06,29.4,71.3,0
+S1069,Mirror of the Lost,Movie,Romance,United States,English,2022,2024-10-14,NR,94,,No,6.8,25.5,4.21,4.5,70.8,1
+S1070,Horizon of the Final,Movie,Crime,Nigeria,English,2019,2022-05-20,NR,114,,Yes,7.3,6.0,17.3,26.1,60.2,1
+S1071,A Broken Horizon,TV Show,Sci-Fi & Fantasy,India,Hindi,2018,2018-11-10,TV-MA,,3,Yes,6.5,14.6,7.02,114.8,64.3,1
+S1072,Station of the Rising,Movie,Sci-Fi & Fantasy,India,Hindi,2015,2018-03-24,R,108,,Yes,7.8,6.2,30.47,41.6,52.3,2
+S1073,The Lost Detour,Movie,Horror,United Kingdom,English,2015,2023-06-25,R,79,,Yes,7.2,195.3,26.22,21.0,57.4,5
+S1074,Harbor of the Distant,TV Show,Crime,India,Hindi,2015,2022-11-10,TV-MA,,2,Yes,5.4,15.1,2.27,26.7,60.6,3
+S1075,Midnight Archive: Origins,TV Show,Crime,United Kingdom,English,2009,2021-03-18,TV-14,,2,No,7.9,14.5,14.04,106.9,91.5,1
+S1076,A Midnight Station,Movie,Drama,India,Hindi,2015,2023-10-23,R,126,,Yes,7.8,8.8,4.03,7.9,85.9,0
+S1077,The Velvet Summer,Movie,Documentary,Germany,German,2015,2022-11-29,PG-13,87,,Yes,7.5,1.8,9.75,10.3,77.3,1
+S1078,Horizon of the Broken,Movie,Comedy,Canada,English,2018,2020-09-18,G,175,,Yes,6.9,12.0,14.75,40.0,65.5,3
+S1079,Golden Frontier,Movie,Crime,,,2018,2020-05-08,PG-13,85,,Yes,8.3,16.0,5.08,6.6,71.7,0
+S1080,Detour of the Hollow,Movie,Sci-Fi & Fantasy,United Kingdom,English,2010,2025-06-13,PG,131,,No,4.9,15.4,6.03,9.4,32.1,1
+S1081,The Distant Harbor,Movie,Action & Adventure,India,Hindi,2018,2025-10-09,PG-13,71,,No,7.7,5.0,4.09,4.2,57.5,0
+S1082,The Hidden Kingdom,TV Show,Drama,Japan,Japanese,2017,2017-04-11,TV-14,,1,Yes,6.1,12.9,3.96,14.9,48.4,2
+S1083,Valley of the Forgotten,TV Show,Action & Adventure,Germany,German,2019,2024-07-14,TV-MA,,1,No,7.6,33.5,11.93,44.5,76.6,3
+S1084,A Paper Mirror,TV Show,Romance,United Kingdom,English,2020,2020-10-18,TV-Y,,2,No,6.6,6.0,2.39,21.2,75.8,1
+S1085,Savage Summer,TV Show,Comedy,Japan,Japanese,2001,2024-08-11,TV-MA,,1,No,5.3,11.7,1.56,7.9,65.1,1
+S1086,The Rising Promise,TV Show,Drama,Spain,Spanish,2017,2022-04-19,TV-G,,3,Yes,6.1,16.3,17.07,181.4,76.2,3
+S1087,Forgotten Kingdom,TV Show,Animation,Japan,Japanese,2015,2022-11-16,TV-14,,2,Yes,7.6,30.5,10.44,101.1,69.6,0
+S1088,Savage Heist,TV Show,Horror,Spain,Spanish,2018,2023-08-11,TV-MA,,1,Yes,6.4,14.4,1.96,11.8,47.6,0
+S1089,Secret Frontier,Movie,Comedy,United States,English,2019,2023-03-27,PG,112,,No,5.9,13.6,9.09,15.2,57.7,2
+S1090,A Forgotten Letters,Movie,Comedy,United Kingdom,English,2014,2018-07-04,R,123,,No,5.9,57.0,2.92,3.8,48.3,1
+S1091,Beyond the Forgotten Island,Movie,Family,South Korea,Korean,2011,2024-01-26,PG,72,,No,7.1,31.0,2.09,1.9,74.8,2
+S1092,Distant Letters,Movie,Romance,United States,English,2015,2021-07-16,R,89,,Yes,8.4,98.7,1.15,1.1,68.4,0
+S1093,The Wild Archive,Movie,Sci-Fi & Fantasy,Brazil,Portuguese,2018,2022-05-12,R,106,,No,4.4,6.8,5.3,6.1,48.0,0
+S1094,A Velvet Island,Movie,Comedy,South Korea,Korean,2013,2019-03-08,PG,119,,No,9.3,4.0,5.05,9.2,88.5,0
+S1095,Beyond the Silent Archive,Movie,Comedy,United States,English,2019,2019-01-26,R,136,,No,6.7,45.9,1.7,3.7,52.8,1
+S1096,The Lost Archive,Movie,Drama,Germany,German,2016,2021-07-16,PG-13,100,,No,7.1,26.2,10.13,10.9,79.1,0
+S1097,Electric Season: Origins,Movie,Romance,Japan,Japanese,2018,2020-10-05,NR,98,,No,6.1,14.2,9.21,9.5,40.7,6
+S1098,Detour of the Paper,TV Show,Drama,Spain,Spanish,2019,2023-08-13,TV-MA,,1,Yes,6.6,23.9,3.75,16.9,66.9,0
+S1099,A Rising Echo,TV Show,Drama,India,Hindi,2016,2019-08-24,TV-MA,,1,Yes,6.8,17.6,18.16,84.6,62.5,5
+S1100,Beyond the Savage Station,Movie,Romance,Brazil,Portuguese,2020,2025-11-01,R,98,,No,5.5,25.5,23.61,22.6,67.6,6
+S1101,The Lost Promise,Movie,Reality TV,India,Hindi,2012,2022-10-22,PG-13,99,,No,5.2,13.1,11.23,11.3,35.0,4
+S1102,Code of the Crimson,Movie,Horror,United Kingdom,English,2019,2022-03-10,R,103,,No,7.7,7.4,18.81,23.2,47.8,3
+S1103,A Neon Verdict,TV Show,Thriller,United States,English,2015,2023-01-30,TV-MA,,1,Yes,5.0,25.3,6.16,25.4,63.5,3
+S1104,Season of the Frozen,TV Show,Thriller,South Korea,Korean,2020,2023-11-21,TV-MA,,1,Yes,7.0,55.0,7.29,41.4,59.5,1
+S1105,A Golden Archive,Movie,Thriller,Japan,Japanese,2019,2023-05-06,NR,88,,Yes,6.2,17.4,6.54,8.2,58.9,0
+S1106,Final Archive: Origins,TV Show,Comedy,United Kingdom,English,2021,2023-11-21,TV-MA,,2,Yes,5.6,14.2,8.56,83.8,47.4,3
+S1107,Code of the Distant,Movie,Documentary,United Kingdom,English,2021,2025-08-28,R,45,,Yes,9.0,10.7,3.89,2.1,89.8,2
+S1108,Secret Signal,Movie,Thriller,France,French,2020,2021-11-26,NR,92,,No,5.5,9.3,1.86,2.5,60.2,0
+S1109,The Forgotten Signal,TV Show,Documentary,,,2020,2022-08-05,TV-14,,5,Yes,5.9,14.7,1.75,34.5,61.8,0
+S1110,Iron Kingdom: Origins,Movie,Animation,United States,English,2020,2021-07-08,R,131,,Yes,6.4,32.0,8.95,17.7,45.0,2
+S1111,The Gentle Code,Movie,Family,,,2017,2022-02-15,PG,95,,No,5.7,12.5,4.27,3.9,64.2,0
+S1112,Beyond the Broken Horizon,Movie,Drama,,,2015,2025-11-16,PG-13,93,,Yes,,59.1,4.23,6.0,48.7,0
+S1113,Hollow Code,Movie,Action & Adventure,Indonesia,Indonesian,2014,2022-01-30,PG,104,,No,6.7,12.2,10.88,11.4,54.0,1
+S1114,Paper Verdict: Origins,TV Show,Drama,Indonesia,Indonesian,2022,2022-10-30,TV-MA,,1,No,6.7,4.5,2.03,11.4,44.1,1
+S1115,Beyond the Forgotten Season,TV Show,Action & Adventure,Canada,English,2018,2025-05-15,TV-MA,,1,No,6.4,8.7,2.6,9.3,59.2,1
+S1116,Paper Letters,Movie,Comedy,Spain,Spanish,2018,2024-04-27,R,107,,Yes,5.9,28.9,12.75,19.9,73.3,7
+S1117,Verdict of the Frozen,Movie,Drama,South Korea,Korean,2015,2020-05-26,PG,96,,Yes,7.2,20.7,26.18,32.8,69.4,1
+S1118,Letters of the Savage,TV Show,Horror,United States,English,2018,2019-03-05,TV-MA,,4,No,6.4,36.0,2.36,33.7,55.2,0
+S1119,A Gentle Verdict,Movie,Thriller,United Kingdom,English,2017,2020-08-16,PG-13,83,,No,6.0,28.4,5.34,6.4,60.5,0
+S1120,The Silent Verdict,TV Show,Animation,Spain,Spanish,2021,2025-01-07,TV-MA,,4,Yes,8.1,78.3,5.16,78.0,73.1,1
+S1121,A Lost Station,Movie,Drama,United Kingdom,English,2020,2023-06-18,NR,106,,No,6.4,6.1,4.04,5.5,62.3,0
+S1122,A Lost Harbor,Movie,Drama,Brazil,Portuguese,2021,2021-12-05,NR,112,,No,7.6,43.6,7.19,9.2,71.1,1
+S1123,The Burning Witness,TV Show,Action & Adventure,United States,English,2017,2018-06-06,TV-14,,1,Yes,7.8,53.7,16.3,89.1,55.2,5
+S1124,Empire of the Hidden,Movie,Drama,India,Hindi,2008,2025-09-02,PG-13,122,,No,,4.6,8.73,15.8,71.3,3
+S1125,The Frozen Kingdom,Movie,Comedy,United Kingdom,English,2020,2022-09-06,PG,122,,Yes,7.3,100.5,11.4,17.1,42.2,5
+S1126,Lost Summer,Movie,Family,India,Hindi,2018,2023-06-27,PG,126,,Yes,6.6,7.7,2.88,5.2,70.7,0
+S1127,The Hidden Shadow,Movie,Comedy,United States,English,2020,2022-03-01,R,112,,No,6.4,14.8,6.85,11.7,46.0,0
+S1128,Heist of the Neon,TV Show,Comedy,United States,English,2019,2019-08-19,TV-PG,,2,Yes,6.4,83.9,11.89,125.7,77.9,3
+S1129,Hidden Mirror: Origins,Movie,Documentary,Germany,German,2016,2020-02-13,R,138,,No,4.7,1.8,5.06,7.9,17.0,1
+S1130,A Final Heist,TV Show,Thriller,United Kingdom,English,2015,2022-12-06,TV-14,,1,Yes,7.3,10.9,4.67,22.0,90.2,0
+S1131,Orbit of the Burning,TV Show,Documentary,United States,English,2015,2019-05-02,TV-14,,1,Yes,7.2,8.6,19.9,81.8,43.3,1
+S1132,A Velvet Archive,Movie,Action & Adventure,United States,English,2006,2022-01-13,PG-13,71,,No,7.3,12.1,1.82,1.6,50.0,1
+S1133,Beyond the Silent Horizon,Movie,Crime,India,Hindi,2015,2020-05-18,R,144,,Yes,6.5,6.6,5.04,7.8,66.2,0
+S1134,Beyond the Broken Tribe,TV Show,Drama,United States,English,2018,2020-09-12,TV-MA,,1,Yes,7.3,25.2,6.96,38.9,75.5,1
+S1135,Silent Garden: Origins,TV Show,Action & Adventure,Japan,Japanese,2018,2020-01-15,TV-PG,,2,No,5.1,12.4,1.03,10.5,49.6,1
+S1136,Secret Harbor: Origins,Movie,Sci-Fi & Fantasy,France,French,2020,2021-07-25,NR,89,,No,5.3,15.5,2.67,3.2,67.3,1
+S1137,A Paper Valley,Movie,Crime,United States,English,2023,2023-10-07,R,98,,No,4.0,16.8,2.27,2.2,35.8,0
+S1138,Letters of the Hollow,Movie,Action & Adventure,South Korea,Korean,2018,2023-10-01,PG,132,,Yes,6.5,30.2,1.87,2.3,56.4,0
+S1139,The Wild Summer,Movie,Documentary,United States,English,2015,2019-05-16,NR,62,,Yes,6.2,114.7,4.82,4.3,56.0,0
+S1140,A Last Echo,Movie,Drama,United States,English,2008,2023-05-31,NR,62,,No,5.6,16.8,0.8,0.6,49.1,1
+S1141,Valley of the Lost,Movie,Drama,Mexico,Spanish,2015,2019-02-09,NR,153,,Yes,6.9,47.2,51.32,120.7,37.3,2
+S1142,The Quiet Letters,TV Show,Drama,United Kingdom,English,2016,2019-04-09,TV-MA,,1,Yes,6.2,31.9,8.32,40.7,59.9,5
+S1143,Frontier of the Distant,TV Show,Romance,Mexico,Spanish,2021,2025-08-14,TV-14,,2,No,5.1,36.2,3.61,29.3,52.0,0
+S1144,Beyond the Broken Signal,TV Show,Comedy,United States,English,2015,2024-10-04,TV-MA,,3,Yes,9.1,60.4,15.11,240.6,92.7,3
+S1145,Shadow of the Distant,Movie,Romance,United States,English,2015,2020-01-03,PG-13,115,,Yes,6.6,44.3,13.12,20.9,44.6,2
+S1146,Beyond the Golden Orbit,Movie,Drama,India,Hindi,2015,2018-09-08,PG-13,72,,Yes,5.5,13.7,13.44,9.3,47.0,4
+S1147,Iron Archive,TV Show,Crime,United Kingdom,English,2019,2024-01-04,TV-MA,,3,Yes,5.9,139.1,1.55,24.6,75.2,0
+S1148,Frontier of the Hidden,TV Show,Crime,Australia,English,2021,2021-05-08,TV-14,,2,No,6.3,7.7,15.3,124.4,64.9,3
+S1149,Midnight Summer: Origins,Movie,Drama,United States,English,2021,2023-04-14,PG-13,60,,No,6.3,19.3,14.44,9.4,68.5,5
+S1150,Frontier of the Crimson,TV Show,Drama,Brazil,Portuguese,2019,2023-03-14,TV-14,,2,Yes,7.9,70.0,9.45,68.0,76.7,4
+S1151,Station of the Golden,Movie,Drama,Brazil,Portuguese,2019,2023-09-24,R,97,,Yes,6.5,96.2,6.68,8.6,68.4,2
+S1152,Silent Letters: Origins,TV Show,Crime,United Kingdom,English,2018,2018-11-09,TV-Y,,2,Yes,8.5,9.6,0.68,7.4,98.0,0
+S1153,Beyond the Frozen Garden,Movie,Comedy,,,2013,2016-01-11,PG,93,,No,6.1,5.8,1.46,1.4,60.9,1
+S1154,A Velvet Code,Movie,Documentary,United Kingdom,English,2018,2020-03-19,NR,68,,No,7.3,8.7,9.48,9.3,52.6,2
+S1155,Secret Valley: Origins,Movie,Action & Adventure,United States,English,2017,2018-01-27,PG-13,65,,No,7.5,45.3,18.24,16.9,76.9,4
+S1156,Midnight Verdict: Origins,Movie,Horror,France,French,2021,2023-07-15,R,108,,No,7.7,4.4,12.41,15.9,61.3,3
+S1157,The Distant Verdict,Movie,Thriller,United Kingdom,English,2020,2025-07-07,PG-13,98,,No,7.8,26.7,6.13,5.8,68.3,0
+S1158,Rising Orbit,Movie,Thriller,Canada,English,2020,2021-09-19,PG-13,75,,No,6.2,9.0,25.93,21.5,65.4,3
+S1159,The Wild Detour,Movie,Family,South Korea,Korean,2022,2023-10-25,PG,106,,Yes,6.6,181.7,24.46,26.6,51.1,2
+S1160,Quiet Harbor,TV Show,Drama,United Kingdom,English,2018,2019-09-21,TV-14,,1,No,4.0,14.1,1.3,7.8,39.9,0
+S1161,Last Empire,Movie,Crime,Japan,Japanese,2021,2021-03-22,NR,95,,No,6.3,26.3,33.54,46.6,67.5,3
+S1162,Iron Station: Origins,Movie,Drama,United Kingdom,English,2019,2023-12-03,PG,60,,No,7.6,11.0,2.35,1.4,60.9,1
+S1163,Gentle Detour: Origins,TV Show,Thriller,Canada,English,2016,2018-07-25,TV-Y,,1,No,7.4,12.3,1.61,7.8,81.0,0
+S1164,The Hidden Horizon,Movie,Animation,United States,English,2008,2021-06-20,R,78,,No,6.4,12.7,3.31,2.8,47.6,0
+S1165,A Burning Valley,Movie,Sci-Fi & Fantasy,Indonesia,Indonesian,2020,2024-02-05,PG,106,,No,8.2,12.9,3.57,3.5,58.3,1
+S1166,Electric Letters: Origins,TV Show,Sci-Fi & Fantasy,Germany,German,2016,2024-05-24,TV-MA,,2,Yes,6.2,18.0,4.95,43.0,86.9,0
+S1167,Velvet Orbit: Origins,TV Show,Comedy,Brazil,Portuguese,2019,2020-04-19,TV-14,,1,No,5.8,8.8,8.38,32.2,36.4,0
+S1168,Harbor of the Frozen,Movie,Action & Adventure,United Kingdom,English,2021,2023-11-27,NR,130,,No,6.0,15.3,4.2,5.8,58.6,0
+S1169,Midnight Echo,TV Show,Action & Adventure,Germany,German,2015,2025-02-08,TV-14,,1,Yes,5.5,29.1,5.53,24.1,81.9,2
+S1170,A Paper Code,Movie,Documentary,United States,English,2016,2020-10-31,R,115,,No,7.5,1.0,6.53,8.9,67.6,0
+S1171,Silent Island: Origins,Movie,Thriller,Spain,Spanish,2015,2016-05-28,PG-13,112,,No,6.8,30.0,0.66,0.9,82.7,0
+S1172,Kingdom of the Velvet,TV Show,Comedy,United States,English,2015,2018-08-12,TV-MA,,6,Yes,7.2,53.7,2.23,65.0,75.3,0
+S1173,Valley of the Hidden,Movie,Comedy,United States,English,2019,2024-07-24,R,66,,Yes,6.2,111.2,4.86,3.7,60.1,0
+S1174,Valley of the Paper,TV Show,Comedy,India,Hindi,2021,2024-12-16,TV-14,,1,Yes,6.5,5.0,3.48,16.7,60.2,1
+S1175,Beyond the Hidden Empire,Movie,Action & Adventure,United States,English,2020,2021-11-20,PG-13,100,,Yes,4.4,113.9,2.86,3.4,19.7,1
+S1176,The Crimson Season,TV Show,Drama,India,Hindi,2021,2021-12-26,TV-PG,,2,Yes,7.0,7.8,29.58,354.3,60.5,1
+S1177,Verdict of the Paper,Movie,Animation,Germany,German,2010,2018-12-01,R,94,,No,6.6,1.8,4.75,4.3,65.9,1
+S1178,The Hollow Witness,Movie,Documentary,United States,English,2015,2018-06-03,R,96,,Yes,5.9,28.5,1.92,2.4,61.6,0
+S1179,Echo of the Distant,Movie,Drama,Spain,Spanish,2016,2023-05-30,R,110,,Yes,6.5,22.1,3.64,4.2,96.5,0
+S1180,Signal of the Broken,Movie,Romance,United States,English,2013,2024-05-31,R,130,,No,6.2,48.5,21.36,32.4,64.1,2
+S1181,Broken Station: Origins,TV Show,Crime,Spain,Spanish,2015,2016-06-19,TV-MA,,1,Yes,8.4,82.0,43.53,214.1,82.2,2
+S1182,Beyond the Final Tribe,Movie,Comedy,France,French,2006,2023-05-30,PG-13,123,,No,5.4,20.6,6.14,10.7,71.7,0
+S1183,Gentle Echo,Movie,Drama,India,Hindi,2004,2023-07-10,R,67,,No,6.8,4.1,1.3,1.4,71.4,0
+S1184,A Velvet Shadow,Movie,Drama,Spain,Spanish,2022,2024-06-13,PG-13,69,,No,5.4,6.1,4.73,4.1,54.2,2
+S1185,Wild Valley,Movie,Drama,Canada,English,2019,2025-02-05,NR,60,,No,5.9,9.0,5.95,3.9,57.3,2
+S1186,Neon Summer,TV Show,Horror,France,French,2017,2017-05-08,TV-MA,,5,No,6.8,18.1,5.45,151.1,58.9,0
+S1187,Burning Heist: Origins,Movie,Family,India,Hindi,2020,2024-03-13,PG,120,,Yes,6.4,7.3,4.34,5.5,67.6,2
+S1188,Beyond the Wild Season,TV Show,Drama,United Kingdom,English,2018,2019-01-07,TV-14,,2,No,6.5,9.2,3.57,34.5,59.6,0
+S1189,The Electric Tribe,Movie,Romance,France,French,2015,2024-12-19,R,90,,Yes,6.9,9.2,4.6,6.1,73.1,1
+S1190,A Iron Heist,Movie,Drama,United States,English,2015,2020-12-30,PG-13,93,,No,6.0,20.9,1.55,1.7,44.9,0
+S1191,Promise of the Crimson,Movie,Documentary,France,French,2012,2016-11-27,R,87,,No,7.8,7.8,22.44,25.1,71.9,3
+S1192,Midnight Promise,Movie,Horror,United States,English,2017,2023-09-19,R,137,,Yes,6.3,42.5,15.62,21.3,82.5,6
+S1193,A Wild Heist,TV Show,Action & Adventure,France,French,2022,2024-12-29,TV-14,,3,Yes,6.5,19.0,5.75,63.2,58.9,0
+S1194,A Final Signal,TV Show,Drama,United States,English,2018,2021-09-17,TV-PG,,1,No,6.9,12.0,7.48,45.2,90.2,1
+S1195,A Electric Signal,TV Show,Documentary,United States,English,2015,2019-02-07,TV-MA,,3,Yes,7.2,12.5,12.4,147.9,68.5,7
+S1196,Velvet Empire,Movie,Family,Australia,English,2015,2016-03-04,PG,134,,Yes,7.2,15.1,71.9,109.9,65.4,2
+S1197,Frozen Letters: Origins,Movie,Comedy,Brazil,Portuguese,2015,2025-01-28,NR,99,,Yes,6.9,27.7,17.92,22.2,66.0,5
+S1198,The Distant Horizon,Movie,Drama,,,2017,2018-08-29,PG-13,96,,No,7.0,3.8,11.81,13.2,60.6,3
+S1199,Beyond the Golden Verdict,Movie,Drama,Nigeria,English,2019,2024-11-23,NR,102,,No,6.2,8.9,4.74,4.7,32.5,0
+S1200,Beyond the Savage Echo,TV Show,Documentary,India,Hindi,2017,2022-04-19,TV-MA,,1,No,5.8,0.6,2.76,11.1,70.1,1

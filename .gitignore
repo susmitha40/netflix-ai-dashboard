@@ -1,0 +1,11 @@
+# Power BI local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+# Large media
+exports/*.mp4
+# Python
+__pycache__/
+.venv/
+# OS
+.DS_Store
+Thumbs.db
