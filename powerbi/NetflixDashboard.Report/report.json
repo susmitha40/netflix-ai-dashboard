@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"},\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}},\"customTheme\":{\"name\":\"NetflixDarkTheme\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -20,32 +20,215 @@
   "sections": [
     {
       "config": "{}",
-      "displayName": "Page 1",
+      "displayName": "Executive Overview",
       "displayOption": 1,
       "filters": "[]",
-      "height": 720.00,
+      "height": 720,
       "name": "7e67217ed636e5910330",
       "visualContainers": [
         {
-          "config": "{\"name\":\"837dcd85110b370e4a02\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":280,\"height\":280,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"FactCustomers.payment_method\",\"active\":true}],\"Series\":[{\"queryRef\":\"FactCustomers.primary_device\"}],\"Y\":[{\"queryRef\":\"Sum(FactCustomers.profiles_count)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"payment_method\"},\"Name\":\"FactCustomers.payment_method\",\"NativeReferenceName\":\"payment_method\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"primary_device\"},\"Name\":\"FactCustomers.primary_device\",\"NativeReferenceName\":\"primary_device\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"profiles_count\"}},\"Function\":0},\"Name\":\"Sum(FactCustomers.profiles_count)\",\"NativeReferenceName\":\"Sum of profiles_count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"profiles_count\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"eeafcbe14b095671753c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":8,\"z\":0,\"width\":520,\"height\":48,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Executive Overview\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\",\"color\":\"#404040\",\"fontFamily\":\"Segoe UI\"}}],\"horizontalAlignment\":\"Left\"}]}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Executive Overview page heading'\"}}}}}]}}}",
           "filters": "[]",
-          "height": 280.00,
-          "width": 280.00,
-          "x": 10.00,
-          "y": 290.00,
-          "z": 1.00
+          "height": 48,
+          "width": 520,
+          "x": 16,
+          "y": 8,
+          "z": 0
         },
         {
-          "config": "{\"name\":\"8c0e67bf0c6682dc4754\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(FactCustomers.monthly_price_usd)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"monthly_price_usd\"}},\"Function\":0},\"Name\":\"Sum(FactCustomers.monthly_price_usd)\",\"NativeReferenceName\":\"Sum of monthly_price_usd\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"monthly_price_usd\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"9917a3dbd31e0aa8250f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":780,\"y\":8,\"z\":1,\"width\":210,\"height\":48,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DimDate.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimDate\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Date\"},\"Name\":\"DimDate.Date\",\"NativeReferenceName\":\"Date\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Date'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Date slicer filtering report data by DimDate Date'\"}}}}}]},\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"search\":[{\"properties\":{\"isVisible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
           "filters": "[]",
-          "height": 280.00,
-          "width": 280.00,
-          "x": 10.00,
-          "y": 0.00,
-          "z": 0.00
+          "height": 48,
+          "width": 210,
+          "x": 780,
+          "y": 8,
+          "z": 1
+        },
+        {
+          "config": "{\"name\":\"50ab2d7d0ec05daa51e7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1004,\"y\":8,\"z\":2,\"width\":260,\"height\":48,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DimRegion.region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"DimRegion\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"region\"},\"Name\":\"DimRegion.region\",\"NativeReferenceName\":\"region\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Region'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Region slicer filtering report data by DimRegion region'\"}}}}}]},\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"search\":[{\"properties\":{\"isVisible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48,
+          "width": 260,
+          "x": 1004,
+          "y": 8,
+          "z": 2
+        },
+        {
+          "config": "{\"name\":\"1f7f36576f1c61f6a3a6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":68,\"z\":3,\"width\":194,\"height\":104,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactMonthlyMetrics.Subscribers M\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"FactMonthlyMetrics\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Subscribers M\"},\"Name\":\"FactMonthlyMetrics.Subscribers M\",\"NativeReferenceName\":\"Subscribers M\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Subscribers M'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Subscribers M'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 194,
+          "x": 16,
+          "y": 68,
+          "z": 3
+        },
+        {
+          "config": "{\"name\":\"06bee9954f0fb2db1ac3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":226,\"y\":68,\"z\":4,\"width\":194,\"height\":104,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactMonthlyMetrics.Revenue USD M\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"FactMonthlyMetrics\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Revenue USD M\"},\"Name\":\"FactMonthlyMetrics.Revenue USD M\",\"NativeReferenceName\":\"Revenue USD M\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Revenue USD M'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Revenue USD M'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 194,
+          "x": 226,
+          "y": 68,
+          "z": 4
+        },
+        {
+          "config": "{\"name\":\"16d44524434ea9d4391b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":436,\"y\":68,\"z\":5,\"width\":194,\"height\":104,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactMonthlyMetrics.Revenue YoY %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"FactMonthlyMetrics\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Revenue YoY %\"},\"Name\":\"FactMonthlyMetrics.Revenue YoY %\",\"NativeReferenceName\":\"Revenue YoY %\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Revenue YoY %'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Revenue YoY %'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 194,
+          "x": 436,
+          "y": 68,
+          "z": 5
+        },
+        {
+          "config": "{\"name\":\"e2159a30181c9ae22340\",\"layouts\":[{\"id\":0,\"position\":{\"x\":646,\"y\":68,\"z\":6,\"width\":194,\"height\":104,\"tabOrder\":6}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Total Customers\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Total Customers\"},\"Name\":\"FactCustomers.Total Customers\",\"NativeReferenceName\":\"Total Customers\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Customers'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Total Customers'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 194,
+          "x": 646,
+          "y": 68,
+          "z": 6
+        },
+        {
+          "config": "{\"name\":\"2d57ada6fb17f45e4843\",\"layouts\":[{\"id\":0,\"position\":{\"x\":856,\"y\":68,\"z\":7,\"width\":194,\"height\":104,\"tabOrder\":7}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Churn Rate %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Churn Rate %\"},\"Name\":\"FactCustomers.Churn Rate %\",\"NativeReferenceName\":\"Churn Rate %\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Churn Rate %'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Churn Rate %'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 194,
+          "x": 856,
+          "y": 68,
+          "z": 7
+        },
+        {
+          "config": "{\"name\":\"df6a87455201aa8ca1bc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1066,\"y\":68,\"z\":8,\"width\":194,\"height\":104,\"tabOrder\":8}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Revenue At Risk\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Revenue At Risk\"},\"Name\":\"FactCustomers.Revenue At Risk\",\"NativeReferenceName\":\"Revenue At Risk\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Revenue At Risk'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Revenue At Risk'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 194,
+          "x": 1066,
+          "y": 68,
+          "z": 8
+        },
+        {
+          "config": "{\"name\":\"8d4bf35bf7e1e98ca4e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":188,\"z\":9,\"width\":750,\"height\":490,\"tabOrder\":9}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DimDate.Date\",\"active\":true}],\"Series\":[{\"queryRef\":\"DimRegion.region\"}],\"Y\":[{\"queryRef\":\"FactMonthlyMetrics.Revenue USD M\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimDate\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"DimRegion\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"FactMonthlyMetrics\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Date\"},\"Name\":\"DimDate.Date\",\"NativeReferenceName\":\"Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"region\"},\"Name\":\"DimRegion.region\",\"NativeReferenceName\":\"region\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Revenue USD M\"},\"Name\":\"FactMonthlyMetrics.Revenue USD M\",\"NativeReferenceName\":\"Revenue USD M\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Date\"}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Revenue by Date and Region'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Line chart showing Revenue USD M over DimDate Date, with separate lines for DimRegion region'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 490,
+          "width": 750,
+          "x": 16,
+          "y": 188,
+          "z": 9
+        },
+        {
+          "config": "{\"name\":\"9afbcee3fbc09e5acc35\",\"layouts\":[{\"id\":0,\"position\":{\"x\":782,\"y\":188,\"z\":10,\"width\":482,\"height\":490,\"tabOrder\":10}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DimRegion.region\",\"active\":true}],\"Y\":[{\"queryRef\":\"FactMonthlyMetrics.Subscribers M\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"DimRegion\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"FactMonthlyMetrics\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"region\"},\"Name\":\"DimRegion.region\",\"NativeReferenceName\":\"region\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Subscribers M\"},\"Name\":\"FactMonthlyMetrics.Subscribers M\",\"NativeReferenceName\":\"Subscribers M\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Subscribers by Region'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Clustered column chart comparing Subscribers M across DimRegion region'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 490,
+          "width": 482,
+          "x": 782,
+          "y": 188,
+          "z": 10
+        },
+        {
+          "config": "{\"name\":\"5646edb354c5751373fc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":560,\"y\":8,\"z\":11,\"width\":200,\"height\":48,\"tabOrder\":11}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Why Customers Churn'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}}}],\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E50914'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Navigate to Why Customers Churn'\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'fe4207ae4960f0c70d67'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48,
+          "width": 200,
+          "x": 560,
+          "y": 8,
+          "z": 11
         }
       ],
-      "width": 1280.00
+      "width": 1280
+    },
+    {
+      "config": "{}",
+      "displayName": "Why Customers Churn",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720,
+      "name": "fe4207ae4960f0c70d67",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"55dd0e3db0c7c270f1c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":8,\"z\":0,\"width\":520,\"height\":48,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Why Customers Churn\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\",\"color\":\"#404040\",\"fontFamily\":\"Segoe UI\"}}],\"horizontalAlignment\":\"Left\"}]}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Why Customers Churn page heading'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48,
+          "width": 520,
+          "x": 16,
+          "y": 8,
+          "z": 0
+        },
+        {
+          "config": "{\"name\":\"86e1ee8c8684c9295867\",\"layouts\":[{\"id\":0,\"position\":{\"x\":780,\"y\":8,\"z\":1,\"width\":210,\"height\":48,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DimDate.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimDate\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Date\"},\"Name\":\"DimDate.Date\",\"NativeReferenceName\":\"Date\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Signup Date'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Date slicer filtering customer sign-up dates using DimDate Date'\"}}}}}]},\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"search\":[{\"properties\":{\"isVisible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48,
+          "width": 210,
+          "x": 780,
+          "y": 8,
+          "z": 1
+        },
+        {
+          "config": "{\"name\":\"6eedbddb16c90b228e21\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1004,\"y\":8,\"z\":2,\"width\":260,\"height\":48,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DimRegion.region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"DimRegion\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"region\"},\"Name\":\"DimRegion.region\",\"NativeReferenceName\":\"region\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Region'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Region slicer filtering customers by DimRegion region'\"}}}}}]},\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"search\":[{\"properties\":{\"isVisible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48,
+          "width": 260,
+          "x": 1004,
+          "y": 8,
+          "z": 2
+        },
+        {
+          "config": "{\"name\":\"68dc2d5b67697fd8dd9a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":68,\"z\":3,\"width\":296,\"height\":104,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Churn Rate %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Churn Rate %\"},\"Name\":\"FactCustomers.Churn Rate %\",\"NativeReferenceName\":\"Churn Rate %\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Churn Rate %'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Churn Rate %'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 296,
+          "x": 16,
+          "y": 68,
+          "z": 3
+        },
+        {
+          "config": "{\"name\":\"612b9c18108a4dd52661\",\"layouts\":[{\"id\":0,\"position\":{\"x\":328,\"y\":68,\"z\":4,\"width\":296,\"height\":104,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Retention Rate %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Retention Rate %\"},\"Name\":\"FactCustomers.Retention Rate %\",\"NativeReferenceName\":\"Retention Rate %\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Retention Rate %'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Retention Rate %'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 296,
+          "x": 328,
+          "y": 68,
+          "z": 4
+        },
+        {
+          "config": "{\"name\":\"52953efcafe94a22d6a9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":640,\"y\":68,\"z\":5,\"width\":296,\"height\":104,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Average Tenure Months\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Average Tenure Months\"},\"Name\":\"FactCustomers.Average Tenure Months\",\"NativeReferenceName\":\"Average Tenure Months\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average Tenure Months'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Average Tenure Months'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 296,
+          "x": 640,
+          "y": 68,
+          "z": 5
+        },
+        {
+          "config": "{\"name\":\"73e33bb90a292f1df45d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":952,\"y\":68,\"z\":6,\"width\":296,\"height\":104,\"tabOrder\":6}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"FactCustomers.Lost Monthly Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Lost Monthly Revenue\"},\"Name\":\"FactCustomers.Lost Monthly Revenue\",\"NativeReferenceName\":\"Lost Monthly Revenue\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Lost Monthly Revenue'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'KPI card showing Lost Monthly Revenue'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 104,
+          "width": 296,
+          "x": 952,
+          "y": 68,
+          "z": 6
+        },
+        {
+          "config": "{\"name\":\"772d1a81d61eafa4fcd0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":188,\"z\":7,\"width\":1248,\"height\":490,\"tabOrder\":7}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"FactCustomers.churn_reason\",\"active\":true}],\"Y\":[{\"queryRef\":\"FactCustomers.Churned Customers\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"churn_reason\"},\"Name\":\"FactCustomers.churn_reason\",\"NativeReferenceName\":\"churn_reason\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Churned Customers\"},\"Name\":\"FactCustomers.Churned Customers\",\"NativeReferenceName\":\"Churned Customers\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Churned Customers\"}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Churned Customers by Churn Reason'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#404040'\"}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Horizontal bar chart showing churned customer counts by churn reason'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D9D9D9'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 490,
+          "width": 1248,
+          "x": 16,
+          "y": 188,
+          "z": 7
+        },
+        {
+          "config": "{\"name\":\"f57a5e5cedaabb1e31ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":560,\"y\":8,\"z\":8,\"width\":200,\"height\":48,\"tabOrder\":8}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Executive Overview'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}}}],\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E50914'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"roundEdge\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}}}}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Navigate to Executive Overview'\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'7e67217ed636e5910330'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48,
+          "width": 200,
+          "x": 560,
+          "y": 8,
+          "z": 8
+        }
+      ],
+      "width": 1280
     }
-  ]
+  ],
+  "theme": "NetflixDarkTheme"
 }

@@ -73,3 +73,91 @@ mismatches from docs/measures.md.
 **Result:** Re-listed all 45 measures and their table, display folder, and format string; re-evaluated every measure without filters. No measure returned blank or an error. Sanity checks matched: Total Customers = 5,000; Churn Rate = 27.62% (about 28%); Subscribers M = 357.13 (about 357); Total Titles = 1,200.
 **Issues:** `Customers Churned By Churn Date` returns 5,000 without a date filter, rather than the 1,381 churned-customer count; its exact expression counts customer rows over the inactive relationship's unrestricted date context. This was previously identified; no change made.
 **Fix:** None; audit only.
+
+## 2026-11-09, Prompt 6: Add dark report theme
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+Create a custom report theme with #141414 background, #E50914 accent,
+#B3B3B3 secondary, white text, and Segoe UI. Store and reference it like
+a Desktop-imported theme. Do not change pages.
+```
+**Result:** Added `StaticResources/RegisteredResources/NetflixDarkTheme.json`, registered it as a theme resource in `report.json`, and set the report custom-theme reference. Verified the page sections were unchanged and retained existing report/theme version values.
+**Issues:** None.
+**Fix:** None required.
+
+## 2026-11-09, Prompt 7: Create Executive Overview report page
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+Following docs/report-blueprint.md, create Page 1 "Executive Overview"
+as PBIR files, using the existing visual structure and schema versions,
+existing model measures and columns, and a 1280x720 grid. Add titles and
+alt text to every visual; skip the specified AI and analytics visuals.
+```
+**Result:** Replaced the two placeholder visuals on Page 1 with a title, six KPI cards, a revenue line chart, a subscribers clustered-column chart, and Date/Region slicers. Kept the report's existing PBIR structure, visual query version, and schema versions. Validated all 11 visuals for titles/alt text, field bindings, and canvas bounds.
+**Issues:** The model has `DimDate[Date]` but no `DimDate[Year]` or `DimDate[Month]`; used Date for the chart axis and slicer without changing the model. Navigation destinations do not exist on this page-only report, so no broken navigation buttons were added.
+**Fix:** None required.
+
+## 2026-11-09, Prompt 8: Create Why Customers Churn page
+**Tool/mode:** Copilot Agent / live semantic model inspection and PBIR report definition edit
+**Prompt:**
+```
+Following docs/report-blueprint.md, create Page 2 as PBIR files using
+existing measures and columns, matching the report's schema versions and
+1280x720 layout. Add titled, accessible visuals and list their fields and
+positions; skip the specified AI and analytics visuals.
+```
+**Result:** Inspected the live model and added Page 2 with four KPI cards, a churn-reason bar chart, Date/Region slicers, a page heading, and reciprocal navigation buttons to Executive Overview. Preserved the existing PBIR structure and schema versions. Validated field bindings, titles, alt text, page targets, and all visual bounds; no semantic model changes were made.
+**Issues:** The model has `DimDate[Date]` but no `DimDate[Year]`; used the existing Date field as a signup-date slicer, consistent with the active customer signup-date relationship.
+**Fix:** None required.
+
+## 2026-11-09, Prompt 9: Make KPI metric titles visible
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+Metric titles are not visible on report.
+```
+**Result:** Enabled the card category labels on all 10 KPI cards across Executive Overview and Why Customers Churn, while preserving their existing visual title and accessibility configurations. Validated that each card's category label and title are enabled.
+**Issues:** The card category labels had been explicitly hidden.
+**Fix:** Set `categoryLabels.show` to true for all KPI card visuals.
+
+## 2026-11-09, Prompt 10: Improve card and chart title contrast
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+The page has no visible chart titles or card/chart borders. Add a light border.
+```
+**Result:** Made all card and chart titles dark, bold, and larger for contrast on the displayed light canvas. Added a light #D9D9D9 border to all 10 KPI cards and 3 charts across both pages. Validated title visibility settings and border values.
+**Issues:** Titles were configured in white and blended into the light canvas; cards/charts had no border object.
+**Fix:** Set title font color to #404040, font size to 12, and enabled a #D9D9D9 border with a subtle corner radius.
+
+## 2026-11-09, Prompt 11: Style page and slicer titles
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+Add the title to the page with Bold, Segoe font and also add titles to slicers.
+```
+**Result:** Styled both page headings as bold 24pt Segoe UI in dark text and made all four slicer titles visibly bold Segoe UI in dark text. Verified the text and style settings in the PBIR definitions.
+**Issues:** Page headings and slicer titles were configured in white and not clearly visible on the light canvas.
+**Fix:** Applied dark #404040 title text while preserving the existing page and slicer labels.
+
+## 2026-11-09, Prompt 12: Fix slicer dropdown behavior
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+Slicer dropdown is not working properly.
+```
+**Result:** Explicitly set all four report slicers to Dropdown mode and enabled slicer search. Validated that each slicer retains its field and title and has the expected dropdown/search settings.
+**Issues:** The slicer visuals had no explicit dropdown mode or search setting.
+**Fix:** Added `objects.data.mode = 'Dropdown'` and enabled `objects.search.isVisible` on each slicer.
+
+## 2026-11-09, Prompt 13: Repair slicer dropdown interactions
+**Tool/mode:** Copilot Agent / PBIR report definition edit
+**Prompt:**
+```
+Dropdown is still not working.
+```
+**Result:** Repaired all four slicer field projections by marking the Values projection active. Explicitly enabled self-filtering, multi-select, Select All, and search while retaining Dropdown mode and the existing labels. Parsed and validated each slicer's field and interaction settings.
+**Issues:** Dropdown mode alone did not ensure the field projection was active or self-filtering was enabled.
+**Fix:** Added `active: true` to each Values projection and explicitly configured slicer interaction behavior.

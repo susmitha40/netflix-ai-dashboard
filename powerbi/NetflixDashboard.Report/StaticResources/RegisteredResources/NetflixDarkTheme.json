@@ -1,0 +1,30 @@
+{
+  "name": "Netflix Dark",
+  "dataColors": ["#E50914", "#B3B3B3", "#F5F5F1", "#831010", "#6D6D6E", "#FF6B6B", "#8C8C8C", "#D9D9D9"],
+  "background": "#141414",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#E50914",
+  "good": "#46D369",
+  "neutral": "#F5C518",
+  "bad": "#E50914",
+  "textClasses": {
+    "label": { "fontFace": "Segoe UI", "color": "#B3B3B3" },
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#1F1F1F" } }, "transparency": 0 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#FFFFFF" } }, "fontFamily": "Segoe UI Semibold" }],
+        "border": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#141414" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
