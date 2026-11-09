@@ -25,7 +25,26 @@
       "filters": "[]",
       "height": 720.00,
       "name": "7e67217ed636e5910330",
-      "visualContainers": [],
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"837dcd85110b370e4a02\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":280,\"height\":280,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"FactCustomers.payment_method\",\"active\":true}],\"Series\":[{\"queryRef\":\"FactCustomers.primary_device\"}],\"Y\":[{\"queryRef\":\"Sum(FactCustomers.profiles_count)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"payment_method\"},\"Name\":\"FactCustomers.payment_method\",\"NativeReferenceName\":\"payment_method\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"primary_device\"},\"Name\":\"FactCustomers.primary_device\",\"NativeReferenceName\":\"primary_device\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"profiles_count\"}},\"Function\":0},\"Name\":\"Sum(FactCustomers.profiles_count)\",\"NativeReferenceName\":\"Sum of profiles_count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"profiles_count\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 290.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"8c0e67bf0c6682dc4754\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(FactCustomers.monthly_price_usd)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FactCustomers\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"monthly_price_usd\"}},\"Function\":0},\"Name\":\"Sum(FactCustomers.monthly_price_usd)\",\"NativeReferenceName\":\"Sum of monthly_price_usd\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"monthly_price_usd\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
       "width": 1280.00
     }
   ]
