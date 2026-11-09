@@ -4,6 +4,7 @@ table DimDate
 
 	column Date
 		isUnique
+		lineageTag: a855a38c-b96d-4ebb-b85b-d5dfbbbdab48
 		isNameInferred
 		sourceColumn: [Date]
 

@@ -2,6 +2,7 @@ table DimRegion
 	lineageTag: aa72774d-0428-4c78-a1a3-a57b0526e6d2
 
 	column region
+		lineageTag: 22b467e6-7c7c-4c2b-840d-d41a1998287e
 		isNameInferred
 		sourceColumn: [region]
 

@@ -2,6 +2,7 @@ table DimGenre
 	lineageTag: 1a76db9d-c51d-403a-9bab-6dc8f51dc75b
 
 	column genre
+		lineageTag: 6bc5cf1d-2874-4e63-858a-7389325de98e
 		isNameInferred
 		sourceColumn: [genre]
 

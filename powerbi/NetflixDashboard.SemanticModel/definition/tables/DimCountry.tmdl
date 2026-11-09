@@ -2,6 +2,7 @@ table DimCountry
 	lineageTag: 2ee7455a-4db8-4e91-aaad-096cf088cabc
 
 	column country
+		lineageTag: 2fea3b57-e934-4ac1-9a59-94a5ab4716b0
 		isNameInferred
 		sourceColumn: [country]
 

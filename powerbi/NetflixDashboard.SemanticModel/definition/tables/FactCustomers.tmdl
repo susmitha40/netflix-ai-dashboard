@@ -1,6 +1,148 @@
 table FactCustomers
 	lineageTag: d1973297-10c5-4370-a687-13c730134d07
 
+	/// weekly hours below which a customer is low engagement
+	measure 'Low Engagement Threshold Hours' = 4
+		formatString: 0.0
+		displayFolder: Parameters
+		lineageTag: 113a57aa-d2fb-420c-9c24-a85d10621024
+
+	/// days since last login at or above which a customer is inactive
+	measure 'Inactivity Threshold Days' = 14
+		formatString: 0
+		displayFolder: Parameters
+		lineageTag: 4e927752-96f5-42f6-9abc-7a078dddb269
+
+	/// Distinct count of customers.
+	measure 'Total Customers' = DISTINCTCOUNT ( FactCustomers[customer_id] )
+		formatString: #,0
+		displayFolder: Customers
+		lineageTag: 76c7b478-7463-46b5-b438-c80a87eb1364
+
+	/// Distinct count of customers who are not churned.
+	measure 'Active Customers' = CALCULATE ( [Total Customers], FactCustomers[is_churned] = "No" )
+		formatString: #,0
+		displayFolder: Customers
+		lineageTag: c90b9e65-b8c8-495d-b1d0-d9aa29253393
+
+	/// Distinct count of customers who are churned.
+	measure 'Churned Customers' = CALCULATE ( [Total Customers], FactCustomers[is_churned] = "Yes" )
+		formatString: #,0
+		displayFolder: Customers
+		lineageTag: e19d2d22-f903-4b86-9493-654db53dec5e
+
+	/// Churned customers as a share of total customers.
+	measure 'Churn Rate %' = DIVIDE ( [Churned Customers], [Total Customers] )
+		formatString: 0.0%
+		displayFolder: Customers
+		lineageTag: 4542d885-a717-47f8-9822-4157a9f21932
+
+	/// Share of customers retained.
+	measure 'Retention Rate %' = 1 - [Churn Rate %]
+		formatString: 0.0%
+		displayFolder: Customers
+		lineageTag: f4bbc4b6-5ce9-4b1b-88f2-746e9f831c6b
+
+	/// customers by signup date (active relationship)
+	measure 'New Customers' = COUNTROWS ( FactCustomers )
+		formatString: #,0
+		displayFolder: Customers
+		lineageTag: db92b6d1-3784-4c65-97af-a8cf8a5c4f08
+
+	/// churned customers placed on the date they churned (uses the inactive relationship)
+	measure 'Customers Churned By Churn Date' =
+			CALCULATE (
+			    COUNTROWS ( FactCustomers ),
+			    USERELATIONSHIP ( FactCustomers[churn_date], DimDate[Date] )
+			)
+		formatString: #,0
+		displayFolder: Customers
+		lineageTag: ad4d9820-f5a8-420b-a622-ac36cd4595a7
+
+	/// New customers less customers churned by churn date.
+	measure 'Net Customer Change' = [New Customers] - [Customers Churned By Churn Date]
+		formatString: #,0;-#,0
+		displayFolder: Customers
+		lineageTag: 027db045-cf82-46f6-a04e-e073879df52e
+
+	/// Average customer tenure in months.
+	measure 'Average Tenure Months' = AVERAGE ( FactCustomers[tenure_months] )
+		formatString: 0.0
+		displayFolder: Customers
+		lineageTag: abfb0aed-9d5f-4336-8b0d-b1a2c74783e7
+
+	/// Average weekly viewing hours per customer.
+	measure 'Average Weekly Hours' = AVERAGE ( FactCustomers[avg_weekly_hours] )
+		formatString: 0.0
+		displayFolder: Customers
+		lineageTag: d225879c-2739-4d8a-9000-a31607fc99bc
+
+	/// Average customer satisfaction score.
+	measure 'Average Satisfaction Score' = AVERAGE ( FactCustomers[satisfaction_score] )
+		formatString: 0.0
+		displayFolder: Customers
+		lineageTag: 0dff66c4-0077-4151-aa28-7853b88fc743
+
+	/// Average support tickets in the last 90 days.
+	measure 'Average Support Tickets' = AVERAGE ( FactCustomers[support_tickets_90d] )
+		formatString: 0.00
+		displayFolder: Customers
+		lineageTag: 53865554-a719-45fb-9e34-14acbb67d10b
+
+	/// monthly price of active customers
+	measure 'Monthly Recurring Revenue' = CALCULATE ( SUM ( FactCustomers[monthly_price_usd] ), FactCustomers[is_churned] = "No" )
+		formatString: $#,0
+		displayFolder: Revenue and Risk
+		lineageTag: bd8a7822-123f-42ff-bfeb-9865c78d48b3
+
+	/// Monthly recurring revenue per active customer.
+	measure 'Average Revenue Per Customer' = DIVIDE ( [Monthly Recurring Revenue], [Active Customers] )
+		formatString: $#,0.00
+		displayFolder: Revenue and Risk
+		lineageTag: bd969aba-c792-4d43-b6fe-ef1578949952
+
+	/// monthly price of churned customers
+	measure 'Lost Monthly Revenue' = CALCULATE ( SUM ( FactCustomers[monthly_price_usd] ), FactCustomers[is_churned] = "Yes" )
+		formatString: $#,0
+		displayFolder: Revenue and Risk
+		lineageTag: f5a4504e-3c45-4a64-b33b-7c1b435ff7e8
+
+	/// active customers with low viewing and long inactivity
+	measure 'At Risk Customers' =
+			VAR MinHours = [Low Engagement Threshold Hours]
+			VAR MinDays = [Inactivity Threshold Days]
+			RETURN
+			    CALCULATE (
+			        [Total Customers],
+			        FactCustomers[is_churned] = "No",
+			        FactCustomers[avg_weekly_hours] < MinHours,
+			        FactCustomers[days_since_last_login] >= MinDays
+			    )
+		formatString: #,0
+		displayFolder: Revenue and Risk
+		lineageTag: 439dbcf0-529d-4861-9b15-7e961e20a4b0
+
+	/// monthly revenue from at-risk customers
+	measure 'Revenue At Risk' =
+			VAR MinHours = [Low Engagement Threshold Hours]
+			VAR MinDays = [Inactivity Threshold Days]
+			RETURN
+			    CALCULATE (
+			        SUM ( FactCustomers[monthly_price_usd] ),
+			        FactCustomers[is_churned] = "No",
+			        FactCustomers[avg_weekly_hours] < MinHours,
+			        FactCustomers[days_since_last_login] >= MinDays
+			    )
+		formatString: $#,0
+		displayFolder: Revenue and Risk
+		lineageTag: a0eedbfb-b5b6-4eda-bfa1-5c1266bdce01
+
+	/// At-risk customers as a share of active customers.
+	measure 'At Risk Share %' = DIVIDE ( [At Risk Customers], [Active Customers] )
+		formatString: 0.0%
+		displayFolder: Revenue and Risk
+		lineageTag: 92174a20-5de4-4aea-9252-47f0f800d85e
+
 	column customer_id
 		dataType: string
 		isHidden

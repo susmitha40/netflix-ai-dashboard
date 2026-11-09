@@ -2,6 +2,7 @@ table DimPlan
 	lineageTag: 338905c4-e5fd-4dbf-8ee9-3c688c9b6e8d
 
 	column plan
+		lineageTag: ae98e263-a691-492f-a653-a93a8fbd387f
 		isNameInferred
 		sourceColumn: [plan]
 

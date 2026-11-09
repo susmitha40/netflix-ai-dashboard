@@ -1,6 +1,109 @@
 table FactMonthlyMetrics
 	lineageTag: d5de5282-3a06-4f68-94b6-ad515ca3deb6
 
+	/// closing subscribers (millions) at the last month in the current filter
+	measure 'Subscribers M' =
+			VAR LastMonth = MAX ( FactMonthlyMetrics[month] )
+			RETURN
+			    CALCULATE (
+			        SUM ( FactMonthlyMetrics[closing_subscribers_m] ),
+			        FactMonthlyMetrics[month] = LastMonth
+			    )
+		formatString: #,0.0
+		displayFolder: Subscribers
+		lineageTag: 9e9e4f89-8024-4c26-916d-79a5df7cf875
+
+	/// Gross subscriber additions in millions.
+	measure 'Gross Adds M' = SUM ( FactMonthlyMetrics[gross_adds_m] )
+		formatString: #,0.0
+		displayFolder: Subscribers
+		lineageTag: 5dd29e48-cde5-41e7-9748-c1e482017452
+
+	/// Churned subscribers in millions.
+	measure 'Churned Subscribers M' = SUM ( FactMonthlyMetrics[churned_subscribers_m] )
+		formatString: #,0.0
+		displayFolder: Subscribers
+		lineageTag: d0ed371f-7ced-4ee2-8042-c2a77b6ba1c1
+
+	/// Gross additions less churned subscribers, in millions.
+	measure 'Net Adds M' = [Gross Adds M] - [Churned Subscribers M]
+		formatString: #,0.0;-#,0.0
+		displayFolder: Subscribers
+		lineageTag: a48bf26f-d631-4d99-afba-8c46925a8ff4
+
+	/// churned subscribers divided by opening subscribers over the selected months
+	measure 'Average Monthly Churn %' =
+			DIVIDE (
+			    SUM ( FactMonthlyMetrics[churned_subscribers_m] ),
+			    SUM ( FactMonthlyMetrics[opening_subscribers_m] )
+			)
+		formatString: 0.00%
+		displayFolder: Subscribers
+		lineageTag: e4c9d188-a96e-4d2a-b169-635746c23770
+
+	/// Total revenue in USD millions.
+	measure 'Revenue USD M' = SUM ( FactMonthlyMetrics[revenue_usd_m] )
+		formatString: $#,0
+		displayFolder: Revenue
+		lineageTag: 9fef754d-a612-4a47-8e21-ec1cc595fb53
+
+	/// same period last year
+	measure 'Revenue USD M PY' = CALCULATE ( [Revenue USD M], SAMEPERIODLASTYEAR ( DimDate[Date] ) )
+		formatString: $#,0
+		displayFolder: Revenue
+		lineageTag: ded80ab9-78f2-4fb4-90f6-b34996c4b25f
+
+	/// Revenue percentage change compared with the same period last year.
+	measure 'Revenue YoY %' =
+			VAR Prior = [Revenue USD M PY]
+			RETURN
+			    IF ( NOT ISBLANK ( Prior ), DIVIDE ( [Revenue USD M] - Prior, Prior ) )
+		formatString: 0.0%;-0.0%
+		displayFolder: Revenue
+		lineageTag: 09cbfac5-effc-4eb5-9538-4030e8db32f5
+
+	/// Revenue year to date in USD millions.
+	measure 'Revenue YTD USD M' = TOTALYTD ( [Revenue USD M], DimDate[Date] )
+		formatString: $#,0
+		displayFolder: Revenue
+		lineageTag: 8e5a8e8f-f49d-446b-875d-897e79c58851
+
+	/// average monthly ARM across the selection
+	measure 'Average Revenue Per Member' = AVERAGE ( FactMonthlyMetrics[arm_usd] )
+		formatString: $#,0.00
+		displayFolder: Revenue
+		lineageTag: 02024fbb-5f19-48ff-a0fd-9bf56a50bb66
+
+	/// Content spend in USD millions.
+	measure 'Content Spend USD M' = SUM ( FactMonthlyMetrics[content_spend_usd_m] )
+		formatString: $#,0
+		displayFolder: Spend
+		lineageTag: c85fd753-01e2-46de-a7a2-b8e6cec97724
+
+	/// Marketing spend in USD millions.
+	measure 'Marketing Spend USD M' = SUM ( FactMonthlyMetrics[marketing_spend_usd_m] )
+		formatString: $#,0
+		displayFolder: Spend
+		lineageTag: b3e8b74f-9327-4605-a741-353c9d133692
+
+	/// Content spend as a share of revenue.
+	measure 'Content Spend % Of Revenue' = DIVIDE ( [Content Spend USD M], [Revenue USD M] )
+		formatString: 0.0%
+		displayFolder: Spend
+		lineageTag: 149eaeec-c5a0-427d-b005-72b12857df52
+
+	/// marketing spend (USD M) per gross add (M) gives USD per subscriber
+	measure 'Marketing Cost Per Gross Add' = DIVIDE ( [Marketing Spend USD M], [Gross Adds M] )
+		formatString: $#,0.00
+		displayFolder: Spend
+		lineageTag: ff872c3f-0002-4c76-ae72-e7ca15812ee4
+
+	/// Number of new originals released.
+	measure 'Originals Released' = SUM ( FactMonthlyMetrics[new_originals_released] )
+		formatString: #,0
+		displayFolder: Spend
+		lineageTag: 256f8a73-7578-402c-b95e-f56256a0728a
+
 	column month
 		dataType: dateTime
 		isHidden

@@ -1,6 +1,66 @@
 table FactTitles
 	lineageTag: 77972036-cb49-4e92-9c8e-be226381657d
 
+	/// Distinct count of titles.
+	measure 'Total Titles' = DISTINCTCOUNT ( FactTitles[show_id] )
+		formatString: #,0
+		displayFolder: Catalogue
+		lineageTag: 6a3308ac-941b-42a6-b38b-0a258537362c
+
+	/// Distinct count of titles marked as originals.
+	measure 'Original Titles' = CALCULATE ( [Total Titles], FactTitles[is_netflix_original] = "Yes" )
+		formatString: #,0
+		displayFolder: Catalogue
+		lineageTag: 97db6d64-f1f2-47e2-a51e-a653a61fc6cb
+
+	/// Original titles as a share of total titles.
+	measure 'Original Share %' = DIVIDE ( [Original Titles], [Total Titles] )
+		formatString: 0.0%
+		displayFolder: Catalogue
+		lineageTag: 3e06a511-c1db-4931-8659-4efadff16924
+
+	/// titles with at least one week in the Top 10
+	measure 'Top 10 Titles' = CALCULATE ( [Total Titles], FactTitles[weeks_in_top10] > 0 )
+		formatString: #,0
+		displayFolder: Catalogue
+		lineageTag: e84e2afa-a666-471c-8861-34f68fa55f22
+
+	/// Total views in millions.
+	measure 'Total Views M' = SUM ( FactTitles[views_28d_m] )
+		formatString: #,0.0
+		displayFolder: Performance
+		lineageTag: d653ebce-1212-42ad-bd45-55c393332b5f
+
+	/// Total viewing hours in millions.
+	measure 'Total Hours Viewed M' = SUM ( FactTitles[hours_viewed_28d_m] )
+		formatString: #,0.0
+		displayFolder: Performance
+		lineageTag: 08d1fd02-0d8b-46be-b96e-044c7928ce15
+
+	/// Average IMDb score.
+	measure 'Average IMDb Score' = AVERAGE ( FactTitles[imdb_score] )
+		formatString: 0.0
+		displayFolder: Performance
+		lineageTag: 877e3e3c-c344-4f0a-a228-61ccd169329d
+
+	/// value is already a percentage number (0-100)
+	measure 'Average Completion Rate %' = AVERAGE ( FactTitles[completion_rate_pct] )
+		formatString: 0.0
+		displayFolder: Performance
+		lineageTag: a5af4e58-2dd2-4bbd-965b-6df92fe70847
+
+	/// Total title budget in USD millions.
+	measure 'Total Budget USD M' = SUM ( FactTitles[budget_usd_m] )
+		formatString: $#,0.0
+		displayFolder: Performance
+		lineageTag: de111af5-32d8-4f68-bf69-2e831efb8bca
+
+	/// views (M) per USD M of budget, a cost efficiency measure
+	measure 'Views Per Budget Dollar' = DIVIDE ( [Total Views M], [Total Budget USD M] )
+		formatString: 0.00
+		displayFolder: Performance
+		lineageTag: 2768b120-8320-43ce-b55b-6159ad72b9d2
+
 	column show_id
 		dataType: string
 		isHidden

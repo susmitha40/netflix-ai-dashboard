@@ -49,3 +49,27 @@ Flag many-to-many, bidirectional, missing relationships, and blank keys.
 **Result:** Inspected all 11 live relationships and checked blank values in dimension keys, fact foreign keys, and customer/title IDs. All planned links are present; all are one-to-many and single-direction with `FactCustomers[churn_date]` inactive. No many-to-many or bidirectional relationships were found. There are 45 blank title-country values represented by one blank `DimCountry` member and 3,619 blank customer churn dates.
 **Issues:** Blank title countries require a blank/unknown member in `DimCountry`; blank churn dates are expected for customers without a churn date.
 **Fix:** None; audit only.
+
+## 2026-11-09, Prompt 4: Create specified DAX measures
+**Tool/mode:** Copilot Agent / Power BI Desktop local model editing
+**Prompt:**
+```
+Read docs/measures.md, verify its referenced columns, and create every
+measure with its specified DAX expression, format, display folder, and
+description.
+```
+**Result:** Verified all referenced columns and created all 45 measures across FactCustomers, FactMonthlyMetrics, and FactTitles with the specified expressions, formats, and folders. Applied the descriptions stated in the spec and concise descriptions for measures without one specified. Evaluated all 45 without filters; the four requested sanity checks passed (5,000 customers, 27.62% churn, 357.13 subscribers M, 1,200 titles). No measure evaluation errors or blanks.
+**Issues:** `Customers Churned By Churn Date` returns 5,000 without a date filter because the exact specified expression counts all customer rows when the active date relationship is used without a selected date; only 1,381 customers are marked churned and 3,619 churn dates are blank. Preserved the requested expression exactly.
+**Fix:** None; left all specified DAX expressions unchanged.
+
+## 2026-11-09, Prompt 5: Audit measure values
+**Tool/mode:** Copilot Agent / Power BI Desktop local model inspection
+**Prompt:**
+```
+List all measures with table, folder, and format string. Evaluate each
+without filters; flag blanks, errors, suspicious results, and sanity-check
+mismatches from docs/measures.md.
+```
+**Result:** Re-listed all 45 measures and their table, display folder, and format string; re-evaluated every measure without filters. No measure returned blank or an error. Sanity checks matched: Total Customers = 5,000; Churn Rate = 27.62% (about 28%); Subscribers M = 357.13 (about 357); Total Titles = 1,200.
+**Issues:** `Customers Churned By Churn Date` returns 5,000 without a date filter, rather than the 1,381 churned-customer count; its exact expression counts customer rows over the inactive relationship's unrestricted date context. This was previously identified; no change made.
+**Fix:** None; audit only.
